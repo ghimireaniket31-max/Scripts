@@ -1,7 +1,7 @@
 -- Ken Hub direct loader
 -- Fetches and runs the Ken Hub UI script directly (no separate loader window).
 
-local URL = "https://raw.githubusercontent.com/ghimireaniket31-max/Scripts/refs/heads/main/Games/Loader.luau"
+local URL = "https://api.aurorax.site/files/v5/loaders/babc9729b2fce8d6a321d6968cf502b3"
 
 local ok, err = pcall(function()
     local source = game:HttpGet(URL)
