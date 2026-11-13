@@ -1,6 +1,3 @@
--- Ken Hub direct loader
--- Fetches and runs the Ken Hub UI script directly (no separate loader window).
-
 local URL = "https://api.aurorax.site/files/v5/loaders/babc9729b2fce8d6a321d6968cf502b3"
 
 local ok, err = pcall(function()
