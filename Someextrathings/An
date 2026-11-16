@@ -1,0 +1,35 @@
+local ScreenGui = Instance.new("ScreenGui")
+ScreenGui.Name = "AnimatedTextUI"
+ScreenGui.Parent = game:GetService("CoreGui")
+
+local Frame = Instance.new("Frame")
+Frame.Size = UDim2.new(0, 350, 0, 150)
+Frame.Position = UDim2.new(0.5, -175, 0.5, -75)
+Frame.BackgroundColor3 = Color3.fromRGB(25, 15, 25)
+Frame.Parent = ScreenGui
+
+local Corner = Instance.new("UICorner")
+Corner.CornerRadius = UDim.new(0, 15)
+Corner.Parent = Frame
+
+local Stroke = Instance.new("UIStroke")
+Stroke.Color = Color3.fromRGB(255, 50, 170)
+Stroke.Thickness = 2
+Stroke.Parent = Frame
+
+local Text = Instance.new("TextLabel")
+Text.Size = UDim2.new(1, -20, 1, -20)
+Text.Position = UDim2.new(0, 10, 0, 10)
+Text.BackgroundTransparency = 1
+Text.Text = ""
+Text.TextColor3 = Color3.fromRGB(255, 80, 190)
+Text.TextScaled = true
+Text.Font = Enum.Font.GothamBold
+Text.Parent = Frame
+
+local message = "Suck my Dihhh"
+
+for i = 1, #message do
+    Text.Text = string.sub(message, 1, i)
+    task.wait(0.15)
+end
