@@ -2,7 +2,7 @@
 -- local Library = require(path.to.CrimsonUI)
 -- local Library = loadstring(game:HttpGet("YOUR_RAW_URL/CrimsonUI.lua"))()
 
-local Library = require(script.Parent.CrimsonUI)
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/ghimireaniket31-max/Scripts/refs/heads/main/Library/crimsonui.lua"))()
 
 local Window = Library:CreateWindow({
 	Title = "Crimson Hub",
