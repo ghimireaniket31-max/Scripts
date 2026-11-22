@@ -17,13 +17,13 @@ local ENV = (getgenv and getgenv()) or _G
 
 local Config = {
     Webhooks = {
-        FruitSpawned = "",       -- Discord webhook URL
-        BossSpawned = "",
-        MirageIsland = "",
-        FullMoon = "",
-        KitsuneIsland = "",
-        FrozenDimension = "",
-        MasterOfEnhancement = "",
+        FruitSpawned = "https://discord.com/api/webhooks/1573934191660245052/Iwv7uqDaVYsVi8D1P4_rvpS9HijCTY8jAZsQzMG8-xBrH0Y7QzcJ2K-16sr0jGH0nHhe",       -- Discord webhook URL
+        BossSpawned = "https://discord.com/api/webhooks/1573934208429203606/dthQmStNH0IycPDstLiFLRa_e1ydPpfIfR1r0tVgl4I9vfHMyqcT4rQobNzmY7fO76my",
+        MirageIsland = "https://discord.com/api/webhooks/1573934217350348932/mraceuK5tsH6I1fl_q4Ms-qEXoQ2iq7dQrWEZUMQtezN_I8eCoLjxngRyckSQ-S4IUE3",
+        FullMoon = "https://discord.com/api/webhooks/1573934672499572746/IomfKa3IJEfy6firsbjFYzOPqH-vuyA9pxsKQrHwvqiEXk4pkD2qj-LvxD27E5WJykjF",
+        KitsuneIsland = "https://discord.com/api/webhooks/1573934722592022559/3Rff8KOp7vpZcrgR78OOf3w8jUqxKHBKZ01c5MraTYw8fmjkleBIvEZiII4PH3pXQMCh",
+        FrozenDimension = "https://discord.com/api/webhooks/1573934799863812158/m5nfsBgd6tzXvrA5IXmcbowVVBqzREUXKToc6MkrQn4Bmpbc-3dP9AAM7uoaGb7LlviY",
+        MasterOfEnhancement = "https://discord.com/api/webhooks/1573934788828729374/eWAtA8PArDIPKGY_gY2FxCcQFkRRyULVQwrjWWmEP8gQP_1uWSRQbXO_6NDM5s1E3HCl",
     },
 
     -- Set true only if you intentionally want Discord role/user pings.
