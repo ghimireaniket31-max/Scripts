@@ -481,7 +481,7 @@ end)
     Instance.new("TextLabel").Font = Enum.Font.GothamBold
     Instance.new("TextLabel").TextColor3 = Color3.fromRGB(255, 255, 255)
     Instance.new("TextLabel").TextSize = 12
-    Instance.new("TextLabel").Text = "Script Made by : KaiZen@2749"
+    Instance.new("TextLabel").Text = "Script Made by : Npg & KaiZen"
     new_19.Name = "timee"
     new_19.Parent = Instance.new("Frame")
     new_19.Active = true
@@ -2000,379 +2000,79 @@ end
 end
     }
   end
-  local l_40 = function(a0)
-  if game.PlaceId ~= a0 then
+  local tab = l_0.Evil(l_0).Tab(l_0.Evil(l_0), "Home Section", 15557757660)
+  local tab_1 = l_0.Evil(l_0).Tab(l_0.Evil(l_0), "Configs Farm", 15557763120)
+  local tab_2 = l_0.Evil(l_0).Tab(l_0.Evil(l_0), "Main Farm", 15557766265)
+  local tab_3 = l_0.Evil(l_0).Tab(l_0.Evil(l_0), "Items Farm", 15557776256)
+  local tab_4 = l_0.Evil(l_0).Tab(l_0.Evil(l_0), "Player Stats", 15557781267)
+  local tab_5 = l_0.Evil(l_0).Tab(l_0.Evil(l_0), "Sea Events", 15557785130)
+  local tab_6 = l_0.Evil(l_0).Tab(l_0.Evil(l_0), "Race V4", 14477517268)
+  local tab_7 = l_0.Evil(l_0).Tab(l_0.Evil(l_0), "Dungeon Raid", 15557831142)
+  local tab_8 = l_0.Evil(l_0).Tab(l_0.Evil(l_0), "Island Travel", 15557866616)
+  local tab_9 = l_0.Evil(l_0).Tab(l_0.Evil(l_0), "Stores", 15557838230)
+  local tab_10 = l_0.Evil(l_0).Tab(l_0.Evil(l_0), "Miscellaneous", 15557842619)
+  local craft_page = tab.CraftPage(tab, "Changelog", 1)
+  craft_page.changelog(craft_page, "[December, 25 2023 - GIFT EVENT]")
+  craft_page.Label(craft_page, "- Teleport Gift Event Isalnd")
+  craft_page.Label(craft_page, "- Auto Buy Gift Event Candies")
+  craft_page.Label(craft_page, "- Auto Bounty Fix")
+  craft_page.Label(craft_page, "- Fixed Some bug issued")
+  craft_page.Label(craft_page, "- Fix Auto Sail Boat")
+  craft_page.Label(craft_page, "- Fix Auto Collect Amber")
+  craft_page.Label(craft_page, "- Fixed Level Auto Farms")
+  craft_page.Label(craft_page, "- Fixed Auto Sea Events")
+  craft_page.Label(craft_page, "- Improve Functions")
+  craft_page.Label(craft_page, "- Fixed Some bug issued")
+  craft_page.Label(craft_page, "- Fix Auto Sail Boat")
+  craft_page.Label(craft_page, "- Fix Auto Collect Amber")
+  craft_page.Label(craft_page, "- Auto Kill Piranha")
+  craft_page.Label(craft_page, "- Auto Kill Sea Beast Fully")
+  craft_page.Label(craft_page, "- Auto Race V4 Quest")
+  craft_page.Label(craft_page, "- New Ui no Lagg")
+  craft_page.changelog(craft_page, "[December, 17 2023 - KITSUNE UPDATE]")
+  craft_page.Label(craft_page, "- Fixed Level Auto Farms")
+  craft_page.Label(craft_page, "- Added Auto Azure")
+  craft_page.Label(craft_page, "- Auto Teleport Azure Island")
+  craft_page.Label(craft_page, "- Fixed Some bug issued")
+  craft_page.changelog(craft_page, "[December, 9 2023 - UPDATE 20]")
+  craft_page.Label(craft_page, "- Fixed Level Auto Farms")
+  craft_page.Label(craft_page, "- Added Auto Sea Events")
+  craft_page.Label(craft_page, "- Improve Functions")
+  craft_page.Label(craft_page, "- Fixed Some bug issued")
+  craft_page.Label(craft_page, "- Added Auto Sail Boat")
+  craft_page.Label(craft_page, "- Improve Security")
+  craft_page.Label(craft_page, "- Auto Kill Piranha")
+  craft_page.Label(craft_page, "- Auto Kill Leviathan")
+  craft_page.Label(craft_page, "- Auto Race V4 Quiz")
+  craft_page.Label(craft_page, "- New Ui")
+  craft_page.changelog(craft_page, "[November, 5 2023 - UPDATE 20]")
+  craft_page.Label(craft_page, "- Fixed Mobs,Bosses Index Farm")
+  craft_page.Label(craft_page, "- New Level Farm")
+  craft_page.Label(craft_page, "- Improve Farm")
+  craft_page.Label(craft_page, "- Fixed Some bug issued")
+  craft_page.Label(craft_page, "- Fix All Farm Function")
+  craft_page.Label(craft_page, "- Improve Security")
+  craft_page.Label(craft_page, "- Fix Lag")
+  craft_page.Label(craft_page, "- Fix Ui not Show")
+  craft_page.Label(craft_page, "- Fix Kick")
+  craft_page.Label(craft_page, "- Fix Auto Rejoin")
+  local craft_page_1 = tab.CraftPage(tab, "Status", 2)
+  local status = craft_page_1.Status(craft_page_1, "Time")
+  function UpdateTime()
+    local floor = math.floor(workspace.DistributedGameTime + 0.5)
+    local floor_1 = math.floor(floor / 3600)
+    local floor_1 = math.floor(floor / 60)
+    local floor_1 = math.floor(floor / 1)
+    local format = string.format("%02d.%02d.%02d", floor_1 % 24, floor_1 % 60, floor_1 % 60)
+    status.Set(status, "Game Time : " .. format)
   end
-  return true
-end(7449423635)
-  local find_first_child = game.Workspace._WorldOrigin.Locations.FindFirstChild(game.Workspace._WorldOrigin.Locations, "Mirage Island")
-  if l_40 and find_first_child then
-    local tostring = tostring(game.JobId)
-    local now = DateTime.now()
-    function(a0, a1)
-  local j_s_o_n_encode = service_7.JSONEncode(service_7, {
-    username = "Zen Hub",
-    avatar_url = "https://media.discordapp.net/attachments/1174249780189351976/1189065922951000134/download_1.jpg?ex=659cceef&is=658a59ef&hm=c35c3ec0edbb13e5d39f778cd6dbe68735d10784ac60a8c4d031cb8c72bbbbc9&",
-    embeds = {a1}
-  })
-  if not http_request and not request and not HttpPost then
-  end
-  syn.request({
-    Url = a0,
-    Body = j_s_o_n_encode,
-    Method = "POST",
-    Headers = {["content-type"] = "application/json"}
-  })
-end("https://discord.com/api/webhooks/1189053506099871867/MAsjUG5F8PGXfl9VsHuaiQYWpx0slWydWGrzIImDp4yRC1svOTeTJjl-Qj91cPnXkxYm", {
-  description = "**__Mirage Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring .. "')" .. "```"
-    },
-    {
-      name = "[������] Mirage Check",
-      value = "```Mirage is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = now.ToIsoDate(now)
-})
-  end
-end
-if function(a0)
-  if game.PlaceId ~= a0 then
-  end
-  return true
-end(7449423635) then
-  local l_42 = pairs
-  local l_44 = 1
-  local l_42, l_43, l_44 = l_42({
-    {
-      description = "**__Mirage Finder__**",
-      color = 255,
-      type = "rich",
-      fields = {
-        {
-          name = "[������] Players Active",
-          value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-        },
-        {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-        {
-          name = "[������] Join Server",
-          value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring .. "')" .. "```"
-        },
-        {
-          name = "[������] Mirage Check",
-          value = "```Mirage is spawning : ������️```",
-          inline = true
-        }
-      },
-      footer = {text = "Zen Hub | Webhook"},
-      timestamp = now.ToIsoDate(now)
-    },
-    2,
-    3,
-    4,
-    5,
-    6,
-    7,
-    8
-  })
-  for l_45, l_46 in l_42 do
-    for l_45, l_46 in l_42 do
-      while l_0 do
-      end
-      for new_1, new_1 in l_25 do
-      end
-      if service_8.Sky.MoonTextureId == "http://www.roblox.com/asset/?id=9709149" .. l_46 - 1 then
-        break
-      end
-    end
-  end
-  if l_46 / 8 * 100 == 3 or l_46 / 8 * 100 == 50 then
-    local now = DateTime.now()
-    function(a0, a1)
-  local j_s_o_n_encode = service_7.JSONEncode(service_7, {
-    username = "Zen Hub",
-    avatar_url = "https://media.discordapp.net/attachments/1174249780189351976/1189065922951000134/download_1.jpg?ex=659cceef&is=658a59ef&hm=c35c3ec0edbb13e5d39f778cd6dbe68735d10784ac60a8c4d031cb8c72bbbbc9&",
-    embeds = {a1}
-  })
-  if not http_request and not request and not HttpPost then
-  end
-  syn.request({
-    Url = a0,
-    Body = j_s_o_n_encode,
-    Method = "POST",
-    Headers = {["content-type"] = "application/json"}
-  })
-end("https://discord.com/api/webhooks/1189053669073756170/1xVyjKXvBQAyIBmeozJxKSjnRlZOhq7aBuYovCacZDcwOOcE6rh28IDHkp-Dk5F1Q2rT", {
-  description = "**__Moon__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Moon Check",
-      value = "```" .. tostring(l_46 / 8 * 100 .. "% : " .. function(a0)
-  local l_2, l_3, l_4 = pairs({
-    [1] = "�����",
-    [2] = "�����",
-    [3] = "�����",
-    [4] = "�����",
-    [5] = "�����",
-    [6] = "�����",
-    [7] = "�����",
-    [8] = "�����"
-  })
-  for l_5, l_6 in l_2 do
-    for l_5, l_6 in l_2 do
-      if a0 == "http://www.roblox.com/asset/?id=9709149" .. l_5 - 1 then
-        return l_6
-      end
-    end
-  end
-  return "Unknown"
-end(service_8.Sky.MoonTextureId)) .. "```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = now.ToIsoDate(now)
-})
-  end
-end
-if function(a0)
-  if game.PlaceId ~= a0 then
-  end
-  return true
-end(7449423635) and game.Workspace._WorldOrigin.Locations.FindFirstChild(game.Workspace._WorldOrigin.Locations, "Kitsune Island") then
-  function(a0, a1)
-  local j_s_o_n_encode = service_7.JSONEncode(service_7, {
-    username = "Zen Hub",
-    avatar_url = "https://media.discordapp.net/attachments/1174249780189351976/1189065922951000134/download_1.jpg?ex=659cceef&is=658a59ef&hm=c35c3ec0edbb13e5d39f778cd6dbe68735d10784ac60a8c4d031cb8c72bbbbc9&",
-    embeds = {a1}
-  })
-  if not http_request and not request and not HttpPost then
-  end
-  syn.request({
-    Url = a0,
-    Body = j_s_o_n_encode,
-    Method = "POST",
-    Headers = {["content-type"] = "application/json"}
-  })
-end("https://discord.com/api/webhooks/1189063752738410577/bAFa64UgTLiBjwXrmP0cFwmH-nBDKF0zeGrUczWKGLmQfJWsAJu8SP1DeONZ9sCdVMJt", {
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-})
-end
-local l_47 = 15557776256
-l_47 = "Player Stats"
-l_47 = l_0.Evil(l_0)
-local l_49 = 15557785130
-l_47 = l_0.Evil(l_0).Tab
-l_49 = "Race V4"
-local l_50 = 14477517268
-l_47 = l_47(l_0.Evil(l_0), l_49, l_50)
-l_49 = l_0.Evil(l_0)
-l_50 = "Dungeon Raid"
-local l_51 = 15557831142
-l_50 = l_0.Evil(l_0)
-l_49 = l_0.Evil(l_0).Tab
-l_51 = "Island Travel"
-l_49 = l_49(l_50, l_51, 15557866616)
-l_51 = l_0.Evil(l_0)
-l_50 = l_0.Evil(l_0).Tab
-l_50 = l_50(l_51, "Stores", 15557838230)
-l_51 = l_0.Evil(l_0).Tab
-l_51 = l_51(l_0.Evil(l_0), "Miscellaneous", 15557842619)
-local craft_page = l_0.Evil(l_0).Tab(l_0.Evil(l_0), "Home Section", {
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}).CraftPage(l_0.Evil(l_0).Tab(l_0.Evil(l_0), "Home Section", {
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}), "Changelog", 1)
-craft_page.changelog(craft_page, "[December, 25 2023 - GIFT EVENT]")
-craft_page.Label(craft_page, "- Teleport Gift Event Isalnd")
-craft_page.Label(craft_page, "- Auto Buy Gift Event Candies")
-craft_page.Label(craft_page, "- Auto Bounty Fix")
-craft_page.Label(craft_page, "- Fixed Some bug issued")
-craft_page.Label(craft_page, "- Fix Auto Sail Boat")
-craft_page.Label(craft_page, "- Fix Auto Collect Amber")
-craft_page.Label(craft_page, "- Fixed Level Auto Farms")
-craft_page.Label(craft_page, "- Fixed Auto Sea Events")
-craft_page.Label(craft_page, "- Improve Functions")
-craft_page.Label(craft_page, "- Fixed Some bug issued")
-craft_page.Label(craft_page, "- Fix Auto Sail Boat")
-craft_page.Label(craft_page, "- Fix Auto Collect Amber")
-craft_page.Label(craft_page, "- Auto Kill Piranha")
-craft_page.Label(craft_page, "- Auto Kill Sea Beast Fully")
-craft_page.Label(craft_page, "- Auto Race V4 Quest")
-craft_page.Label(craft_page, "- New Ui no Lagg")
-craft_page.changelog(craft_page, "[December, 17 2023 - KITSUNE UPDATE]")
-craft_page.Label(craft_page, "- Fixed Level Auto Farms")
-craft_page.Label(craft_page, "- Added Auto Azure")
-craft_page.Label(craft_page, "- Auto Teleport Azure Island")
-craft_page.Label(craft_page, "- Fixed Some bug issued")
-craft_page.changelog(craft_page, "[December, 9 2023 - UPDATE 20]")
-craft_page.Label(craft_page, "- Fixed Level Auto Farms")
-craft_page.Label(craft_page, "- Added Auto Sea Events")
-craft_page.Label(craft_page, "- Improve Functions")
-craft_page.Label(craft_page, "- Fixed Some bug issued")
-craft_page.Label(craft_page, "- Added Auto Sail Boat")
-craft_page.Label(craft_page, "- Improve Security")
-craft_page.Label(craft_page, "- Auto Kill Piranha")
-craft_page.Label(craft_page, "- Auto Kill Leviathan")
-craft_page.Label(craft_page, "- Auto Race V4 Quiz")
-craft_page.Label(craft_page, "- New Ui")
-craft_page.changelog(craft_page, "[November, 5 2023 - UPDATE 20]")
-craft_page.Label(craft_page, "- Fixed Mobs,Bosses Index Farm")
-craft_page.Label(craft_page, "- New Level Farm")
-craft_page.Label(craft_page, "- Improve Farm")
-craft_page.Label(craft_page, "- Fixed Some bug issued")
-craft_page.Label(craft_page, "- Fix All Farm Function")
-craft_page.Label(craft_page, "- Improve Security")
-craft_page.Label(craft_page, "- Fix Lag")
-craft_page.Label(craft_page, "- Fix Ui not Show")
-craft_page.Label(craft_page, "- Fix Kick")
-craft_page.Label(craft_page, "- Fix Auto Rejoin")
-local craft_page_1 = l_0.Evil(l_0).Tab(l_0.Evil(l_0), "Home Section", {
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}).CraftPage(l_0.Evil(l_0).Tab(l_0.Evil(l_0), "Home Section", {
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}), "Status", 2)
-local status = craft_page_1.Status(craft_page_1, "Time")
-
-function UpdateTime()
-  local floor = math.floor(workspace.DistributedGameTime + 0.5)
-  local floor_1 = math.floor(floor / 3600)
-  local floor_1 = math.floor(floor / 60)
-  local floor_1 = math.floor(floor / 1)
-  local format = string.format("%02d.%02d.%02d", floor_1 % 24, floor_1 % 60, floor_1 % 60)
-  status.Set(status, "Game Time : " .. format)
-end
-
-spawn(function()
+  spawn(function()
   while r0 do
     UpdateTime()
   end
 end)
-local status_1 = craft_page_1.Status(craft_page_1, "Players")
-spawn(function()
+  local status_1 = craft_page_1.Status(craft_page_1, "Players")
+  spawn(function()
   while r0 do
     pcall(function()
   local l_0, players, l_2 = pairs()
@@ -2390,8 +2090,8 @@ spawn(function()
 end)
   end
 end)
-local status_2 = craft_page_1.Status(craft_page_1, "Status")
-spawn(function()
+  local status_2 = craft_page_1.Status(craft_page_1, "Status")
+  spawn(function()
   while r0 do
     pcall(function()
   local find_first_child = service_9.FindFirstChild(service_9, "Diablo")
@@ -2403,8 +2103,8 @@ spawn(function()
 end)
   end
 end)
-local status_3 = craft_page_1.Status(craft_page_1, "Killed")
-spawn(function()
+  local status_3 = craft_page_1.Status(craft_page_1, "Killed")
+  spawn(function()
   while r0 do
     pcall(function()
   local len = string.len()
@@ -2422,7 +2122,7 @@ spawn(function()
 end)
   end
 end)
-spawn(function()
+  spawn(function()
   pcall(function()
   while r0 do
     local find_first_child = game.Workspace._WorldOrigin.Locations.FindFirstChild(game.Workspace._WorldOrigin.Locations, "Mirage Island")
@@ -2433,10 +2133,10 @@ spawn(function()
   Mirragecheckq.Set(Mirragecheckq, "Mirage Island Status : Not Found")
 end)
 end)
-local status_4 = craft_page_1.Status(craft_page_1, "")
-Mirragecheckq = status_4
-local status_4 = craft_page_1.Status(craft_page_1, "Frozen Island")
-spawn(function()
+  local status_4 = craft_page_1.Status(craft_page_1, "")
+  Mirragecheckq = status_4
+  local status_4 = craft_page_1.Status(craft_page_1, "Frozen Island")
+  spawn(function()
   pcall(function()
   while r0 do
     local find_first_child = game.Workspace._WorldOrigin.Locations.FindFirstChild(game.Workspace._WorldOrigin.Locations, "Frozen Dimension")
@@ -2447,8 +2147,8 @@ spawn(function()
   status_4.Set(status_4, "Frozen Dimension Status : Not Found")
 end)
 end)
-local status_5 = craft_page_1.Status(craft_page_1, "Kitsune Island Status : Not Found")
-task.spawn(function()
+  local status_5 = craft_page_1.Status(craft_page_1, "Kitsune Island Status : Not Found")
+  task.spawn(function()
   while r0 do
     pcall(function()
   local find_first_child = game.Workspace._WorldOrigin.Locations.FindFirstChild(game.Workspace._WorldOrigin.Locations, "Kitsune Island")
@@ -2460,8 +2160,8 @@ task.spawn(function()
 end)
   end
 end)
-local status_6 = craft_page_1.Status(craft_page_1, "Third World")
-task.spawn(function()
+  local status_6 = craft_page_1.Status(craft_page_1, "Third World")
+  task.spawn(function()
   while r0 do
     pcall(function()
   if service_8.Sky.MoonTextureId == "http://www.roblox.com/asset/?id=9709149431" then
@@ -2480,52 +2180,8 @@ task.spawn(function()
 end)
   end
 end)
-local craft_page_2 = l_0.Evil(l_0).Tab(l_0.Evil(l_0), {
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, 15557763120).CraftPage(l_0.Evil(l_0).Tab(l_0.Evil(l_0), {
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, 15557763120), "Farm Misc", 1)
-spawn(function()
+  local craft_page_2 = tab_1.CraftPage(tab_1, "Farm Misc", 1)
+  spawn(function()
   while r0 do
     local l_0, children, l_2 = pairs()
     for l_3, l_4 in l_0 do
@@ -2539,8 +2195,8 @@ spawn(function()
     end
   end
 end)
-AutoFarmType = "Above"
-spawn(function()
+  AutoFarmType = "Above"
+  spawn(function()
   while r0 do
     if AutoFarmType == "Above" then
       local new = CFrame.new(0, DisFarm, 0)
@@ -2552,27 +2208,27 @@ spawn(function()
   if AutoFarmType == "Beside" then
   end
 end)
-craft_page_2.Dropdown(craft_page_2, "Select Weapon", {"Melee", "Blox Fruit", "Sword", "Gun"}, "Melee", function(a0)
+  craft_page_2.Dropdown(craft_page_2, "Select Weapon", {"Melee", "Blox Fruit", "Sword", "Gun"}, "Melee", function(a0)
   SelectWeaponFarm = a0
 end)
-FastAttackSelected = "0.175 (Default)"
-craft_page_2.Dropdown(craft_page_2, "Fast Attack Delay", {
-  "0.100 (Risk)",
-  "0.165",
-  "0.175 (Default)",
-  "0.185",
-  "0.200",
-  "0.300",
-  "0.500",
-  "0.700 (Slow)"
-}, "0.175 (Default)", function(a0)
+  FastAttackSelected = "0.175 (Default)"
+  craft_page_2.Dropdown(craft_page_2, "Fast Attack Delay", {
+    "0.100 (Risk)",
+    "0.165",
+    "0.175 (Default)",
+    "0.185",
+    "0.200",
+    "0.300",
+    "0.500",
+    "0.700 (Slow)"
+  }, "0.175 (Default)", function(a0)
   FastAttackSelected = a0
 end)
-DisFarm = 30
-craft_page_2.Textbox(craft_page_2, "Distance Farm", DisFarm, function(a0)
+  DisFarm = 30
+  craft_page_2.Textbox(craft_page_2, "Distance Farm", DisFarm, function(a0)
   DisFarm = a0
 end)
-spawn(function()
+  spawn(function()
   while r0 do
     if FastAttackSelected == "0.100 (Risk)" then
       FastAttackDelay = 0.1
@@ -2600,101 +2256,193 @@ spawn(function()
   end
   FastAttackDelay = 0.7
 end)
-
-local l_20 = function()
+  local require = require(service_1.LocalPlayer.PlayerScripts.CombatFramework)
+  local l_20 = function()
   local l_0 = l_18()
   return l_0.FindFirstChild(l_0, "HumanoidRootPart")
 end
-
-function BringMonster(a0, a1)
-  local service = game.GetService(game, "Workspace")
-  local l_2, children, l_4 = ipairs()
-  for l_5, l_6 in l_2 do
+  local l_59 = function()
+  local getupvalues = debug.getupvalues(require)
+  if not getupvalues[2].activeController.blades[1] then
+    return
+  end
+  while r3 ~= r4 do
+  end
+  return getupvalues[2].activeController.blades[1].Parent
+end
+  local l_61 = true
+  craft_page_2.Toggle(craft_page_2, "Fast Attack 1 (Selected Delay)", true, function(a0)
+  l_61 = a0
+end)
+  local l_60 = function()
+  local getupvalues = debug.getupvalues(require)
+  for l_5 = 1, 1, 1 do
+    local require = require(service_9.CombatFramework.RigLib)
+    local l_7 = l_18()
+    local l_9, blade_hits, l_11 = pairs(require.getBladeHits(l_7, {}, 60))
+    for l_12, l_13 in l_9 do
+      for l_12, l_13 in l_9 do
+        local find_first_child = l_13.Parent.FindFirstChild(l_13.Parent, "HumanoidRootPart")
+        if find_first_child and not {}[l_13.Parent] then
+          table.insert({}, l_13.Parent.HumanoidRootPart)
+        end
+        if 0 < #{} then
+          local l_13 = (debug.getupvalue(getupvalues[2].activeController.attack, 5) * 798405 + debug.getupvalue(getupvalues[2].activeController.attack, 4) * 727595) % debug.getupvalue(getupvalues[2].activeController.attack, 6)
+          local getupvalue = debug.getupvalue(getupvalues[2].activeController.attack, 6)
+          local l_14 = debug.getupvalue(getupvalues[2].activeController.attack, 4) * 798405
+          local getupvalue_1 = debug.getupvalue(getupvalues[2].activeController.attack, 5)
+          local getupvalue_2 = debug.getupvalue(getupvalues[2].activeController.attack, 4)
+          function()
+  l_13 = (l_13 * getupvalue + l_14) % 1099511627776
+  local floor = math.floor(l_13 / getupvalue)
+  getupvalue_1 = floor
+  getupvalue_2 = l_13 - getupvalue_1 * getupvalue
+end()
+          debug.setupvalue(getupvalues[2].activeController.attack, 5, getupvalue_1)
+          debug.setupvalue(getupvalues[2].activeController.attack, 6, getupvalue)
+          debug.setupvalue(getupvalues[2].activeController.attack, 4, getupvalue_2)
+          debug.setupvalue(getupvalues[2].activeController.attack, 7, debug.getupvalue(getupvalues[2].activeController.attack, 7) + 1)
+          local l_12 = debug.getupvalue(getupvalues[2].activeController.attack, 7) + 1
+          local l_6 = {}
+          local l_5 = r5
+          pcall(function()
+  local l_0 = l_18()
+  if l_0.FindFirstChildOfClass(l_0, "Tool") and getupvalues[2].activeController.blades and getupvalues[2].activeController.blades[1] then
+    getupvalues[2].activeController.animator.anims.basic[1].Play(getupvalues[2].activeController.animator.anims.basic[1], 0.01, 0.01, 0.01)
+    service_9.RigControllerEvent.FireServer()
+    local floor = math.floor(l_13 / 1099511627776 * 16777215)
+    service_9.Remotes.Validator.FireServer(service_9.Remotes.Validator, floor, l_12)
+    service_9.RigControllerEvent.FireServer(service_9.RigControllerEvent, "hit", l_6, l_5, "")
+  end
+end)
+        end
+      end
+    end
+  end
+end
+  spawn(function()
+  while r0 do
+    if l_61 then
+    end
+  end
+  local require = require(service_9.Util.CameraShaker)
+  require.Stop(require)
+  pcall(function()
+  while not r0 do
+  end
+end)
+end)
+  craft_page_2.Toggle(craft_page_2, "Fast Attack No Delay", MobileFastAttack, function(a0)
+  MobileFastAttack = a0
+end)
+  spawn(function()
+  while r0 do
+    if MobileFastAttack then
+    end
+  end
+  local require = require(service_9.Util.CameraShaker)
+  require.Stop(require)
+  pcall(function()
+  local getupvalues = getupvalues()
+  getupvalues[2].activeController.timeToNextAttack = 0
+  getupvalues[2].activeController.attacking = false
+  getupvalues[2].activeController.blocking = false
+  getupvalues[2].activeController.timeToNextBlock = 0
+  getupvalues[2].activeController.increment = 0
+  getupvalues[2].activeController.hitboxMagnitude = 100
+  getupvalues[2].activeController.focusStart = 0
+  getupvalues[2].activeController.humanoid.AutoRotate = 0
+  getupvalues[2].activeController.animator.anims.basic[1].Play(getupvalues[2].activeController.animator.anims.basic[1], 0.01, 0.01, 0.01)
+end)
+end)
+  function BringMonster(a0, a1)
+    local service = game.GetService(game, "Workspace")
+    local l_2, children, l_4 = ipairs()
     for l_5, l_6 in l_2 do
-      if l_6.Name == a0 then
-        local find_first_child = l_6.FindFirstChild(l_6, "Humanoid")
-        if find_first_child and 0 < l_6.Humanoid.Health then
-          local l_8 = l_20()
-          if (l_6.HumanoidRootPart.Position - l_8.Position).Magnitude < tonumber(bringfrec) then
-            l_6.HumanoidRootPart.CFrame = a1
-            l_6.HumanoidRootPart.CanCollide = false
-            l_6.HumanoidRootPart.Size = Vector3.new(60, 60, 60)
-            l_6.HumanoidRootPart.Transparency = 1
-            if l_6.Humanoid.FindFirstChild(l_6.Humanoid, "Animator") then
-              l_6.Humanoid.Animator.Destroy(l_6.Humanoid.Animator)
-              sethiddenproperty(service_1.LocalPlayer, "SimulationRadius", math.huge)
+      for l_5, l_6 in l_2 do
+        if l_6.Name == a0 then
+          local find_first_child = l_6.FindFirstChild(l_6, "Humanoid")
+          if find_first_child and 0 < l_6.Humanoid.Health then
+            local l_8 = l_20()
+            if (l_6.HumanoidRootPart.Position - l_8.Position).Magnitude < tonumber(bringfrec) then
+              l_6.HumanoidRootPart.CFrame = a1
+              l_6.HumanoidRootPart.CanCollide = false
+              l_6.HumanoidRootPart.Size = Vector3.new(60, 60, 60)
+              l_6.HumanoidRootPart.Transparency = 1
+              if l_6.Humanoid.FindFirstChild(l_6.Humanoid, "Animator") then
+                l_6.Humanoid.Animator.Destroy(l_6.Humanoid.Animator)
+                sethiddenproperty(service_1.LocalPlayer, "SimulationRadius", math.huge)
+              end
             end
           end
         end
       end
     end
   end
-end
-
-bringfrec = 250
-local l_64 = true
-craft_page_2.Toggle(craft_page_2, "Bring Mob", true, function(a0)
-  l_64 = a0
+  bringfrec = 250
+  local l_62 = true
+  craft_page_2.Toggle(craft_page_2, "Bring Mob", true, function(a0)
+  l_62 = a0
 end)
-spawn(function()
+  spawn(function()
   while r0 do
-    if l_64 and (LevelFarmQuest or LevelFarmNoQuest) then
+    if l_62 and (LevelFarmQuest or LevelFarmNoQuest) then
       pcall(function()
   BringMonster(Level_Farm_Name, Level_Farm_CFrame)
 end)
-      if l_64 and Farm_Bone then
+      if l_62 and Farm_Bone then
         pcall(function()
   BringMonster(Bone_Farm_Name, Bone_Farm_CFrame)
 end)
-        if l_64 and Farm_Ectoplasm then
+        if l_62 and Farm_Ectoplasm then
           pcall(function()
   BringMonster(Ecto_Farm_Name, Ecto_Farm_CFrame)
 end)
-          if l_64 and Nearest_Farm then
+          if l_62 and Nearest_Farm then
             pcall(function()
   BringMonster(Nearest_Farm_Name, Nearest_Farm_CFrame)
 end)
-            if l_64 and (SelectMonster_Quest_Farm or SelectMonster_NoQuest_Farm) then
+            if l_62 and (SelectMonster_Quest_Farm or SelectMonster_NoQuest_Farm) then
               pcall(function()
   BringMonster(SelectMonster_Farm_Name, SelectMonster_Farm_CFrame)
 end)
-              if l_64 and Auto_Farm_Material then
+              if l_62 and Auto_Farm_Material then
                 pcall(function()
   BringMonster(Material_Farm_Name, Material_Farm_CFrame)
 end)
-                if l_64 and (GunMastery_Farm or DevilMastery_Farm) then
+                if l_62 and (GunMastery_Farm or DevilMastery_Farm) then
                   pcall(function()
   BringMonster(Mastery_Farm_Name, Mastery_Farm_CFrame)
 end)
-                  if l_64 and AutoRengoku then
+                  if l_62 and AutoRengoku then
                     pcall(function()
   BringMonster(Rengoku_Farm_Name, Rengoku_Farm_CFrame)
 end)
-                    if l_64 and AutoCakePrince then
+                    if l_62 and AutoCakePrince then
                       pcall(function()
   BringMonster(CakePrince_Farm_Name, CakePrince_Farm_CFrame)
 end)
-                      if l_64 and _G.AutoDoughKing then
+                      if l_62 and _G.AutoDoughKing then
                         pcall(function()
   BringMonster(DoughKing_Farm_Name, DoughKing_Farm_CFrame)
 end)
-                        if l_64 and AutoCitizen then
+                        if l_62 and AutoCitizen then
                           pcall(function()
   BringMonster(Citizen_Farm_Name, Citizen_Farm_CFrame)
 end)
-                          if l_64 and AutoEvoRace then
+                          if l_62 and AutoEvoRace then
                             pcall(function()
   BringMonster(EvoV2_Farm_Name, EvoV2_Farm_CFrame)
 end)
-                            if l_64 and AutoBartilo then
+                            if l_62 and AutoBartilo then
                               pcall(function()
   BringMonster(Bartilo_Farm_Name, Bartilo_Farm_CFrame)
 end)
-                              if l_64 and AutoSoulGuitar then
+                              if l_62 and AutoSoulGuitar then
                                 pcall(function()
   BringMonster(SoulGuitar_Farm_Name, SoulGuitar_Farm_CFrame)
 end)
-                                if l_64 and AutoMusketeer then
+                                if l_62 and AutoMusketeer then
                                 end
                               end
                             end
@@ -2715,82 +2463,38 @@ end)
   BringMonster(Musketere_Farm_Name, Musketere_Farm_CFrame)
 end)
 end)
-local l_65 = true
-craft_page_2.Toggle(craft_page_2, "Bypass Teleport", true, function(a0)
-  l_65 = a0
+  local l_63 = true
+  craft_page_2.Toggle(craft_page_2, "Bypass Teleport", true, function(a0)
+  l_63 = a0
 end)
-local l_66 = true
-craft_page_2.Toggle(craft_page_2, "Set Spawn Point", true, function(a0)
-  l_66 = a0
+  local l_64 = true
+  craft_page_2.Toggle(craft_page_2, "Set Spawn Point", true, function(a0)
+  l_64 = a0
 end)
-spawn(function()
+  spawn(function()
   while r0 do
-    if l_66 then
+    if l_64 then
     end
   end
   service_9.Remotes.CommF_.InvokeServer(service_9.Remotes.CommF_, "SetSpawnPoint")
 end)
-local craft_page_3 = l_0.Evil(l_0).Tab(l_0.Evil(l_0), {
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, 15557763120).CraftPage(l_0.Evil(l_0).Tab(l_0.Evil(l_0), {
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, 15557763120), "Mobs Misc", 2)
-local l_68 = true
-craft_page_3.Toggle(craft_page_3, "Buso Haki", true, function(a0)
-  l_68 = a0
+  local craft_page_3 = tab_1.CraftPage(tab_1, "Mobs Misc", 2)
+  local l_66 = true
+  craft_page_3.Toggle(craft_page_3, "Buso Haki", true, function(a0)
+  l_66 = a0
 end)
-spawn(function()
+  spawn(function()
   while r0 do
     local l_0 = l_18()
-    if l_68 and not l_0.FindFirstChild(l_0, "HasBuso") then
+    if l_66 and not l_0.FindFirstChild(l_0, "HasBuso") then
     end
   end
   service_9.Remotes.CommF_.InvokeServer(service_9.Remotes.CommF_, "Buso")
 end)
-craft_page_3.Toggle(craft_page_3, "Disable Audio Effect", DeleteAudioEffect, function(a0)
+  craft_page_3.Toggle(craft_page_3, "Disable Audio Effect", DeleteAudioEffect, function(a0)
   DeleteAudioEffect = a0
 end)
-spawn(function()
+  spawn(function()
   while r0 do
     if DeleteAudioEffect then
       local service = game.GetService(game, "Workspace")
@@ -2819,10 +2523,10 @@ spawn(function()
     end
   end
 end)
-craft_page_3.Toggle(craft_page_3, "Hide Notification", HideNotification, function(a0)
+  craft_page_3.Toggle(craft_page_3, "Hide Notification", HideNotification, function(a0)
   HideNotification = a0
 end)
-spawn(function()
+  spawn(function()
   while r0 do
     if HideNotification then
       service_1.LocalPlayer.PlayerGui.Notifications.Enabled = false
@@ -2830,7 +2534,7 @@ spawn(function()
   end
   service_1.LocalPlayer.PlayerGui.Notifications.Enabled = true
 end)
-craft_page_3.Button(craft_page_3, "Destroy Effect Animation", function()
+  craft_page_3.Button(craft_page_3, "Destroy Effect Animation", function()
   service_9.Assets.Models.Destroy(service_9.Assets.Models)
   service_9.Assets.GUI.Destroy(service_9.Assets.GUI)
   service_9.Assets.SlashHit.Destroy(service_9.Assets.SlashHit)
@@ -2847,132 +2551,91 @@ craft_page_3.Button(craft_page_3, "Destroy Effect Animation", function()
     end
   end
 end)
-local craft_page_4 = l_0.Evil(l_0).Tab(l_0.Evil(l_0), {
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, 15557763120).CraftPage(l_0.Evil(l_0).Tab(l_0.Evil(l_0), {
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, 15557763120), "Skill Settings", 2)
-_G.SkillZ = true
-craft_page_4.Toggle(craft_page_4, "Use Skill Z", _G.SkillZ, function(a0)
+  local craft_page_4 = tab_1.CraftPage(tab_1, "Skill Settings", 2)
+  _G.SkillZ = true
+  craft_page_4.Toggle(craft_page_4, "Use Skill Z", _G.SkillZ, function(a0)
   _G.SkillZ = a0
 end)
-_G.SkillX = true
-craft_page_4.Toggle(craft_page_4, "Use Skill X", _G.SkillX, function(a0)
+  _G.SkillX = true
+  craft_page_4.Toggle(craft_page_4, "Use Skill X", _G.SkillX, function(a0)
   _G.SkillX = a0
 end)
-_G.SkillC = true
-craft_page_4.Toggle(craft_page_4, "Use Skill C", _G.SkillC, function(a0)
+  _G.SkillC = true
+  craft_page_4.Toggle(craft_page_4, "Use Skill C", _G.SkillC, function(a0)
   _G.SkillC = a0
 end)
-_G.SkillV = true
-craft_page_4.Toggle(craft_page_4, "Use Skill V", _G.SkillV, function(a0)
+  _G.SkillV = true
+  craft_page_4.Toggle(craft_page_4, "Use Skill V", _G.SkillV, function(a0)
   _G.SkillV = a0
 end)
-_G.SkillF = true
-craft_page_4.Toggle(craft_page_4, "Use Skill F", _G.SkillF, function(a0)
+  _G.SkillF = true
+  craft_page_4.Toggle(craft_page_4, "Use Skill F", _G.SkillF, function(a0)
   _G.SkillF = a0
 end)
-local find_first_child = service_1.LocalPlayer.PlayerGui.Main.FindFirstChild(service_1.LocalPlayer.PlayerGui.Main, "ChooseTeam")
-if find_first_child then
-  while find_first_child == service_1.LocalPlayer.PlayerGui.Main do
-    if _G.Team == "Pirate" then
-      local l_70, getconnections, l_72 = pairs()
-      for l_73, l_74 in l_70 do
-        for l_73, l_74 in l_70 do
-          while l_0 do
-          end
-          for l_28, l_29 in l_25 do
-          end
-          task.wait()
-          if service_1.LocalPlayer.PlayerGui.WaitForChild(service_1.LocalPlayer.PlayerGui, "Main").ChooseTeam.Visible == true then
-            l_74.Function()
-          end
-          if service_1.LocalPlayer.Team ~= nil then
-            if game.IsLoaded(game) then
-              First_Sea = false
-              Second_Sea = false
-              Third_Sea = false
-              if game.PlaceId == 2753915549 then
-                First_Sea = true
-              elseif game.PlaceId == 4442272183 then
-                Second_Sea = true
-              elseif game.PlaceId == 7449423635 then
-                Third_Sea = true
-              end
-            else
-              if _G.Team == "Marine" then
-                local l_70, getconnections, l_72 = pairs()
-                for l_73, l_74 in l_70 do
-                  for l_73, l_74 in l_70 do
-                    while l_0 do
+  local find_first_child = service_1.LocalPlayer.PlayerGui.Main.FindFirstChild(service_1.LocalPlayer.PlayerGui.Main, "ChooseTeam")
+  if find_first_child then
+    while find_first_child == true do
+      if _G.Team == "Pirate" then
+        local l_68, getconnections, l_70 = pairs()
+        for l_71, l_72 in l_68 do
+          for l_71, l_72 in l_68 do
+            while l_0 do
+            end
+            for new_1, new_1 in l_25 do
+            end
+            task.wait()
+            if service_1.LocalPlayer.PlayerGui.WaitForChild(service_1.LocalPlayer.PlayerGui, "Main").ChooseTeam.Visible == true then
+              l_72.Function()
+            end
+            if service_1.LocalPlayer.Team ~= nil then
+              if game.IsLoaded(game) then
+                First_Sea = false
+                Second_Sea = false
+                Third_Sea = false
+                if game.PlaceId == 2753915549 then
+                  First_Sea = true
+                elseif game.PlaceId == 4442272183 then
+                  Second_Sea = true
+                elseif game.PlaceId == 7449423635 then
+                  Third_Sea = true
+                end
+              else
+                if _G.Team == "Marine" then
+                  local l_68, getconnections, l_70 = pairs()
+                  for l_71, l_72 in l_68 do
+                    for l_71, l_72 in l_68 do
+                      while l_0 do
+                      end
+                      for l_28, l_29 in l_25 do
+                      end
+                      l_72.Function()
                     end
-                    for l_28, l_29 in l_25 do
-                    end
-                    l_74.Function()
+                  end
+                  local l_68, getconnections, l_70 = pairs()
+                end
+                for l_71, l_72 in l_68 do
+                  while l_0 do
+                  end
+                  for l_28, l_29 in l_25 do
+                  end
+                  l_72.Function()
+                  for l_71, l_72 in l_68 do
                   end
                 end
-                local l_70, getconnections, l_72 = pairs()
               end
-              for l_73, l_74 in l_70 do
-                while l_0 do
-                end
-                for l_28, l_29 in l_25 do
-                end
-                l_74.Function()
-                for l_73, l_74 in l_70 do
-                end
+            else
+              for l_71, l_72 in l_68 do
               end
-            end
-          else
-            for l_73, l_74 in l_70 do
             end
           end
         end
       end
-    end
-    for l_73, l_74 in l_70 do
+      for l_71, l_72 in l_68 do
+      end
     end
   end
+end
+for l_71, l_72 in l_68 do
 end
 
 function CheckLevel()
@@ -4307,467 +3970,27 @@ spawn(function()
 end)
 end)
 end)
-l_0.Evil(l_0).Tab({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Main Farm", 15557766265).CraftPage(l_0.Evil(l_0).Tab({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Main Farm", 15557766265), "Level Farm", 1).Toggle(l_0.Evil(l_0).Tab({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Main Farm", 15557766265).CraftPage(l_0.Evil(l_0).Tab({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Main Farm", 15557766265), "Level Farm", 1), "Auto Farm Level", LevelFarmQuest, function(a0)
+tab_2.CraftPage(tab_2, "Level Farm", 1).Toggle(tab_2.CraftPage(tab_2, "Level Farm", 1), "Auto Farm Level", LevelFarmQuest, function(a0)
   LevelFarmQuest = a0
   _G.SelectMonster = nil
   CancelTween(LevelFarmQuest)
 end)
-l_0.Evil(l_0).Tab({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Main Farm", 15557766265).CraftPage(l_0.Evil(l_0).Tab({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Main Farm", 15557766265), "Level Farm", 1).Toggle(l_0.Evil(l_0).Tab({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Main Farm", 15557766265).CraftPage(l_0.Evil(l_0).Tab({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Main Farm", 15557766265), "Level Farm", 1), "Auto Farm Level No Quest", LevelFarmNoQuest, function(a0)
+tab_2.CraftPage(tab_2, "Level Farm", 1).Toggle(tab_2.CraftPage(tab_2, "Level Farm", 1), "Auto Farm Level No Quest", LevelFarmNoQuest, function(a0)
   LevelFarmNoQuest = a0
   _G.SelectMonster = nil
   CancelTween(LevelFarmNoQuest)
 end)
-l_0.Evil(l_0).Tab({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Main Farm", 15557766265).CraftPage(l_0.Evil(l_0).Tab({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Main Farm", 15557766265), "Level Farm", 1).Toggle(l_0.Evil(l_0).Tab({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Main Farm", 15557766265).CraftPage(l_0.Evil(l_0).Tab({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Main Farm", 15557766265), "Level Farm", 1), "Farm Near Monster", Nearest_Farm, function(a0)
+tab_2.CraftPage(tab_2, "Level Farm", 1).Toggle(tab_2.CraftPage(tab_2, "Level Farm", 1), "Farm Near Monster", Nearest_Farm, function(a0)
   Nearest_Farm = a0
   CancelTween(Nearest_Farm)
 end)
 if First_Sea then
-  l_0.Evil(l_0).Tab({
-    description = "**__Kitsune Finder__**",
-    color = 255,
-    type = "rich",
-    fields = {
-      {
-        name = "[������] Players Active",
-        value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-      },
-      {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-      {
-        name = "[������] Join Server",
-        value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-      },
-      {
-        name = "[������] Kitsune Check",
-        value = "```Kitsune Island is spawning : ������️```",
-        inline = true
-      }
-    },
-    footer = {text = "Zen Hub | Webhook"},
-    timestamp = DateTime.now().ToIsoDate(DateTime.now())
-  }, "Main Farm", 15557766265).CraftPage(l_0.Evil(l_0).Tab({
-    description = "**__Kitsune Finder__**",
-    color = 255,
-    type = "rich",
-    fields = {
-      {
-        name = "[������] Players Active",
-        value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-      },
-      {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-      {
-        name = "[������] Join Server",
-        value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-      },
-      {
-        name = "[������] Kitsune Check",
-        value = "```Kitsune Island is spawning : ������️```",
-        inline = true
-      }
-    },
-    footer = {text = "Zen Hub | Webhook"},
-    timestamp = DateTime.now().ToIsoDate(DateTime.now())
-  }, "Main Farm", 15557766265), "Level Farm", 1).Toggle(l_0.Evil(l_0).Tab({
-    description = "**__Kitsune Finder__**",
-    color = 255,
-    type = "rich",
-    fields = {
-      {
-        name = "[������] Players Active",
-        value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-      },
-      {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-      {
-        name = "[������] Join Server",
-        value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-      },
-      {
-        name = "[������] Kitsune Check",
-        value = "```Kitsune Island is spawning : ������️```",
-        inline = true
-      }
-    },
-    footer = {text = "Zen Hub | Webhook"},
-    timestamp = DateTime.now().ToIsoDate(DateTime.now())
-  }, "Main Farm", 15557766265).CraftPage(l_0.Evil(l_0).Tab({
-    description = "**__Kitsune Finder__**",
-    color = 255,
-    type = "rich",
-    fields = {
-      {
-        name = "[������] Players Active",
-        value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-      },
-      {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-      {
-        name = "[������] Join Server",
-        value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-      },
-      {
-        name = "[������] Kitsune Check",
-        value = "```Kitsune Island is spawning : ������️```",
-        inline = true
-      }
-    },
-    footer = {text = "Zen Hub | Webhook"},
-    timestamp = DateTime.now().ToIsoDate(DateTime.now())
-  }, "Main Farm", 15557766265), "Level Farm", 1), "Auto Second World [Lv. 700]", AutoSecondWorld, function(a0)
+  tab_2.CraftPage(tab_2, "Level Farm", 1).Toggle(tab_2.CraftPage(tab_2, "Level Farm", 1), "Auto Second World [Lv. 700]", AutoSecondWorld, function(a0)
   AutoSecondWorld = a0
   CancelTween(AutoSecondWorld)
 end)
 elseif Second_Sea then
-  l_0.Evil(l_0).Tab({
-    description = "**__Kitsune Finder__**",
-    color = 255,
-    type = "rich",
-    fields = {
-      {
-        name = "[������] Players Active",
-        value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-      },
-      {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-      {
-        name = "[������] Join Server",
-        value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-      },
-      {
-        name = "[������] Kitsune Check",
-        value = "```Kitsune Island is spawning : ������️```",
-        inline = true
-      }
-    },
-    footer = {text = "Zen Hub | Webhook"},
-    timestamp = DateTime.now().ToIsoDate(DateTime.now())
-  }, "Main Farm", 15557766265).CraftPage(l_0.Evil(l_0).Tab({
-    description = "**__Kitsune Finder__**",
-    color = 255,
-    type = "rich",
-    fields = {
-      {
-        name = "[������] Players Active",
-        value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-      },
-      {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-      {
-        name = "[������] Join Server",
-        value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-      },
-      {
-        name = "[������] Kitsune Check",
-        value = "```Kitsune Island is spawning : ������️```",
-        inline = true
-      }
-    },
-    footer = {text = "Zen Hub | Webhook"},
-    timestamp = DateTime.now().ToIsoDate(DateTime.now())
-  }, "Main Farm", 15557766265), "Level Farm", 1).Toggle(l_0.Evil(l_0).Tab({
-    description = "**__Kitsune Finder__**",
-    color = 255,
-    type = "rich",
-    fields = {
-      {
-        name = "[������] Players Active",
-        value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-      },
-      {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-      {
-        name = "[������] Join Server",
-        value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-      },
-      {
-        name = "[������] Kitsune Check",
-        value = "```Kitsune Island is spawning : ������️```",
-        inline = true
-      }
-    },
-    footer = {text = "Zen Hub | Webhook"},
-    timestamp = DateTime.now().ToIsoDate(DateTime.now())
-  }, "Main Farm", 15557766265).CraftPage(l_0.Evil(l_0).Tab({
-    description = "**__Kitsune Finder__**",
-    color = 255,
-    type = "rich",
-    fields = {
-      {
-        name = "[������] Players Active",
-        value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-      },
-      {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-      {
-        name = "[������] Join Server",
-        value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-      },
-      {
-        name = "[������] Kitsune Check",
-        value = "```Kitsune Island is spawning : ������️```",
-        inline = true
-      }
-    },
-    footer = {text = "Zen Hub | Webhook"},
-    timestamp = DateTime.now().ToIsoDate(DateTime.now())
-  }, "Main Farm", 15557766265), "Level Farm", 1), "Auto Third World [Lv. 1500]", AutoThirdWorld, function(a0)
+  tab_2.CraftPage(tab_2, "Level Farm", 1).Toggle(tab_2.CraftPage(tab_2, "Level Farm", 1), "Auto Third World [Lv. 1500]", AutoThirdWorld, function(a0)
   AutoThirdWorld = a0
   CancelTween(AutoThirdWorld)
 end)
@@ -4782,9 +4005,9 @@ spawn(function()
   local find = string.find(service_1.LocalPlayer.PlayerGui.Main.Quest.Container.QuestTitle.Title.Text, NameMon)
   if not find or service_1.LocalPlayer.PlayerGui.Main.Quest.Visible == false then
     service_9.Remotes.CommF_.InvokeServer(service_9.Remotes.CommF_, "AbandonQuest")
-    if l_65 then
+    if l_63 then
       BTP(CFrameQ)
-    elseif not l_65 then
+    elseif not l_63 then
       Tween(CFrameQ)
     end
     local l_1 = l_20()
@@ -4843,9 +4066,9 @@ spawn(function()
         Level_Farm_CFrame = l_4.HumanoidRootPart.CFrame
         AutoClick()
         if l_4.Name ~= Ms or not find_first_child or not l_4.FindFirstChild(l_4, "HumanoidRootPart") or 0 >= l_4.Humanoid.Health or not LevelFarmNoQuest or not l_4.Parent or l_4.Humanoid.Health <= 0 or not game.GetService(game, "Workspace").Enemies.FindFirstChild(game.GetService(game, "Workspace").Enemies, l_4.Name) then
-        elseif l_65 then
+        elseif l_63 then
           BTP(CFrameMon)
-        elseif not l_65 then
+        elseif not l_63 then
           Tween(CFrameMon)
         end
       end
@@ -4853,1112 +4076,7 @@ spawn(function()
   end
 end)
 end)
-local wait_for_child = service_1.LocalPlayer.Character.WaitForChild(service_1.LocalPlayer.Character, "HumanoidRootPart")
-local label = l_0.Evil(l_0).Tab({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Main Farm", 15557766265).CraftPage(l_0.Evil(l_0).Tab({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Main Farm", 15557766265), "Gift Event", 1).Label(l_0.Evil(l_0).Tab({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Main Farm", 15557766265).CraftPage(l_0.Evil(l_0).Tab({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Main Farm", 15557766265), "Gift Event", 1), "Your Candies: Third World ")
-candycheck = label
-spawn(function()
-  while r0 do
-    pcall(function()
-  local invoke_server = service_9.Remotes.CommF_.InvokeServer(service_9.Remotes.CommF_, "Candies", "Check")
-  candycheck.Set(candycheck, "Your Candies: " .. invoke_server)
-end)
-  end
-end)
-l_0.Evil(l_0).Tab({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Main Farm", 15557766265).CraftPage(l_0.Evil(l_0).Tab({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Main Farm", 15557766265), "Gift Event", 1).Toggle(l_0.Evil(l_0).Tab({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Main Farm", 15557766265).CraftPage(l_0.Evil(l_0).Tab({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Main Farm", 15557766265), "Gift Event", 1), "Teleport To Green Circle Event", _G.Autoteleportgreem, function(a0)
-  local new = CFrame.new(-1076, 15, -14475)
-  if l_65 then
-    BTP(new)
-  else
-    Tween(new)
-  end
-  task.wait(0.5)
-  service_5.InputBegan.Fire(service_5.InputBegan, game, Enum.KeyCode.E, false)
-  task.wait(0.1)
-  service_5.InputEnded.Fire(service_5.InputEnded, game, Enum.KeyCode.E, false)
-end)
-
-local l_81 = function()
-  while r0 do
-    local count_down_time = GetCountDownTime()
-    if count_down_time <= 2 then
-      local l_3 = l_20()
-      l_3.CFrame = workspace.PresentPad.CFrame
-      task.wait()
-      if 200 < GetDistance(workspace.PresentPad) then
-        if l_65 then
-          Tween(workspace.PresentPad.CFrame)
-        else
-          BTP(workspace.PresentPad.CFrame)
-        end
-      end
-    elseif _G.AutoCollectGift then
-      if getBigGift() then
-        Tween(getBigGift().Box.CFrame)
-        if GetDistance(getBigGift().Box) < 10 then
-          fireproximityprompt(getBigGift().Box.ProximityPrompt)
-        end
-      else
-        Tween(getGift().Box.CFrame)
-        if getGift() and GetDistance(getGift().Box) < 10 then
-          fireproximityprompt(getGift().Box.ProximityPrompt)
-        end
-      end
-      if 2 >= GetCountDownTime() then
-      end
-    end
-  end
-end
-
-l_0.Evil(l_0).Tab({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Main Farm", 15557766265).CraftPage(l_0.Evil(l_0).Tab({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Main Farm", 15557766265), "Gift Event", 1).Toggle(l_0.Evil(l_0).Tab({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Main Farm", 15557766265).CraftPage(l_0.Evil(l_0).Tab({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Main Farm", 15557766265), "Gift Event", 1), "Auto Collect Gift", _G.AutoCollectGift, function(a0)
-  _G.AutoCollectGift = a0
-  if a0 then
-    l_81()
-  end
-end)
-
-local l_79 = function(a0, a1)
-  service_9.Remotes.CommF_.InvokeServer(service_9.Remotes.CommF_, "Candies", "Buy", a0, a1)
-end
-
-l_0.Evil(l_0).Tab({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Main Farm", 15557766265).CraftPage(l_0.Evil(l_0).Tab({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Main Farm", 15557766265), "Gift Event", 1).Button(l_0.Evil(l_0).Tab({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Main Farm", 15557766265).CraftPage(l_0.Evil(l_0).Tab({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Main Farm", 15557766265), "Gift Event", 1), "Buy Exp x2 > 50 Candy", function()
-  l_79(1, 1)
-end)
-l_0.Evil(l_0).Tab({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Main Farm", 15557766265).CraftPage(l_0.Evil(l_0).Tab({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Main Farm", 15557766265), "Gift Event", 1).Button(l_0.Evil(l_0).Tab({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Main Farm", 15557766265).CraftPage(l_0.Evil(l_0).Tab({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Main Farm", 15557766265), "Gift Event", 1), "Buy Stats Refund > 100 Candy", function()
-  l_79(1, 2)
-end)
-l_0.Evil(l_0).Tab({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Main Farm", 15557766265).CraftPage(l_0.Evil(l_0).Tab({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Main Farm", 15557766265), "Gift Event", 1).Button(l_0.Evil(l_0).Tab({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Main Farm", 15557766265).CraftPage(l_0.Evil(l_0).Tab({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Main Farm", 15557766265), "Gift Event", 1), "Buy Race Reroll > 100 Candy", function()
-  l_79(1, 3)
-end)
-l_0.Evil(l_0).Tab({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Main Farm", 15557766265).CraftPage(l_0.Evil(l_0).Tab({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Main Farm", 15557766265), "Gift Event", 1).Button(l_0.Evil(l_0).Tab({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Main Farm", 15557766265).CraftPage(l_0.Evil(l_0).Tab({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Main Farm", 15557766265), "Gift Event", 1), "Buy Fragment 250 > 50 Candy", function()
-  l_79(2, 1)
-end)
-l_0.Evil(l_0).Tab({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Main Farm", 15557766265).CraftPage(l_0.Evil(l_0).Tab({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Main Farm", 15557766265), "Gift Event", 1).Button(l_0.Evil(l_0).Tab({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Main Farm", 15557766265).CraftPage(l_0.Evil(l_0).Tab({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Main Farm", 15557766265), "Gift Event", 1), "Buy Fragment 500 > 100 Candy", function()
-  l_79(2, 2)
-end)
-l_0.Evil(l_0).Tab({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Main Farm", 15557766265).CraftPage(l_0.Evil(l_0).Tab({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Main Farm", 15557766265), "Gift Event", 1).Button(l_0.Evil(l_0).Tab({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Main Farm", 15557766265).CraftPage(l_0.Evil(l_0).Tab({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Main Farm", 15557766265), "Gift Event", 1), "Buy Elf Hat > 250 Candy", function()
-  l_79(3, 1)
-end)
-l_0.Evil(l_0).Tab({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Main Farm", 15557766265).CraftPage(l_0.Evil(l_0).Tab({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Main Farm", 15557766265), "Gift Event", 1).Button(l_0.Evil(l_0).Tab({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Main Farm", 15557766265).CraftPage(l_0.Evil(l_0).Tab({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Main Farm", 15557766265), "Gift Event", 1), "Buy Santa Hat", function()
-  l_79(3, 2)
-end)
-l_0.Evil(l_0).Tab({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Main Farm", 15557766265).CraftPage(l_0.Evil(l_0).Tab({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Main Farm", 15557766265), "Gift Event", 1).Button(l_0.Evil(l_0).Tab({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Main Farm", 15557766265).CraftPage(l_0.Evil(l_0).Tab({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Main Farm", 15557766265), "Gift Event", 1), "Buy Sleigh", function()
-  l_79(3, 3)
-end)
-local craft_page_5 = l_0.Evil(l_0).Tab({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Main Farm", 15557766265).CraftPage(l_0.Evil(l_0).Tab({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Main Farm", 15557766265), "Other Farm", 1)
-local label = craft_page_5.Label(craft_page_5, "Your Bone: Third World ")
-BoneCheck = label
+BoneCheck = tab_2.CraftPage(tab_2, "Other Farm", 1).Label(tab_2.CraftPage(tab_2, "Other Farm", 1), "Your Bone: Third World ")
 spawn(function()
   while r0 do
     pcall(function()
@@ -5967,14 +4085,14 @@ spawn(function()
 end)
   end
 end)
-craft_page_5.Toggle(craft_page_5, "Buy Random Surprise (Bone)", Auto_Trade_Bone, function(a0)
+tab_2.CraftPage(tab_2, "Other Farm", 1).Toggle(tab_2.CraftPage(tab_2, "Other Farm", 1), "Buy Random Surprise (Bone)", Auto_Trade_Bone, function(a0)
   Auto_Trade_Bone = a0
   while r1 do
     task.wait()
     service_9.Remotes.CommF_.InvokeServer()
   end
 end)
-craft_page_5.Toggle(craft_page_5, "Auto Farm Bones", Farm_Bone, function(a0)
+tab_2.CraftPage(tab_2, "Other Farm", 1).Toggle(tab_2.CraftPage(tab_2, "Other Farm", 1), "Auto Farm Bones", Farm_Bone, function(a0)
   Farm_Bone = a0
   CancelTween(Farm_Bone)
 end)
@@ -5985,9 +4103,9 @@ spawn(function()
   end
   pcall(function()
   local new = CFrame.new(-9508.5673828125, 142.1398468017578, 5737.3603515625)
-  if l_65 then
+  if l_63 then
     BTP(new)
-  elseif not l_65 then
+  elseif not l_63 then
     Tween(new)
   end
   local l_1, children, l_3 = pairs()
@@ -6029,7 +4147,7 @@ spawn(function()
   end
 end)
 end)
-craft_page_5.Toggle(craft_page_5, "Auto Farm Ectoplasm", Farm_Ectoplasm, function(a0)
+tab_2.CraftPage(tab_2, "Other Farm", 1).Toggle(tab_2.CraftPage(tab_2, "Other Farm", 1), "Auto Farm Ectoplasm", Farm_Ectoplasm, function(a0)
   Farm_Ectoplasm = a0
   CancelTween(Farm_Ectoplasm)
 end)
@@ -6040,9 +4158,9 @@ spawn(function()
   end
   pcall(function()
   local new = CFrame.new(904.4072265625, 181.05767822266, 33341.38671875)
-  if l_65 then
+  if l_63 then
     BTP(new)
-  elseif not l_65 then
+  elseif not l_63 then
     Tween(new)
   end
   local new_1 = Vector3.new(904.4072265625, 181.05767822266, 33341.38671875)
@@ -6132,186 +4250,10 @@ spawn(function()
   end
 end)
 end)
-l_0.Evil(l_0).Tab({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Main Farm", 15557766265).CraftPage(l_0.Evil(l_0).Tab({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Main Farm", 15557766265), "Farm Monster", 1).Dropdown(l_0.Evil(l_0).Tab({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Main Farm", 15557766265).CraftPage(l_0.Evil(l_0).Tab({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Main Farm", 15557766265), "Farm Monster", 1), "Select Monster", tableMon, "", function(a0)
+tab_2.CraftPage(tab_2, "Farm Monster", 1).Dropdown(tab_2.CraftPage(tab_2, "Farm Monster", 1), "Select Monster", tableMon, "", function(a0)
   _G.SelectMonster = a0
 end)
-l_0.Evil(l_0).Tab({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Main Farm", 15557766265).CraftPage(l_0.Evil(l_0).Tab({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Main Farm", 15557766265), "Farm Monster", 1).Toggle(l_0.Evil(l_0).Tab({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Main Farm", 15557766265).CraftPage(l_0.Evil(l_0).Tab({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Main Farm", 15557766265), "Farm Monster", 1), "Auto Farm Select (Quest)", SelectMonster_Quest_Farm, function(a0)
+tab_2.CraftPage(tab_2, "Farm Monster", 1).Toggle(tab_2.CraftPage(tab_2, "Farm Monster", 1), "Auto Farm Select (Quest)", SelectMonster_Quest_Farm, function(a0)
   SelectMonster_Quest_Farm = a0
   CancelTween(SelectMonster_Quest_Farm)
 end)
@@ -6325,9 +4267,9 @@ spawn(function()
   local find = string.find(service_1.LocalPlayer.PlayerGui.Main.Quest.Container.QuestTitle.Title.Text, NameMon)
   if not find or service_1.LocalPlayer.PlayerGui.Main.Quest.Visible == false then
     service_9.Remotes.CommF_.InvokeServer(service_9.Remotes.CommF_, "AbandonQuest")
-    if l_65 then
+    if l_63 then
       BTP(CFrameQ)
-    elseif not l_65 then
+    elseif not l_63 then
       Tween(CFrameQ)
     end
     local l_1 = l_20()
@@ -6359,95 +4301,7 @@ spawn(function()
   end
 end)
 end)
-l_0.Evil(l_0).Tab({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Main Farm", 15557766265).CraftPage(l_0.Evil(l_0).Tab({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Main Farm", 15557766265), "Farm Monster", 1).Toggle(l_0.Evil(l_0).Tab({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Main Farm", 15557766265).CraftPage(l_0.Evil(l_0).Tab({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Main Farm", 15557766265), "Farm Monster", 1), "Auto Farm Select (No Quest)", SelectMonster_NoQuest_Farm, function(a0)
+tab_2.CraftPage(tab_2, "Farm Monster", 1).Toggle(tab_2.CraftPage(tab_2, "Farm Monster", 1), "Auto Farm Select (No Quest)", SelectMonster_NoQuest_Farm, function(a0)
   SelectMonster_NoQuest_Farm = a0
   CancelTween(SelectMonster_NoQuest_Farm)
 end)
@@ -6458,9 +4312,9 @@ spawn(function()
   end
   pcall(function()
   CheckLevel(_G.SelectMonster)
-  if l_65 then
+  if l_63 then
     BTP(CFrameQ)
-  elseif not l_65 then
+  elseif not l_63 then
     Tween(CFrameQ)
   end
   local service = game.GetService(game, "Workspace")
@@ -6490,51 +4344,6 @@ spawn(function()
   end
 end)
 end)
-local craft_page_6 = l_0.Evil(l_0).Tab({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Main Farm", 15557766265).CraftPage(l_0.Evil(l_0).Tab({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Main Farm", 15557766265), "Material Farm", 1)
 if First_Sea then
   MaterialList = {
     "Scrap Metal",
@@ -6564,10 +4373,10 @@ elseif Third_Sea then
     "Mini Tusk"
   }
 end
-craft_page_6.Dropdown(craft_page_6, "Select Material", MaterialList, "", function(a0)
+tab_2.CraftPage(tab_2, "Material Farm", 1).Dropdown(tab_2.CraftPage(tab_2, "Material Farm", 1), "Select Material", MaterialList, "", function(a0)
   SelectMaterial = a0
 end)
-craft_page_6.Toggle(craft_page_6, "Auto Farm Material", Auto_Farm_Material, function(a0)
+tab_2.CraftPage(tab_2, "Material Farm", 1).Toggle(tab_2.CraftPage(tab_2, "Material Farm", 1), "Auto Farm Material", Auto_Farm_Material, function(a0)
   Auto_Farm_Material = a0
   CancelTween(Auto_Farm_Material)
 end)
@@ -6578,9 +4387,9 @@ spawn(function()
   end
   pcall(function()
   MaterialMon(SelectMaterial)
-  if l_65 then
+  if l_63 then
     BTP(MPos)
-  elseif not l_65 then
+  elseif not l_63 then
     Tween(MPos)
   end
   local l_0, children, l_2 = pairs()
@@ -6605,60 +4414,16 @@ spawn(function()
   end
 end)
 end)
-local craft_page_7 = l_0.Evil(l_0).Tab({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Main Farm", 15557766265).CraftPage(l_0.Evil(l_0).Tab({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Main Farm", 15557766265), "Mastery Farm", 2)
+local craft_page_5 = tab_2.CraftPage(tab_2, "Mastery Farm", 2)
 KillPercent = 25
-craft_page_7.Textbox(craft_page_7, "Health To Kill", KillPercent, function(a0)
+craft_page_5.Textbox(craft_page_5, "Health To Kill", KillPercent, function(a0)
   KillPercent = a0
 end)
 SelectedMethodMastery = "Quest"
-craft_page_7.Dropdown(craft_page_7, "Select Method", {"Quest", "No Quest", "Nearest"}, "Quest", function(a0)
+craft_page_5.Dropdown(craft_page_5, "Select Method", {"Quest", "No Quest", "Nearest"}, "Quest", function(a0)
   SelectedMethodMastery = a0
 end)
-craft_page_7.Toggle(craft_page_7, "Auto Farm Devil Mastery", DevilMastery_Farm, function(a0)
+craft_page_5.Toggle(craft_page_5, "Auto Farm Devil Mastery", DevilMastery_Farm, function(a0)
   DevilMastery_Farm = a0
   CancelTween(DevilMastery_Farm)
 end)
@@ -6739,9 +4504,9 @@ spawn(function()
   if not find or service_1.LocalPlayer.PlayerGui.Main.Quest.Visible == false then
     UseSkill = false
     service_9.Remotes.CommF_.InvokeServer(service_9.Remotes.CommF_, "AbandonQuest")
-    if l_65 then
+    if l_63 then
       BTP(CFrameQ)
-    elseif not l_65 then
+    elseif not l_63 then
       Tween(CFrameQ)
     end
     local l_1 = l_20()
@@ -6784,9 +4549,9 @@ end)
         UseSkill = false
         pcall(function()
   CheckLevel()
-  if l_65 then
+  if l_63 then
     BTP(CFrameQ)
-  elseif not l_65 then
+  elseif not l_63 then
     Tween(CFrameQ)
   end
   local l_0, children, l_2 = pairs()
@@ -6831,7 +4596,7 @@ end)
   end
   UseSkill = false
 end)
-craft_page_7.Toggle(craft_page_7, "Auto Farm Gun Mastery", GunMastery_Farm, function(a0)
+craft_page_5.Toggle(craft_page_5, "Auto Farm Gun Mastery", GunMastery_Farm, function(a0)
   GunMastery_Farm = a0
   CancelTween(GunMastery_Farm)
 end)
@@ -6885,9 +4650,9 @@ spawn(function()
   if not find or service_1.LocalPlayer.PlayerGui.Main.Quest.Visible == false then
     UseGunMastery = false
     service_9.Remotes.CommF_.InvokeServer(service_9.Remotes.CommF_, "AbandonQuest")
-    if l_65 then
+    if l_63 then
       BTP(CFrameQ)
-    elseif not l_65 then
+    elseif not l_63 then
       Tween(CFrameQ)
     end
     local l_1 = l_20()
@@ -6933,9 +4698,9 @@ end)
         UseGunMastery = false
         pcall(function()
   CheckLevel()
-  if l_65 then
+  if l_63 then
     BTP(CFrameQ)
-  elseif not l_65 then
+  elseif not l_63 then
     Tween(CFrameQ)
   end
   local l_0, children, l_2 = pairs()
@@ -6986,59 +4751,15 @@ end)
   end
   UseGunMastery = false
 end)
-local craft_page_8 = l_0.Evil(l_0).Tab({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Main Farm", 15557766265).CraftPage(l_0.Evil(l_0).Tab({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Main Farm", 15557766265), "Boss Farm", 2)
-local l_91, children, l_93 = pairs()
-for l_94, l_95 in l_91 do
-  for l_94, l_95 in l_91 do
+local craft_page_6 = tab_2.CraftPage(tab_2, "Boss Farm", 2)
+local l_78, children, l_80 = pairs()
+for l_81, l_82 in l_78 do
+  for l_81, l_82 in l_78 do
     while l_0 do
     end
     for l_28, l_29 in l_25 do
     end
-    for l_73, l_74 in l_70 do
+    for craft_page_7, craft_page_7 in l_68 do
     end
     local find = table.find({
       "The Gorrila King",
@@ -7077,13 +4798,13 @@ for l_94, l_95 in l_91 do
       "Longma",
       "Soul Reaper",
       "rip_indra True Form"
-    }, l_95.Name)
+    }, l_82.Name)
     if find then
-      table.insert({}, l_95.Name)
+      table.insert({}, l_82.Name)
     end
   end
 end
-local l_89 = {
+local l_76 = {
   "The Gorrila King",
   "Bobby",
   "The Saw",
@@ -7121,14 +4842,14 @@ local l_89 = {
   "Soul Reaper",
   "rip_indra True Form"
 }
-local dropdown = craft_page_8.Dropdown(craft_page_8, "Select Boss", {}, "", function(a0)
+local dropdown = craft_page_6.Dropdown(craft_page_6, "Select Boss", {}, "", function(a0)
   SelectBoss = a0
 end)
-craft_page_8.Button(craft_page_8, "Refresh Boss", function()
+craft_page_6.Button(craft_page_6, "Refresh Boss", function()
   local l_1, children, l_3 = pairs()
   for l_4, l_5 in l_1 do
     for l_4, l_5 in l_1 do
-      local find = table.find(l_89, l_5.Name)
+      local find = table.find(l_76, l_5.Name)
       if find then
         table.insert({}, l_5.Name)
       end
@@ -7136,7 +4857,7 @@ craft_page_8.Button(craft_page_8, "Refresh Boss", function()
   end
   dropdown.Add(dropdown, {})
 end)
-craft_page_8.Toggle(craft_page_8, "Auto Farm Boss (Quest)", AutoFarmBossQuest, function(a0)
+craft_page_6.Toggle(craft_page_6, "Auto Farm Boss (Quest)", AutoFarmBossQuest, function(a0)
   AutoFarmBossQuest = a0
   CancelTween(AutoFarmBossQuest)
 end)
@@ -7150,9 +4871,9 @@ spawn(function()
   local find = string.find(service_1.LocalPlayer.PlayerGui.Main.Quest.Container.QuestTitle.Title.Text, NameBoss)
   if not find or service_1.LocalPlayer.PlayerGui.Main.Quest.Visible == false then
     service_9.Remotes.CommF_.InvokeServer(service_9.Remotes.CommF_, "AbandonQuest")
-    if l_65 then
+    if l_63 then
       BTP(CFrameQBoss)
-    elseif not l_65 then
+    elseif not l_63 then
       Tween(CFrameQBoss)
     end
     local l_1 = l_20()
@@ -7182,7 +4903,7 @@ spawn(function()
   end
 end)
 end)
-craft_page_8.Toggle(craft_page_8, "Auto Farm Boss (No Quest)", AutoFarmBossNoQuest, function(a0)
+craft_page_6.Toggle(craft_page_6, "Auto Farm Boss (No Quest)", AutoFarmBossNoQuest, function(a0)
   AutoFarmBossNoQuest = a0
   CancelTween(AutoFarmBossNoQuest)
 end)
@@ -7193,9 +4914,9 @@ spawn(function()
   end
   pcall(function()
   CheckBossQuest(SelectBoss)
-  if l_65 then
+  if l_63 then
     BTP(CFrameBoss)
-  elseif not l_65 then
+  elseif not l_63 then
     Tween(CFrameBoss)
   end
   local service = game.GetService(game, "Workspace")
@@ -7219,95 +4940,7 @@ spawn(function()
   end
 end)
 end)
-l_0.Evil(l_0).Tab({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Main Farm", 15557766265).CraftPage(l_0.Evil(l_0).Tab({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Main Farm", 15557766265), "Chest Farm", 2).Toggle(l_0.Evil(l_0).Tab({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Main Farm", 15557766265).CraftPage(l_0.Evil(l_0).Tab({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Main Farm", 15557766265), "Chest Farm", 2), "Auto Farm All Chest", _G.GrabChested, function(a0)
+tab_2.CraftPage(tab_2, "Chest Farm", 2).Toggle(tab_2.CraftPage(tab_2, "Chest Farm", 2), "Auto Farm All Chest", _G.GrabChested, function(a0)
   _G.GrabChested = a0
 end)
 spawn(function()
@@ -7322,7 +4955,7 @@ spawn(function()
     for l_4, l_5 in l_1 do
       if l_5.Name == "Chest1" or l_5.Name == "Chest2" or l_5.Name == "Chest3" then
         l_0.HumanoidRootPart.CFrame = l_5.CFrame
-        task.wait(0.15)
+        task.wait(0.25)
       end
     end
   end
@@ -7332,9 +4965,9 @@ spawn(function()
       if l_5.Name == "Chest1" or l_5.Name == "Chest2" or l_5.Name == "Chest3" then
         local a = l_5.IsA(l_5, "TouchTransmitter")
         if a then
-          task.wait(0.15)
+          task.wait(0.25)
           firetouchinterest(l_0.HumanoidRootPart, l_5.Parent, 0)
-          task.wait(0.15)
+          task.wait(0.25)
           firetouchinterest(l_0.HumanoidRootPart, l_5.Parent, 1)
         end
       end
@@ -7347,100 +4980,12 @@ spawn(function()
     if _G.GrabChested then
     end
   end
-  task.wait(10)
+  task.wait(20)
   local l_0 = l_18()
   l_0.Head.Destroy(l_0.Head)
-  task.wait(10)
+  task.wait(20)
 end)
-l_0.Evil(l_0).Tab({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Main Farm", 15557766265).CraftPage(l_0.Evil(l_0).Tab({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Main Farm", 15557766265), "Chest Farm", 2).Toggle(l_0.Evil(l_0).Tab({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Main Farm", 15557766265).CraftPage(l_0.Evil(l_0).Tab({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Main Farm", 15557766265), "Chest Farm", 2), "Auto Farm All Chest + Hop", _G.GrabChestedHop, function(a0)
+tab_2.CraftPage(tab_2, "Chest Farm", 2).Toggle(tab_2.CraftPage(tab_2, "Chest Farm", 2), "Auto Farm All Chest + Hop", _G.GrabChestedHop, function(a0)
   _G.GrabChestedHop = a0
 end)
 spawn(function()
@@ -7455,7 +5000,7 @@ spawn(function()
     for l_4, l_5 in l_1 do
       if l_5.Name == "Chest1" or l_5.Name == "Chest2" or l_5.Name == "Chest3" then
         l_0.HumanoidRootPart.CFrame = l_5.CFrame
-        task.wait(0.15)
+        task.wait(0.25)
       end
     end
   end
@@ -7466,7 +5011,7 @@ spawn(function()
         local a = l_5.IsA(l_5, "TouchTransmitter")
         if a then
           firetouchinterest(l_0.HumanoidRootPart, l_5.Parent, 0)
-          task.wait(0.15)
+          task.wait(0.25)
           firetouchinterest(l_0.HumanoidRootPart, l_5.Parent, 1)
         end
         if not game.Workspace.FindFirstChild(game.Workspace, "Chest1") or not game.Workspace.FindFirstChild(game.Workspace, "Chest2") or not game.Workspace.FindFirstChild(game.Workspace, "Chest3") then
@@ -7489,190 +5034,14 @@ spawn(function()
   l_0.Head.Destroy(l_0.Head)
   task.wait(10)
 end)
-local label = l_0.Evil(l_0).Tab({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Main Farm", 15557766265).CraftPage(l_0.Evil(l_0).Tab({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Main Farm", 15557766265), "Observation Farm", 2).Label(l_0.Evil(l_0).Tab({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Main Farm", 15557766265).CraftPage(l_0.Evil(l_0).Tab({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Main Farm", 15557766265), "Observation Farm", 2), "")
+local label = tab_2.CraftPage(tab_2, "Observation Farm", 2).Label(tab_2.CraftPage(tab_2, "Observation Farm", 2), "")
 spawn(function()
   while r0 do
     local tostring = tostring(service_1.LocalPlayer.VisionRadius.Value)
     label.Set(label, "Observation Level : " .. tostring)
   end
 end)
-l_0.Evil(l_0).Tab({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Main Farm", 15557766265).CraftPage(l_0.Evil(l_0).Tab({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Main Farm", 15557766265), "Observation Farm", 2).Toggle(l_0.Evil(l_0).Tab({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Main Farm", 15557766265).CraftPage(l_0.Evil(l_0).Tab({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Main Farm", 15557766265), "Observation Farm", 2), "Auto Farm Observation", AutoFarmKen, function(a0)
+tab_2.CraftPage(tab_2, "Observation Farm", 2).Toggle(tab_2.CraftPage(tab_2, "Observation Farm", 2), "Auto Farm Observation", AutoFarmKen, function(a0)
   AutoFarmKen = a0
   CancelTween(AutoFarmKen)
 end)
@@ -7710,26 +5079,26 @@ spawn(function()
                   Tween()
                 end
                 if game.GetService(game, "Workspace").Enemies.FindFirstChild(game.GetService(game, "Workspace").Enemies, "Galley Captain [Lv. 650]") and service_1.LocalPlayer.PlayerGui.ScreenGui.FindFirstChild(service_1.LocalPlayer.PlayerGui.ScreenGui, "ImageLabel") then
-                  task.wait()
-                  l_20().CFrame = game.GetService(game, "Workspace").Enemies.FindFirstChild(game.GetService(game, "Workspace").Enemies, "Galley Captain").HumanoidRootPart.CFrame * CFrame.new(3, 0, 0)
-                  if AutoFarmKen ~= false and service_1.LocalPlayer.PlayerGui.ScreenGui.FindFirstChild(service_1.LocalPlayer.PlayerGui.ScreenGui, "ImageLabel") then
-                    while not service_1.LocalPlayer.PlayerGui.ScreenGui.FindFirstChild(service_1.LocalPlayer.PlayerGui.ScreenGui, "ImageLabel") do
-                      service_10.Teleport(service_10, game.PlaceId, service_1.LocalPlayer)
+                  while service_1.LocalPlayer.PlayerGui.ScreenGui.FindFirstChild(service_1.LocalPlayer.PlayerGui.ScreenGui, "ImageLabel") ~= false do
+                    if service_1.LocalPlayer.PlayerGui.ScreenGui.FindFirstChild(service_1.LocalPlayer.PlayerGui.ScreenGui, "ImageLabel") then
+                      task.wait()
+                      l_20().CFrame = game.GetService(game, "Workspace").Enemies.FindFirstChild(game.GetService(game, "Workspace").Enemies, "Galley Captain").HumanoidRootPart.CFrame * CFrame.new(3, 0, 0)
                       if AutoFarmKen ~= false then
-                        if not service_1.LocalPlayer.PlayerGui.ScreenGui.FindFirstChild(service_1.LocalPlayer.PlayerGui.ScreenGui, "ImageLabel") then
-                          task.wait()
-                          l_20().CFrame = game.GetService(game, "Workspace").Enemies.FindFirstChild(game.GetService(game, "Workspace").Enemies, "Galley Captain").HumanoidRootPart.CFrame * CFrame.new(0, 50, 0)
-                          task.wait(1)
-                          if not service_1.LocalPlayer.PlayerGui.ScreenGui.FindFirstChild(service_1.LocalPlayer.PlayerGui.ScreenGui, "ImageLabel") then
-                          end
-                          Tween()
-                        end
-                        if game.GetService(game, "Workspace").Enemies.FindFirstChild(game.GetService(game, "Workspace").Enemies, "Giant Islander [Lv. 1650]") and service_1.LocalPlayer.PlayerGui.ScreenGui.FindFirstChild(service_1.LocalPlayer.PlayerGui.ScreenGui, "ImageLabel") then
-                          while service_1.LocalPlayer.PlayerGui.ScreenGui.FindFirstChild(service_1.LocalPlayer.PlayerGui.ScreenGui, "ImageLabel") ~= false do
-                            if service_1.LocalPlayer.PlayerGui.ScreenGui.FindFirstChild(service_1.LocalPlayer.PlayerGui.ScreenGui, "ImageLabel") then
+                        while not AutoFarmKen do
+                          service_10.Teleport(service_10, game.PlaceId, service_1.LocalPlayer)
+                          if AutoFarmKen ~= false then
+                            if not service_1.LocalPlayer.PlayerGui.ScreenGui.FindFirstChild(service_1.LocalPlayer.PlayerGui.ScreenGui, "ImageLabel") then
+                              task.wait()
+                              l_20().CFrame = game.GetService(game, "Workspace").Enemies.FindFirstChild(game.GetService(game, "Workspace").Enemies, "Galley Captain").HumanoidRootPart.CFrame * CFrame.new(0, 50, 0)
+                              task.wait(1)
+                              if not service_1.LocalPlayer.PlayerGui.ScreenGui.FindFirstChild(service_1.LocalPlayer.PlayerGui.ScreenGui, "ImageLabel") then
+                              end
+                              Tween()
+                            end
+                            if game.GetService(game, "Workspace").Enemies.FindFirstChild(game.GetService(game, "Workspace").Enemies, "Giant Islander [Lv. 1650]") and service_1.LocalPlayer.PlayerGui.ScreenGui.FindFirstChild(service_1.LocalPlayer.PlayerGui.ScreenGui, "ImageLabel") then
                               task.wait()
                               l_20().CFrame = game.GetService(game, "Workspace").Enemies.FindFirstChild(game.GetService(game, "Workspace").Enemies, "Giant Islander").HumanoidRootPart.CFrame * CFrame.new(3, 0, 0)
-                              if AutoFarmKen ~= false then
+                              if AutoFarmKen ~= false and service_1.LocalPlayer.PlayerGui.ScreenGui.FindFirstChild(service_1.LocalPlayer.PlayerGui.ScreenGui, "ImageLabel") then
                                 task.wait()
                                 l_20().CFrame = game.GetService(game, "Workspace").Enemies.FindFirstChild(game.GetService(game, "Workspace").Enemies, "Giant Islander").HumanoidRootPart.CFrame * CFrame.new(0, 50, 0)
                                 task.wait(1)
@@ -7743,9 +5112,9 @@ spawn(function()
                             end
                           end
                         end
+                        if Third_Sea then
+                        end
                       end
-                    end
-                    if Third_Sea then
                     end
                   end
                 end
@@ -7760,95 +5129,7 @@ spawn(function()
   end
 end)
 end)
-l_0.Evil(l_0).Tab({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Main Farm", 15557766265).CraftPage(l_0.Evil(l_0).Tab({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Main Farm", 15557766265), "Observation Farm", 2).Toggle(l_0.Evil(l_0).Tab({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Main Farm", 15557766265).CraftPage(l_0.Evil(l_0).Tab({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Main Farm", 15557766265), "Observation Farm", 2), "Auto Observation V2", AutoKenV2, function(a0)
+tab_2.CraftPage(tab_2, "Observation Farm", 2).Toggle(tab_2.CraftPage(tab_2, "Observation Farm", 2), "Auto Observation V2", AutoKenV2, function(a0)
   AutoKenV2 = a0
   CancelTween(AutoKenV2)
 end)
@@ -7918,11 +5199,11 @@ spawn(function()
         service_9.Remotes.CommF_.InvokeServer(service_9.Remotes.CommF_, "DressrosaQuestProgress", "Detective")
       elseif service_1.LocalPlayer.Backpack.FindFirstChild(service_1.LocalPlayer.Backpack, "Key") or l_18().FindFirstChild(l_18(), "Key") then
         l_19().EquipTool(l_19(), service_1.LocalPlayer.Backpack.Key)
-        if l_65 then
+        if l_63 then
           BTP()
           local new = Vector3.new(30, 30, 30)
           game.GetService(game, "Workspace").Map.Ice.Door.Size = new
-        elseif not l_65 then
+        elseif not l_63 then
           Tween()
           game.GetService(game, "Workspace").Map.Ice.Door.Size = Vector3.new(30, 30, 30)
         end
@@ -8006,7 +5287,7 @@ spawn(function()
                 l_4.Humanoid.ChangeState(l_4.Humanoid, 14)
                 AutoClick()
                 if l_4.Name ~= "Don Swan" or not l_4.FindFirstChild(l_4, "Humanoid") or not l_4.FindFirstChild(l_4, "HumanoidRootPart") or 0 >= l_4.Humanoid.Health or not l_4.Parent or l_4.Humanoid.Health <= 0 or not AutoThirdWorld then
-                elseif l_65 then
+                elseif l_63 then
                   BTP()
                 else
                   Tween()
@@ -8084,7 +5365,7 @@ spawn(function()
                 l_4.Humanoid.ChangeState(l_4.Humanoid, 14)
                 AutoClick()
                 if l_4.Name ~= "Swan Pirate" or not l_4.Parent or l_4.Humanoid.Health <= 0 or service_1.LocalPlayer.PlayerGui.Main.Quest.Visible == false or not AutoThirdWorld then
-                elseif l_65 then
+                elseif l_63 then
                   BTP()
                 else
                   Tween()
@@ -8106,7 +5387,7 @@ spawn(function()
                       l_4.Humanoid.ChangeState(l_4.Humanoid, 14)
                       AutoClick()
                       if not l_4.FindFirstChild(l_4, "Humanoid") or not l_4.FindFirstChild(l_4, "HumanoidRootPart") or 0 >= l_4.Humanoid.Health or l_4.Name ~= "Jeremy" or not l_4.Parent or l_4.Humanoid.Health <= 0 or not AutoThirdWorld then
-                      elseif l_65 then
+                      elseif l_63 then
                         BTP()
                       else
                         Tween()
@@ -8115,7 +5396,7 @@ spawn(function()
                   end
                   if service_9.Remotes.CommF_.InvokeServer(service_9.Remotes.CommF_, "BartiloQuestProgress", "Bartilo") == 2 then
                     if 1500 < (l_20().Position - CFrameThird.Position).Magnitude then
-                      if l_65 then
+                      if l_63 then
                         BTP()
                       else
                         Tween()
@@ -8149,95 +5430,7 @@ spawn(function()
   end
 end)
 end)
-{
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}.CraftPage({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Fighting Style", 1).Toggle({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}.CraftPage({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Fighting Style", 1), "Auto DeathStep", AutoDeathStep, function(a0)
+tab_3.CraftPage(tab_3, "Fighting Style", 1).Toggle(tab_3.CraftPage(tab_3, "Fighting Style", 1), "Auto DeathStep", AutoDeathStep, function(a0)
   AutoDeathStep = a0
   CancelTween(AutoDeathStep)
   if AutoDeathStep then
@@ -8266,7 +5459,7 @@ spawn(function()
               end
             else
               task.wait()
-              if l_65 then
+              if l_63 then
                 Tween()
               end
               if (service_9.FindFirstChild(service_9, "Awakened Ice Admiral") or game.GetService(game, "Workspace").Enemies.FindFirstChild(game.GetService(game, "Workspace").Enemies, "Awakened Ice Admiral")) and game.GetService(game, "Workspace").Enemies.FindFirstChild(game.GetService(game, "Workspace").Enemies, "Awakened Ice Admiral") then
@@ -8285,7 +5478,7 @@ spawn(function()
                     l_4.Humanoid.ChangeState(l_4.Humanoid, 14)
                     AutoClick()
                     if not find_first_child or not l_4.FindFirstChild(l_4, "HumanoidRootPart") or 0 >= l_4.Humanoid.Health or l_4.Name ~= "Awakened Ice Admiral" or not l_4.Parent or l_4.Humanoid.Health <= 0 or AutoDeathStep == false or l_18().FindFirstChild(l_18(), "Library Key") or service_1.LocalPlayer.Backpack.FindFirstChild(service_1.LocalPlayer.Backpack, "Library Key") then
-                    elseif l_65 then
+                    elseif l_63 then
                       BTP(service_9.FindFirstChild(service_9, "Awakened Ice Admiral [Lv. 1400] [Boss]").HumanoidRootPart.CFrame)
                     else
                       Tween(service_9.FindFirstChild(service_9, "Awakened Ice Admiral [Lv. 1400] [Boss]").HumanoidRootPart.CFrame)
@@ -8303,95 +5496,7 @@ spawn(function()
 end)
   end
 end)
-{
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}.CraftPage({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Fighting Style", 1).Toggle({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}.CraftPage({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Fighting Style", 1), "Auto SuperHuman", AutoSuperhuman, function(a0)
+tab_3.CraftPage(tab_3, "Fighting Style", 1).Toggle(tab_3.CraftPage(tab_3, "Fighting Style", 1), "Auto SuperHuman", AutoSuperhuman, function(a0)
   AutoSuperhuman = a0
   CancelTween(AutoSuperhuman)
   if AutoSuperhuman then
@@ -8464,95 +5569,7 @@ spawn(function()
   end
 end)
 end)
-{
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}.CraftPage({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Fighting Style", 1).Toggle({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}.CraftPage({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Fighting Style", 1), "Auto Sharkman Karate", AutoSharkman, function(a0)
+tab_3.CraftPage(tab_3, "Fighting Style", 1).Toggle(tab_3.CraftPage(tab_3, "Fighting Style", 1), "Auto Sharkman Karate", AutoSharkman, function(a0)
   AutoSharkman = a0
   CancelTween(AutoSharkman)
   if AutoSharkman then
@@ -8595,7 +5612,7 @@ spawn(function()
                   l_4.Humanoid.ChangeState(l_4.Humanoid, 14)
                   AutoClick()
                   if not find_first_child or not l_4.FindFirstChild(l_4, "HumanoidRootPart") or 0 >= l_4.Humanoid.Health or l_4.Name ~= "Tide Keeper" or not l_4.Parent or l_4.Humanoid.Health <= 0 or AutoSharkman == false or l_18().FindFirstChild(l_18(), "Library Key") or service_1.LocalPlayer.Backpack.FindFirstChild(service_1.LocalPlayer.Backpack, "Library Key") then
-                  elseif l_65 then
+                  elseif l_63 then
                     BTP(service_9.FindFirstChild(service_9, "Tide Keeper").HumanoidRootPart.CFrame)
                   else
                     Tween(service_9.FindFirstChild(service_9, "Tide Keeper").HumanoidRootPart.CFrame)
@@ -8612,95 +5629,7 @@ spawn(function()
 end)
   end
 end)
-{
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}.CraftPage({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Fighting Style", 1).Toggle({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}.CraftPage({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Fighting Style", 1), "Auto Electric Claw", AutoElectricClaw, function(a0)
+tab_3.CraftPage(tab_3, "Fighting Style", 1).Toggle(tab_3.CraftPage(tab_3, "Fighting Style", 1), "Auto Electric Claw", AutoElectricClaw, function(a0)
   AutoElectricClaw = a0
   CancelTween(AutoElectricClaw)
   if AutoElectricClaw then
@@ -8757,95 +5686,7 @@ spawn(function()
   end
 end)
 end)
-{
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}.CraftPage({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Fighting Style", 1).Toggle({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}.CraftPage({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Fighting Style", 1), "Auto Dragon Talon", AutoDragonTalon, function(a0)
+tab_3.CraftPage(tab_3, "Fighting Style", 1).Toggle(tab_3.CraftPage(tab_3, "Fighting Style", 1), "Auto Dragon Talon", AutoDragonTalon, function(a0)
   AutoDragonTalon = a0
   CancelTween(AutoDragonTalon)
   if AutoDragonTalon then
@@ -8898,95 +5739,7 @@ spawn(function()
   end
 end)
 end)
-{
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}.CraftPage({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Fighting Style", 1).Toggle({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}.CraftPage({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Fighting Style", 1), "Auto God Human", AutoGodhuman, function(a0)
+tab_3.CraftPage(tab_3, "Fighting Style", 1).Toggle(tab_3.CraftPage(tab_3, "Fighting Style", 1), "Auto God Human", AutoGodhuman, function(a0)
   AutoGodhuman = a0
   CancelTween(AutoGodhuman)
   if AutoGodhuman then
@@ -9069,95 +5822,7 @@ spawn(function()
   end
 end)
 end)
-{
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}.CraftPage({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Sword", 1).Toggle({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}.CraftPage({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Sword", 1), "Auto Saber", AutoSaber, function(a0)
+tab_3.CraftPage(tab_3, "Sword", 1).Toggle(tab_3.CraftPage(tab_3, "Sword", 1), "Auto Saber", AutoSaber, function(a0)
   AutoSaber = a0
   CancelTween(AutoSaber)
 end)
@@ -9272,95 +5937,7 @@ spawn(function()
   end
 end)
 end)
-{
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}.CraftPage({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Sword", 1).Toggle({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}.CraftPage({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Sword", 1), "Auto Legendary Sword", AutoLegendarySword, function(a0)
+tab_3.CraftPage(tab_3, "Sword", 1).Toggle(tab_3.CraftPage(tab_3, "Sword", 1), "Auto Legendary Sword", AutoLegendarySword, function(a0)
   AutoLegendarySword = a0
 end)
 spawn(function()
@@ -9374,95 +5951,7 @@ spawn(function()
   service_9.Remotes.CommF_.InvokeServer(service_9.Remotes.CommF_, "LegendarySworldDealer", "2")
 end)
 end)
-{
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}.CraftPage({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Sword", 1).Toggle({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}.CraftPage({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Sword", 1), "Auto Rengoku", AutoRengoku, function(a0)
+tab_3.CraftPage(tab_3, "Sword", 1).Toggle(tab_3.CraftPage(tab_3, "Sword", 1), "Auto Rengoku", AutoRengoku, function(a0)
   AutoRengoku = a0
   CancelTween(AutoRengoku)
 end)
@@ -9474,7 +5963,7 @@ spawn(function()
   if find_first_child or l_18().FindFirstChild(l_18(), "Hidden Key") then
     EquipTool("Hidden Key")
     loc1 = CFrame.new(6571.1201171875, 299.23028564453, -6967.841796875)
-    if l_65 then
+    if l_63 then
       BTP(loc1)
     else
       Tween(loc1)
@@ -9519,95 +6008,7 @@ end)
   end
   RengokuMagnet = false
 end)
-{
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}.CraftPage({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Sword", 1).Toggle({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}.CraftPage({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Sword", 1), "Auto Buddy Sword", AutoBuddySword, function(a0)
+tab_3.CraftPage(tab_3, "Sword", 1).Toggle(tab_3.CraftPage(tab_3, "Sword", 1), "Auto Buddy Sword", AutoBuddySword, function(a0)
   AutoBuddySword = a0
   CancelTween(AutoBuddySword)
 end)
@@ -9642,95 +6043,7 @@ spawn(function()
   end
 end)
 end)
-{
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}.CraftPage({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Sword", 1).Toggle({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}.CraftPage({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Sword", 1), "Auto Pole", AutoPole, function(a0)
+tab_3.CraftPage(tab_3, "Sword", 1).Toggle(tab_3.CraftPage(tab_3, "Sword", 1), "Auto Pole", AutoPole, function(a0)
   AutoPole = a0
   CancelTween(AutoPole)
 end)
@@ -9758,7 +6071,7 @@ spawn(function()
         l_4.Humanoid.ChangeState(l_4.Humanoid, 14)
         AutoClick()
         if not find_first_child or not l_4.FindFirstChild(l_4, "HumanoidRootPart") or 0 >= l_4.Humanoid.Health or l_4.Name ~= "Thunder God" or not AutoPole or not l_4.Parent or l_4.Humanoid.Health <= 0 then
-        elseif l_65 then
+        elseif l_63 then
           BTP(service_9.FindFirstChild(service_9, "Thunder God").HumanoidRootPart.CFrame)
         else
           Tween(service_9.FindFirstChild(service_9, "Thunder God").HumanoidRootPart.CFrame)
@@ -9768,197 +6081,31 @@ spawn(function()
   end
 end)
 end)
-{
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}.CraftPage({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Sword", 1).Toggle({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}.CraftPage({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Sword", 1), "Auto Yama", AutoYama, function(a0)
+tab_3.CraftPage(tab_3, "Sword", 1).Toggle(tab_3.CraftPage(tab_3, "Sword", 1), "Auto Yama", AutoYama, function(a0)
   AutoYama = a0
   CancelTween(AutoYama)
 end)
 spawn(function()
   while r0 do
-    local invoke_server = service_9.Remotes.CommF_.InvokeServer(service_9.Remotes.CommF_, "EliteHunter", "Progress")
-    task.wait()
-    local service = game.GetService(game, "Workspace")
-    fireclickdetector(service.Map.Waterfall.SealedKatana.Handle.ClickDetector)
-    if AutoYama and 30 <= invoke_server and not service_1.LocalPlayer.Backpack.FindFirstChild(service_1.LocalPlayer.Backpack, "Yama") and AutoYama then
+    if AutoYama then
+      local invoke_server = service_9.Remotes.CommF_.InvokeServer(service_9.Remotes.CommF_, "EliteHunter", "Progress")
+      if 30 <= invoke_server then
+        while not invoke_server do
+          if not AutoYama then
+          end
+        end
+      else
+        if not task.wait() then
+        end
+        while not task.wait() do
+        end
+      end
     end
   end
+  while not task.wait() do
+  end
 end)
-{
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}.CraftPage({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Sword", 1).Toggle({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}.CraftPage({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Sword", 1), "Auto Cavander", AutoCavander, function(a0)
+tab_3.CraftPage(tab_3, "Sword", 1).Toggle(tab_3.CraftPage(tab_3, "Sword", 1), "Auto Cavander", AutoCavander, function(a0)
   AutoCavander = a0
   CancelTween(AutoCavander)
 end)
@@ -9986,7 +6133,7 @@ spawn(function()
         l_4.Humanoid.ChangeState(l_4.Humanoid, 14)
         AutoClick()
         if not find_first_child or not l_4.FindFirstChild(l_4, "HumanoidRootPart") or 0 >= l_4.Humanoid.Health or l_4.Name ~= "Beautiful Pirate" or not AutoCavander or not l_4.Parent or l_4.Humanoid.Health <= 0 then
-        elseif l_65 then
+        elseif l_63 then
           BTP(service_9.FindFirstChild(service_9, "Beautiful Pirate").HumanoidRootPart.CFrame)
         else
           Tween(service_9.FindFirstChild(service_9, "Beautiful Pirate").HumanoidRootPart.CFrame)
@@ -9996,95 +6143,7 @@ spawn(function()
   end
 end)
 end)
-{
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}.CraftPage({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Sword", 1).Toggle({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}.CraftPage({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Sword", 1), "Auto Tushita", AutoTushita, function(a0)
+tab_3.CraftPage(tab_3, "Sword", 1).Toggle(tab_3.CraftPage(tab_3, "Sword", 1), "Auto Tushita", AutoTushita, function(a0)
   AutoTushita = a0
   CancelTween(AutoTushita)
 end)
@@ -10365,95 +6424,7 @@ function GetWeaponInventory(a0)
   return false
 end
 
-{
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}.CraftPage({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Sword", 1).Toggle({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}.CraftPage({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Sword", 1), "Auto CDK", Auto_Cursed_Dual_Katana, function(a0)
+tab_3.CraftPage(tab_3, "Sword", 1).Toggle(tab_3.CraftPage(tab_3, "Sword", 1), "Auto CDK", Auto_Cursed_Dual_Katana, function(a0)
   Auto_Cursed_Dual_Katana = a0
   CancelTween(Auto_Cursed_Dual_Katana)
 end)
@@ -10713,66 +6684,63 @@ spawn(function()
     local service = game.GetService(game, "Workspace")
     Tween(service.Map["Haunted Castle"].Summoner.Detection.CFrame)
   elseif game.GetService(game, "Workspace").Map.FindFirstChild(game.GetService(game, "Workspace").Map, "HellDimension") then
-    while not game.GetService(game, "Workspace").Map.FindFirstChild(game.GetService(game, "Workspace").Map, "HellDimension") do
-      if game.GetService(game, "Workspace").Enemies.FindFirstChild(game.GetService(game, "Workspace").Enemies, "Hell's Messenger") then
+    task.wait()
+    if game.GetService(game, "Workspace").Enemies.FindFirstChild(game.GetService(game, "Workspace").Enemies, "Cursed Skeleton") or game.GetService(game, "Workspace").Enemies.FindFirstChild(game.GetService(game, "Workspace").Enemies, "Hell's Messenger") then
+      local l_0, children, l_2 = pairs()
+      for l_3, l_4 in l_0 do
+        for l_3, l_4 in l_0 do
+          if l_4.Name == "Cursed Skeleton" or l_4.Name == "Hell's Messenger" then
+            task.wait()
+            EquipTool(SelectWeaponFarm)
+            Tween(l_4.HumanoidRootPart.CFrame * Farm_Mode)
+            l_4.HumanoidRootPart.CanCollide = false
+            local new = Vector3.new(60, 60, 60)
+            l_4.HumanoidRootPart.Size = new
+            l_4.HumanoidRootPart.Transparency = 1
+            l_4.Humanoid.ChangeState(l_4.Humanoid, 11)
+            l_4.Humanoid.ChangeState(l_4.Humanoid, 14)
+            AutoClick()
+            if not (0 >= l_4.Humanoid.Health or l_4.Humanoid.Health <= 0 or not l_4.Parent or Auto_Quest_Yama_3 == false) then
+              task.wait(5)
+              Tween(game.GetService(game, "Workspace").Map.HellDimension.Torch1.CFrame)
+              task.wait(1.5)
+              service_5.SendKeyEvent(service_5, true, "E", false, game)
+              task.wait(1.5)
+              Tween(game.GetService(game, "Workspace").Map.HellDimension.Torch2.CFrame)
+              task.wait(1.5)
+              service_5.SendKeyEvent(service_5, true, "E", false, game)
+              task.wait(1.5)
+              Tween(game.GetService(game, "Workspace").Map.HellDimension.Torch3.CFrame)
+              task.wait(1.5)
+              service_5.SendKeyEvent(service_5, true, "E", false, game)
+              task.wait(1.5)
+              Tween(game.GetService(game, "Workspace").Map.HellDimension.Exit.CFrame)
+            end
+          end
+        end
+      end
+    end
+    if Auto_Cursed_Dual_Katana ~= false and Auto_Quest_Yama_3 ~= false then
+      if CheckMaterial("Alucard Fragment") ~= 3 and ((game.GetService(game, "Workspace").Enemies.FindFirstChild(game.GetService(game, "Workspace").Enemies, "Soul Reaper") or service_9.FindFirstChild(service_9, "Soul Reaper")) and game.GetService(game, "Workspace").Enemies.FindFirstChild(game.GetService(game, "Workspace").Enemies, "Soul Reaper")) then
         local l_0, children, l_2 = pairs()
         for l_3, l_4 in l_0 do
           for l_3, l_4 in l_0 do
             task.wait()
-            if (game.GetService(game, "Workspace").Enemies.FindFirstChild(game.GetService(game, "Workspace").Enemies, "Cursed Skeleton") or game.GetService(game, "Workspace").Enemies.FindFirstChild(game.GetService(game, "Workspace").Enemies, "Hell's Messenger")) and (l_4.Name == "Cursed Skeleton" or l_4.Name == "Hell's Messenger") then
-              task.wait()
-              EquipTool(SelectWeaponFarm)
-              Tween(l_4.HumanoidRootPart.CFrame * Farm_Mode)
-              l_4.HumanoidRootPart.CanCollide = false
-              local new = Vector3.new(60, 60, 60)
-              l_4.HumanoidRootPart.Size = new
-              l_4.HumanoidRootPart.Transparency = 1
-              l_4.Humanoid.ChangeState(l_4.Humanoid, 11)
-              l_4.Humanoid.ChangeState(l_4.Humanoid, 14)
-              AutoClick()
-              if not (0 >= l_4.Humanoid.Health or l_4.Humanoid.Health <= 0 or not l_4.Parent or Auto_Quest_Yama_3 == false) then
-                task.wait(5)
-                Tween(game.GetService(game, "Workspace").Map.HellDimension.Torch1.CFrame)
-                task.wait(1.5)
-                service_5.SendKeyEvent(service_5, true, "E", false, game)
-                task.wait(1.5)
-                Tween(game.GetService(game, "Workspace").Map.HellDimension.Torch2.CFrame)
-                task.wait(1.5)
-                service_5.SendKeyEvent(service_5, true, "E", false, game)
-                task.wait(1.5)
-                Tween(game.GetService(game, "Workspace").Map.HellDimension.Torch3.CFrame)
-                task.wait(1.5)
-                service_5.SendKeyEvent(service_5, true, "E", false, game)
-                task.wait(1.5)
-                Tween(game.GetService(game, "Workspace").Map.HellDimension.Exit.CFrame)
-              end
-            end
-            if Auto_Cursed_Dual_Katana ~= false and Auto_Quest_Yama_3 ~= false then
-              if CheckMaterial("Alucard Fragment") == 3 then
-              elseif (game.GetService(game, "Workspace").Enemies.FindFirstChild(game.GetService(game, "Workspace").Enemies, "Soul Reaper") or service_9.FindFirstChild(service_9, "Soul Reaper")) and game.GetService(game, "Workspace").Enemies.FindFirstChild(game.GetService(game, "Workspace").Enemies, "Soul Reaper") then
-                local l_0, children, l_2 = pairs()
-                for l_3, l_4 in l_0 do
-                  for l_3, l_4 in l_0 do
-                    task.wait()
-                    EquipTool(SelectWeaponFarm)
-                    Tween(l_4.HumanoidRootPart.CFrame * Farm_Mode)
-                    l_4.HumanoidRootPart.CanCollide = false
-                    l_4.HumanoidRootPart.Size = Vector3.new(60, 60, 60)
-                    l_4.HumanoidRootPart.Transparency = 1
-                    l_4.Humanoid.ChangeState(l_4.Humanoid, 11)
-                    l_4.Humanoid.ChangeState(l_4.Humanoid, 14)
-                    AutoClick()
-                    local service = game.GetService(game, "Workspace")
-                    if not (l_4.Name ~= "Soul Reaper" or 0 >= l_4.Humanoid.Health or Auto_Cursed_Dual_Katana == false or Auto_Quest_Yama_3 == false or service.Map.FindFirstChild(service.Map, "HellDimension")) then
-                      Tween()
-                    end
-                  end
-                end
-                service_9.Remotes.CommF_.InvokeServer(service_9.Remotes.CommF_, "Bones", "Buy", 1, 1)
-              end
+            EquipTool(SelectWeaponFarm)
+            Tween(l_4.HumanoidRootPart.CFrame * Farm_Mode)
+            l_4.HumanoidRootPart.CanCollide = false
+            l_4.HumanoidRootPart.Size = Vector3.new(60, 60, 60)
+            l_4.HumanoidRootPart.Transparency = 1
+            l_4.Humanoid.ChangeState(l_4.Humanoid, 11)
+            l_4.Humanoid.ChangeState(l_4.Humanoid, 14)
+            AutoClick()
+            local service = game.GetService(game, "Workspace")
+            if not (l_4.Name ~= "Soul Reaper" or 0 >= l_4.Humanoid.Health or Auto_Cursed_Dual_Katana == false or Auto_Quest_Yama_3 == false or service.Map.FindFirstChild(service.Map, "HellDimension")) then
+              Tween()
             end
           end
         end
+        service_9.Remotes.CommF_.InvokeServer(service_9.Remotes.CommF_, "Bones", "Buy", 1, 1)
       end
     end
   end
@@ -10892,53 +6860,9 @@ spawn(function()
   end
 end)
 end)
-local craft_page_9 = {
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}.CraftPage({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Elite Hunter", 2)
-local label_1 = craft_page_9.Label(craft_page_9, "")
-local label_2 = craft_page_9.Label(craft_page_9, "")
+local craft_page_7 = tab_3.CraftPage(tab_3, "Elite Hunter", 2)
+local label_1 = craft_page_7.Label(craft_page_7, "")
+local label_2 = craft_page_7.Label(craft_page_7, "")
 spawn(function()
   while r0 do
     local invoke_server = service_9.Remotes.CommF_.InvokeServer(service_9.Remotes.CommF_, "EliteHunter", "Progress")
@@ -10952,7 +6876,7 @@ spawn(function()
   end
   label_2.Set(label_2, "Boss Status : Boss is not Spawned.")
 end)
-craft_page_9.Toggle(craft_page_9, "Auto Elite Hunter", AutoEliteHunter, function(a0)
+craft_page_7.Toggle(craft_page_7, "Auto Elite Hunter", AutoEliteHunter, function(a0)
   AutoEliteHunter = a0
   CancelTween(AutoEliteHunter)
 end)
@@ -10987,18 +6911,18 @@ spawn(function()
                     AutoClick()
                     if AutoEliteHunter == false or l_4.Humanoid.Health <= 0 or not l_4.Parent then
                       if service_9.FindFirstChild(service_9, "Diablo") then
-                        if l_65 then
+                        if l_63 then
                           BTP(service_9.FindFirstChild(service_9, "Diablo").HumanoidRootPart.CFrame)
                         else
                           Tween(service_9.FindFirstChild(service_9, "Diablo").HumanoidRootPart.CFrame)
                         end
-                        if l_65 then
+                        if l_63 then
                           BTP(service_9.FindFirstChild(service_9, "Deandre").HumanoidRootPart.CFrame)
                         else
                           Tween(service_9.FindFirstChild(service_9, "Deandre").HumanoidRootPart.CFrame)
                         end
                       elseif service_9.FindFirstChild(service_9, "Deandre") and service_9.FindFirstChild(service_9, "Urban") then
-                        if l_65 then
+                        if l_63 then
                           BTP(service_9.FindFirstChild(service_9, "Urban").HumanoidRootPart.CFrame)
                         else
                           Tween(service_9.FindFirstChild(service_9, "Urban").HumanoidRootPart.CFrame)
@@ -11017,52 +6941,8 @@ spawn(function()
   end
 end)
 end)
-local craft_page_10 = {
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}.CraftPage({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Cake Prince & Dough King", 2)
-local label_3 = craft_page_10.Label(craft_page_10, "")
+local craft_page_8 = tab_3.CraftPage(tab_3, "Cake Prince & Dough King", 2)
+local label_3 = craft_page_8.Label(craft_page_8, "")
 spawn(function()
   while r0 do
     local len = string.len()
@@ -11080,7 +6960,7 @@ spawn(function()
   end
   label_3.Set(label_3, "Cake Prince Spawned...!!!")
 end)
-craft_page_10.Toggle(craft_page_10, "Auto Cake Prince", AutoCakePrince, function(a0)
+craft_page_8.Toggle(craft_page_8, "Auto Cake Prince", AutoCakePrince, function(a0)
   AutoCakePrince = a0
   CancelTween(AutoCakePrince)
 end)
@@ -11136,7 +7016,7 @@ spawn(function()
                 l_0 = CFrame
                 l_0 = l_0.new
                 l_0 = l_0(-2077, 252, -12373)
-                if l_65 then
+                if l_63 then
                   BTP(l_0)
                 else
                   Tween(l_0)
@@ -11150,7 +7030,7 @@ spawn(function()
   end
 end)
 end)
-craft_page_10.Toggle(craft_page_10, "Auto Dough King (Need Sweet Chalice)", _G.AutoDoughKing, function(a0)
+craft_page_8.Toggle(craft_page_8, "Auto Dough King (Need Sweet Chalice)", _G.AutoDoughKing, function(a0)
   _G.AutoDoughKing = a0
   CancelTween(_G.AutoDoughKing)
 end)
@@ -11250,18 +7130,18 @@ spawn(function()
                       AutoClick()
                       if not l_4.FindFirstChild(l_4, "HumanoidRootPart") or not l_4.FindFirstChild(l_4, "Humanoid") or 0 >= l_4.Humanoid.Health or not _G.AutoDoughKing or not l_4.Parent or l_4.Humanoid.Health <= 0 or game.GetService(game, "Workspace").Enemies.FindFirstChild(game.GetService(game, "Workspace").Enemies, l_4.Name) then
                       elseif service_9.FindFirstChild(service_9, "Diablo") then
-                        if l_65 then
+                        if l_63 then
                           BTP(service_9.FindFirstChild(service_9, "Diablo").HumanoidRootPart.CFrame)
                         else
                           Tween(service_9.FindFirstChild(service_9, "Diablo").HumanoidRootPart.CFrame)
                         end
-                        if l_65 then
+                        if l_63 then
                           BTP(service_9.FindFirstChild(service_9, "Deandre").HumanoidRootPart.CFrame)
                         else
                           Tween(service_9.FindFirstChild(service_9, "Deandre").HumanoidRootPart.CFrame)
                         end
                       elseif service_9.FindFirstChild(service_9, "Deandre") and service_9.FindFirstChild(service_9, "Urban") then
-                        if l_65 then
+                        if l_63 then
                           BTP(service_9.FindFirstChild(service_9, "Urban").HumanoidRootPart.CFrame)
                         else
                           Tween(service_9.FindFirstChild(service_9, "Urban").HumanoidRootPart.CFrame)
@@ -11319,8 +7199,8 @@ spawn(function()
   end
 end)
 end)
-local craft_page_11 = l_47.CraftPage(l_47, "Race V4 Quest", 1)
-craft_page_11.Toggle(craft_page_11, "Complete All Trial Race", AutoCompleteRace, function(a0)
+local craft_page_9 = tab_6.CraftPage(tab_6, "Race V4 Quest", 1)
+craft_page_9.Toggle(craft_page_9, "Complete All Trial Race", AutoCompleteRace, function(a0)
   AutoCompleteRace = a0
 end)
 spawn(function()
@@ -11517,10 +7397,10 @@ end)
   for l_3, l_4 in l_0 do
   end
 end)
-craft_page_11.Toggle(craft_page_11, "Auto Acient Quest", AutoFarmAcient, function(a0)
+craft_page_9.Toggle(craft_page_9, "Auto Acient Quest", AutoFarmAcient, function(a0)
   AutoFarmAcient = a0
 end)
-craft_page_11.Toggle(craft_page_11, "Auto Use V4", false, function(a0)
+craft_page_9.Toggle(craft_page_9, "Auto Use V4", false, function(a0)
   _G.UseAwakenZ = a0
 end)
 local new_1 = CFrame.new(216.211181640625, 126.9352035522461, -12599.0732421875)
@@ -11557,7 +7437,7 @@ spawn(function()
               end
             end
           end
-        elseif l_65 then
+        elseif l_63 then
           BTP(new_1)
         else
           Tween(new_1)
@@ -11599,10 +7479,10 @@ spawn(function()
 end)
   end
 end)
-craft_page_11.Button(craft_page_11, "Auto Upgrade Tier", function(a0)
+craft_page_9.Button(craft_page_9, "Auto Upgrade Tier", function(a0)
   service_9.Remotes.CommF_.InvokeServer(service_9.Remotes.CommF_, "UpgradeRace", "Buy")
 end)
-craft_page_11.Button(craft_page_11, "Unlock Lever", function()
+craft_page_9.Button(craft_page_9, "Unlock Lever", function()
   venyx.Notify(venyx, "Unlocked")
   local service = game.GetService(game, "Workspace")
   if service.Map["Temple of Time"].Lever.Prompt.FindFirstChild(service.Map["Temple of Time"].Lever.Prompt, "ProximityPrompt") then
@@ -11640,12 +7520,12 @@ craft_page_11.Button(craft_page_11, "Unlock Lever", function()
   end
   Instance.new("ProximityPrompt").Triggered.Connect(Instance.new("ProximityPrompt").Triggered, onProximity)
 end)
-craft_page_11.Button(craft_page_11, "Clock Acces", function()
+craft_page_9.Button(craft_page_9, "Clock Acces", function()
   local service = game.GetService(game, "Workspace")
   service.Map["Temple of Time"].DoNotEnter.Remove(service.Map["Temple of Time"].DoNotEnter)
   game.GetService(game, "Workspace").Map["Temple of Time"].ClockRoomExit.Remove(game.GetService(game, "Workspace").Map["Temple of Time"].ClockRoomExit)
 end)
-craft_page_11.Button(craft_page_11, "Disabled Inf Stairs", function()
+craft_page_9.Button(craft_page_9, "Disabled Inf Stairs", function()
   local l_0 = l_18()
   l_0.InfiniteStairs.Disabled = value
 end)
@@ -11653,15 +7533,25 @@ spawn(function()
   pcall(function()
   while r0 do
     local l_0 = l_18()
-    task.wait()
-    EquipItem("Awakening")
-    service_6.Button1Down()
-    if 1 <= l_0.RaceEnergy.Value and l_18().RaceTransformed.Value == false and _G.UseAwakenZ and l_18().RaceTransformed.Value ~= true then
+    if 1 <= l_0.RaceEnergy.Value then
+      if l_18().RaceTransformed.Value == false then
+        while l_18().RaceTransformed.Value do
+          if l_18().RaceTransformed.Value == true then
+          end
+        end
+      else
+        if not task.wait() then
+        end
+        while task.wait() do
+        end
+      end
     end
+  end
+  while task.wait() do
   end
 end)
 end)
-local craft_page_12 = l_47.CraftPage(l_47, "Teleports", 2)
+local craft_page_10 = tab_6.CraftPage(tab_6, "Teleports", 2)
 Islandplace = {
   "Top Of GreatTree",
   "Timple Of Time",
@@ -11674,10 +7564,10 @@ Islandplace = {
   "Mink Door",
   "Sky Door"
 }
-craft_page_12.Dropdown(craft_page_12, "Select Place", Islandplace, "", function(a0)
+craft_page_10.Dropdown(craft_page_10, "Select Place", Islandplace, "", function(a0)
   _G.SelectIslandRace = a0
 end)
-craft_page_12.Toggle(craft_page_12, "Teleport To Top Of GreatTree", _G.TeleportDoor, "", function(a0)
+craft_page_10.Toggle(craft_page_10, "Teleport To Top Of GreatTree", _G.TeleportDoor, "", function(a0)
   _G.TeleportDoor = a0
   if _G.TeleportDoor == true then
     while _G.TeleportDoor == "Top Of GreatTree" do
@@ -11687,7 +7577,7 @@ craft_page_12.Toggle(craft_page_12, "Teleport To Top Of GreatTree", _G.TeleportD
     end
   end
 end)
-craft_page_12.Toggle(craft_page_12, "Teleport to Race Door", RaceDoors, function(a0)
+craft_page_10.Toggle(craft_page_10, "Teleport to Race Door", RaceDoors, function(a0)
   RaceDoors = a0
   CancelTween(RaceDoors)
 end)
@@ -11719,13 +7609,13 @@ spawn(function()
   end
   TP2()
 end)
-craft_page_12.Button(craft_page_12, "Teleport to Safe Zone", function()
+craft_page_10.Button(craft_page_10, "Teleport to Safe Zone", function()
   TP2()
 end)
-craft_page_12.Button(craft_page_12, "Teleport to PVP Zone", function()
+craft_page_10.Button(craft_page_10, "Teleport to PVP Zone", function()
   TP2()
 end)
-local craft_page_13 = l_0.Evil(l_0).Tab(l_47, "Sea Events", l_49).CraftPage(l_0.Evil(l_0).Tab(l_47, "Sea Events", l_49), "Rough Sea", 1)
+local craft_page_11 = tab_5.CraftPage(tab_5, "Rough Sea", 1)
 spawn(function()
   pcall(function()
   while r0 do
@@ -11737,9 +7627,9 @@ spawn(function()
   FrozenIsland.Set(FrozenIsland, "��: Frozen Dimension Not Found")
 end)
 end)
-local label_4 = craft_page_13.Label(craft_page_13, "")
+local label_4 = craft_page_11.Label(craft_page_11, "")
 FrozenIsland = label_4
-craft_page_13.Toggle(craft_page_13, "Auto Sail To Rough Sea", _G.BiirTrax, function(a0)
+craft_page_11.Toggle(craft_page_11, "Auto Sail To Rough Sea", _G.BiirTrax, function(a0)
   if a0 then
     _G.BiirTrax = true
   else
@@ -11900,8 +7790,7 @@ spawn(function()
           while 0.1 < find_first_child.PrimaryPart.CFrame.lookVector * 10 do
             find_first_child.SetPrimaryPartCFrame(find_first_child, find_first_child.PrimaryPart.CFrame + find_first_child.PrimaryPart.CFrame.lookVector * 10.5)
             task.wait()
-            if not _G.BiirTrax then
-            elseif 0.1 < (find_first_child.PrimaryPart.Position - l_10).Magnitude then
+            if _G.BiirTrax then
             end
           end
         end
@@ -11911,7 +7800,7 @@ spawn(function()
 end)
   end
 end)
-craft_page_13.Toggle(craft_page_13, "TP Frozen Dimension (Need Spawn)", false, function(a0)
+craft_page_11.Toggle(craft_page_11, "TP Frozen Dimension (Need Spawn)", false, function(a0)
   _G.BjirFrozenCuy = a0
   CancelTween(_G.BjirFrozenCuy)
 end)
@@ -11925,14 +7814,13 @@ spawn(function()
 end)
   end
 end)
-craft_page_13.Toggle(craft_page_13, "Auto Kill Terrorshark", _G.Makori_gay, function(a0)
+craft_page_11.Toggle(craft_page_11, "Auto Kill Terrorshark", _G.Makori_gay, function(a0)
   _G.bjirTerrorshark = a0
   CancelTween(_G.bjirTerrorshark)
 end)
-local l_39 = 7449423635
 spawn(function()
   while r0 do
-    if _G.bjirTerrorshark and l_39 then
+    if _G.bjirTerrorshark and World3 then
     end
   end
   pcall(function()
@@ -11979,13 +7867,13 @@ spawn(function()
   end
 end)
 end)
-craft_page_13.Toggle(craft_page_13, "Auto Kill Shark", _G.Makori_gay, function(a0)
+craft_page_11.Toggle(craft_page_11, "Auto Kill Shark", _G.Makori_gay, function(a0)
   _G.bjirShark = a0
   CancelTween(_G.bjirShark)
 end)
 spawn(function()
   while r0 do
-    if _G.bjirShark and l_39 then
+    if _G.bjirShark and World3 then
     end
   end
   pcall(function()
@@ -12032,13 +7920,13 @@ spawn(function()
   end
 end)
 end)
-craft_page_13.Toggle(craft_page_13, "Auto Kill Piranha", _G.Makori_gay, function(a0)
+craft_page_11.Toggle(craft_page_11, "Auto Kill Piranha", _G.Makori_gay, function(a0)
   _G.bjirPiranha = a0
   CancelTween(_G.bjirPiranha)
 end)
 spawn(function()
   while r0 do
-    if _G.bjirPiranha and l_39 then
+    if _G.bjirPiranha and World3 then
     end
   end
   pcall(function()
@@ -12085,7 +7973,7 @@ spawn(function()
   end
 end)
 end)
-craft_page_13.Toggle(craft_page_13, "Auto Kill GhostShip", _G.bjirFishBoat, function(a0)
+craft_page_11.Toggle(craft_page_11, "Auto Kill GhostShip", _G.bjirFishBoat, function(a0)
   _G.bjirFishBoat = a0
   CancelTween(_G.bjirFishBoat)
 end)
@@ -12221,7 +8109,7 @@ spawn(function()
   end
 end)
 end)
-craft_page_13.Toggle(craft_page_13, "Get Anchor (Need Material)", _G.BjirAnchorCuy, function(a0)
+craft_page_11.Toggle(craft_page_11, "Get Anchor (Need Material)", _G.BjirAnchorCuy, function(a0)
   local l_2 = function(a0, a1)
   local l_2, invoke_server, l_4 = pairs()
   for l_5, l_6 in l_2 do
@@ -12491,8 +8379,7 @@ spawn(function()
           while 0.1 < l_6.PrimaryPart.CFrame.lookVector * 10 do
             l_6.SetPrimaryPartCFrame(l_6, l_6.PrimaryPart.CFrame + l_6.PrimaryPart.CFrame.lookVector * 10.5)
             task.wait()
-            if not _G.BiirTrax then
-            elseif 0.1 < (l_6.PrimaryPart.Position - l_9).Magnitude then
+            if _G.BiirTrax then
             end
           end
         end
@@ -12502,7 +8389,7 @@ spawn(function()
 end)
   end
 end)
-l_0.Evil(l_0).Tab(l_47, "Sea Events", l_49).CraftPage(l_0.Evil(l_0).Tab(l_47, "Sea Events", l_49), "Sea Beast", 1).Toggle(l_0.Evil(l_0).Tab(l_47, "Sea Events", l_49).CraftPage(l_0.Evil(l_0).Tab(l_47, "Sea Events", l_49), "Sea Beast", 1), "Kill Sea Beast", false, function(a0)
+tab_5.CraftPage(tab_5, "Sea Beast", 1).Toggle(tab_5.CraftPage(tab_5, "Sea Beast", 1), "Kill Sea Beast", false, function(a0)
   _G.AutoSeaBest = a0
   CancelTween(_G.AutoFarmSeabaest)
 end)
@@ -12647,7 +8534,7 @@ spawn(function()
   end
 end)
 end)
-l_0.Evil(l_0).Tab(l_47, "Sea Events", l_49).CraftPage(l_0.Evil(l_0).Tab(l_47, "Sea Events", l_49), "Sea Beast", 1).Toggle(l_0.Evil(l_0).Tab(l_47, "Sea Events", l_49).CraftPage(l_0.Evil(l_0).Tab(l_47, "Sea Events", l_49), "Sea Beast", 1), "Kill PirateShips", _G.KillGhostShip, function(a0)
+tab_5.CraftPage(tab_5, "Sea Beast", 1).Toggle(tab_5.CraftPage(tab_5, "Sea Beast", 1), "Kill PirateShips", _G.KillGhostShip, function(a0)
   _G.KillGhostShip = a0
   CancelTween(_G.KillGhostShip)
 end)
@@ -12698,11 +8585,11 @@ spawn(function()
   end
 end)
 end)
-l_0.Evil(l_0).Tab(l_47, "Sea Events", l_49).CraftPage(l_0.Evil(l_0).Tab(l_47, "Sea Events", l_49), "Sea Beast", 1).Toggle(l_0.Evil(l_0).Tab(l_47, "Sea Events", l_49).CraftPage(l_0.Evil(l_0).Tab(l_47, "Sea Events", l_49), "Sea Beast", 1), "Kill Sea Beast Hop", false, function(a0)
+tab_5.CraftPage(tab_5, "Sea Beast", 1).Toggle(tab_5.CraftPage(tab_5, "Sea Beast", 1), "Kill Sea Beast Hop", false, function(a0)
   _G.AutoSeaBestHop = a0
 end)
-local craft_page_14 = l_0.Evil(l_0).Tab(l_47, "Sea Events", l_49).CraftPage(l_0.Evil(l_0).Tab(l_47, "Sea Events", l_49), "Config Rough Sea", 2)
-craft_page_14.Dropdown(craft_page_14, "Select Weapon", {"Melee", "Blox Fruit", "Sword", "Gun"}, "", function(a0)
+local craft_page_12 = tab_5.CraftPage(tab_5, "Config Rough Sea", 2)
+craft_page_12.Dropdown(craft_page_12, "Select Weapon", {"Melee", "Blox Fruit", "Sword", "Gun"}, "", function(a0)
   SelectWeaponSeaFarm = a0
 end)
 spawn(function()
@@ -12720,26 +8607,26 @@ spawn(function()
   end
 end)
 DisSeaFarm = 30
-craft_page_14.Textbox(craft_page_14, "Distance Sea Farm", DisSeaFarm, function(a0)
+craft_page_12.Textbox(craft_page_12, "Distance Sea Farm", DisSeaFarm, function(a0)
   DisSeaFarm = a0
 end)
 SpeedBoatTween = 200
-craft_page_14.Textbox(craft_page_14, "Tween Boat Speed", SpeedBoatTween, function(a0)
+craft_page_12.Textbox(craft_page_12, "Tween Boat Speed", SpeedBoatTween, function(a0)
   SpeedBoatTween = a0
 end)
 SpeedAllBoat = 100
-craft_page_14.Textbox(craft_page_14, "Speed Boat Hack", SpeedAllBoat, function(a0)
+craft_page_12.Textbox(craft_page_12, "Speed Boat Hack", SpeedAllBoat, function(a0)
   SpeedAllBoat = a0
   if SpeedAllBoat then
     local service = game.GetService(game, "Workspace")
     service.Boats.PirateBrigade.VehicleSeat.MaxSpeed = SpeedAllBoat
   end
 end)
-local craft_page_15 = l_0.Evil(l_0).Tab(l_47, "Sea Events", l_49).CraftPage(l_0.Evil(l_0).Tab(l_47, "Sea Events", l_49), "Kitsune Update", 2)
-craft_page_15.Toggle(craft_page_15, "Auto Teleports To Kitsune Islan", _G.TptoKisuneIsland, function(a0)
+local craft_page_13 = tab_5.CraftPage(tab_5, "Kitsune Update", 2)
+craft_page_13.Toggle(craft_page_13, "Auto Teleports To Kitsune Islan", _G.TptoKisuneIsland, function(a0)
   _G.TptoKisuneIsland = a0
 end)
-craft_page_15.Toggle(craft_page_15, "Auto Collect Azure", _G.ColletEmber, function(a0)
+craft_page_13.Toggle(craft_page_13, "Auto Collect Azure", _G.ColletEmber, function(a0)
   _G.ColletEmber = a0
 end)
 spawn(function()
@@ -12775,12 +8662,12 @@ spawn(function()
 end)
   end
 end)
-local craft_page_16 = l_0.Evil(l_0).Tab(l_0.Evil(l_0), l_47, 15557781267).CraftPage(l_0.Evil(l_0).Tab(l_0.Evil(l_0), l_47, 15557781267), "Player Stats", 1)
+local craft_page_14 = tab_4.CraftPage(tab_4, "Player Stats", 1)
 SelectPoint = 1
-craft_page_16.Textbox(craft_page_16, "Set Point", SelectPoint, function(a0)
+craft_page_14.Textbox(craft_page_14, "Set Point", SelectPoint, function(a0)
   SelectPoint = a0
 end)
-craft_page_16.Toggle(craft_page_16, "Melee", Meleef, function(a0)
+craft_page_14.Toggle(craft_page_14, "Melee", Meleef, function(a0)
   Meleef = a0
   while r1 do
     if Meleef then
@@ -12788,7 +8675,7 @@ craft_page_16.Toggle(craft_page_16, "Melee", Meleef, function(a0)
     end
   end
 end)
-craft_page_16.Toggle(craft_page_16, "Defense", Defensef, function(a0)
+craft_page_14.Toggle(craft_page_14, "Defense", Defensef, function(a0)
   Defensef = a0
   while r1 do
     if Defensef then
@@ -12796,7 +8683,7 @@ craft_page_16.Toggle(craft_page_16, "Defense", Defensef, function(a0)
     end
   end
 end)
-craft_page_16.Toggle(craft_page_16, "Sword", Swordf, function(a0)
+craft_page_14.Toggle(craft_page_14, "Sword", Swordf, function(a0)
   Swordf = a0
   while r1 do
     if Swordf then
@@ -12804,7 +8691,7 @@ craft_page_16.Toggle(craft_page_16, "Sword", Swordf, function(a0)
     end
   end
 end)
-craft_page_16.Toggle(craft_page_16, "Gun", Gunf, function(a0)
+craft_page_14.Toggle(craft_page_14, "Gun", Gunf, function(a0)
   Gunf = a0
   while r1 do
     if Gunf then
@@ -12812,7 +8699,7 @@ craft_page_16.Toggle(craft_page_16, "Gun", Gunf, function(a0)
     end
   end
 end)
-craft_page_16.Toggle(craft_page_16, "Devil Fruit", DevilFruitf, function(a0)
+craft_page_14.Toggle(craft_page_14, "Devil Fruit", DevilFruitf, function(a0)
   DevilFruitf = a0
   while r1 do
     if DevilFruitf then
@@ -12820,8 +8707,8 @@ craft_page_16.Toggle(craft_page_16, "Devil Fruit", DevilFruitf, function(a0)
     end
   end
 end)
-local craft_page_17 = l_0.Evil(l_0).Tab(l_0.Evil(l_0), l_47, 15557781267).CraftPage(l_0.Evil(l_0).Tab(l_0.Evil(l_0), l_47, 15557781267), "Combat", 2)
-local label_4 = craft_page_17.Label(craft_page_17, "Players")
+local craft_page_15 = tab_4.CraftPage(tab_4, "Combat", 2)
+local label_4 = craft_page_15.Label(craft_page_15, "Players")
 spawn(function()
   while r0 do
     pcall(function()
@@ -12841,22 +8728,22 @@ end)
   end
 end)
 Playerslist = {}
-local l_113, children, l_115 = pairs()
-for l_116, l_117 in l_113 do
-  for l_116, l_117 in l_113 do
+local l_100, children, l_102 = pairs()
+for l_103, l_104 in l_100 do
+  for l_103, l_104 in l_100 do
     while l_0 do
     end
     for l_28, l_29 in l_25 do
     end
-    for l_73, l_74 in l_70 do
+    for l_71, l_72 in l_68 do
     end
-    table.insert(Playerslist, l_117.Name)
+    table.insert(Playerslist, l_104.Name)
   end
 end
-local dropdown_1 = craft_page_17.Dropdown(craft_page_17, "Select Players", Playerslist, "", function(a0)
+local dropdown_1 = craft_page_15.Dropdown(craft_page_15, "Select Players", Playerslist, "", function(a0)
   _G.SelectPly = a0
 end)
-craft_page_17.Button(craft_page_17, "Refresh Player", function()
+craft_page_15.Button(craft_page_15, "Refresh Player", function()
   Playerslist = {}
   dropdown_1.Clear(dropdown_1)
   local l_0, children, l_2 = pairs()
@@ -12866,7 +8753,7 @@ craft_page_17.Button(craft_page_17, "Refresh Player", function()
     end
   end
 end)
-craft_page_17.Toggle(craft_page_17, "Spectate Player", false, function(a0)
+craft_page_15.Toggle(craft_page_15, "Spectate Player", false, function(a0)
   SpectatePlys = a0
   l_19()
   service_1.FindFirstChild(service_1, _G.SelectPly)
@@ -12876,7 +8763,7 @@ craft_page_17.Toggle(craft_page_17, "Spectate Player", false, function(a0)
   local l_4 = l_19()
   service.Camera.CameraSubject = l_4
 end)
-craft_page_17.Toggle(craft_page_17, "Teleport", false, function(a0)
+craft_page_15.Toggle(craft_page_15, "Teleport", false, function(a0)
   _G.TeleportPly = a0
   pcall(function()
   Tween(service_1[_G.SelectPly].Character.HumanoidRootPart.CFrame)
@@ -12886,7 +8773,7 @@ craft_page_17.Toggle(craft_page_17, "Teleport", false, function(a0)
   end
 end)
 end)
-craft_page_17.Toggle(craft_page_17, "Auto Farm Player", false, function(a0)
+craft_page_15.Toggle(craft_page_15, "Auto Farm Player", false, function(a0)
   _G.Auto_Kill_Ply = a0
   CancelTween(_G.Auto_Kill_Ply)
 end)
@@ -12934,7 +8821,7 @@ spawn(function()
 end)
   end
 end)
-craft_page_17.Toggle(craft_page_17, "Aimbot Gun", false, function(a0)
+craft_page_15.Toggle(craft_page_15, "Aimbot Gun", false, function(a0)
   _G.Aimbot_Gun = a0
 end)
 spawn(function()
@@ -12952,7 +8839,7 @@ spawn(function()
   service_6.Button1Down()
 end)
 end)
-craft_page_17.Toggle(craft_page_17, "Aimbot Skill", false, function(a0)
+craft_page_15.Toggle(craft_page_15, "Aimbot Skill", false, function(a0)
   _G.Aimbot_Skill = a0
 end)
 spawn(function()
@@ -12967,7 +8854,7 @@ spawn(function()
   l_18().FindFirstChild(l_18(), l_3.FindFirstChildOfClass(l_3, "Tool").Name).RemoteEvent.FireServer()
 end)
 end)
-craft_page_17.Toggle(craft_page_17, "Enabled PvP", false, function(a0)
+craft_page_15.Toggle(craft_page_15, "Enabled PvP", false, function(a0)
   _G.EnabledPvP = a0
 end)
 spawn(function()
@@ -12979,7 +8866,7 @@ spawn(function()
   service_9.Remotes.CommF_.InvokeServer(service_9.Remotes.CommF_, "EnablePvp")
 end)
 end)
-craft_page_17.Toggle(craft_page_17, "Safe Mode", false, function(a0)
+craft_page_15.Toggle(craft_page_15, "Safe Mode", false, function(a0)
   _G.Safe_Mode = a0
   CancelTween(_G.Safe_Mode)
 end)
@@ -12994,12 +8881,12 @@ spawn(function()
   l_0.CFrame = l_1.CFrame
 end)
 end)
-craft_page_17.Button(craft_page_17, "Respawn", function()
+craft_page_15.Button(craft_page_15, "Respawn", function()
   service_9.Remotes.CommF_.InvokeServer(service_9.Remotes.CommF_, "SetTeam", "Pirates")
   task.wait()
 end)
 local tostring = tostring(service_1.LocalPlayer.leaderstats["Bounty/Honor"].Value)
-local label_5 = craft_page_17.Label(craft_page_17, "Current Bounties :")
+local label_5 = craft_page_15.Label(craft_page_15, "Current Bounties :")
 spawn(function()
   while r0 do
     pcall(function()
@@ -13026,7 +8913,7 @@ spawn(function()
 end)
   end
 end)
-local label_6 = craft_page_17.Label(craft_page_17, "Earned")
+local label_6 = craft_page_15.Label(craft_page_15, "Earned")
 tostring(service_1.LocalPlayer.leaderstats["Bounty/Honor"].Value)
 local tostring_1 = tostring(service_1.LocalPlayer.leaderstats["Bounty/Honor"].Value - service_1.LocalPlayer.leaderstats["Bounty/Honor"].Value)
 spawn(function()
@@ -13052,7 +8939,7 @@ spawn(function()
 end)
   end
 end)
-craft_page_17.Toggle(craft_page_17, "Auto Farm Bounty", _G.AutoFarmBounty, function(a0)
+craft_page_15.Toggle(craft_page_15, "Auto Farm Bounty", _G.AutoFarmBounty, function(a0)
   _G.AutoFarmBounty = a0
   CancelTween(_G.AutoFarmBounty)
 end)
@@ -13220,7 +9107,7 @@ spawn(function()
   service_9.Remotes.CommF_.InvokeServer(service_9.Remotes.CommF_, "EnablePvp")
 end)
 end)
-craft_page_17.Toggle(craft_page_17, "Auto Farm Bounty Hop", _G.AutoFarmBounty_Hop, function(a0)
+craft_page_15.Toggle(craft_page_15, "Auto Farm Bounty Hop", _G.AutoFarmBounty_Hop, function(a0)
   _G.AutoFarmBounty_Hop = a0
 end)
 spawn(function()
@@ -13233,15 +9120,15 @@ spawn(function()
   Hop()
 end)
 end)
-craft_page_17.Button(craft_page_17, "Next Player", function()
+craft_page_15.Button(craft_page_15, "Next Player", function()
   NextplySelect = true
   task.wait(0.1)
   NextplySelect = false
 end)
-craft_page_17.Slider(craft_page_17, "Lock Bounty", 1, 25000000, 750000, function(a0)
+craft_page_15.Slider(craft_page_15, "Lock Bounty", 1, 25000000, 750000, function(a0)
   _G.BountyLock = a0
 end)
-craft_page_17.Toggle(craft_page_17, "Start Bounty Lock", false, function(a0)
+craft_page_15.Toggle(craft_page_15, "Start Bounty Lock", false, function(a0)
   _G.StartBountyLock = a0
 end)
 spawn(function()
@@ -13255,95 +9142,7 @@ spawn(function()
   end
 end)
 end)
-{
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}.CraftPage({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Other", 2).Toggle({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}.CraftPage({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Other", 2), "Auto Dark Dagger", AutoDarkDagger, function(a0)
+tab_3.CraftPage(tab_3, "Other", 2).Toggle(tab_3.CraftPage(tab_3, "Other", 2), "Auto Dark Dagger", AutoDarkDagger, function(a0)
   AutoDarkDagger = a0
   CancelTween(AutoDarkDagger)
 end)
@@ -13378,95 +9177,7 @@ spawn(function()
   end
 end)
 end)
-{
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}.CraftPage({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Other", 2).Toggle({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}.CraftPage({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Other", 2), "Auto Hallow Sycthe", AutoHallowSycthe, function(a0)
+tab_3.CraftPage(tab_3, "Other", 2).Toggle(tab_3.CraftPage(tab_3, "Other", 2), "Auto Hallow Sycthe", AutoHallowSycthe, function(a0)
   AutoHallowSycthe = a0
   CancelTween(AutoHallowSycthe)
 end)
@@ -13510,95 +9221,7 @@ spawn(function()
   end
 end)
 end)
-{
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}.CraftPage({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Other", 2).Toggle({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}.CraftPage({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Other", 2), "Auto Citizen", AutoCitizen, function(a0)
+tab_3.CraftPage(tab_3, "Other", 2).Toggle(tab_3.CraftPage(tab_3, "Other", 2), "Auto Citizen", AutoCitizen, function(a0)
   AutoCitizen = a0
   CancelTween(AutoCitizen)
   local find_first_child = service_1.LocalPlayer.Backpack.FindFirstChild(service_1.LocalPlayer.Backpack, "Musketeer Hat")
@@ -13640,7 +9263,7 @@ spawn(function()
               AutoClick()
               local service = game.GetService(game, "Workspace")
               if l_4.Name ~= "Forest Pirate" or AutoCitizen == false or not l_4.Parent or l_4.Humanoid.Health <= 0 or service_1.LocalPlayer.PlayerGui.Main.Quest.Visible == false or not service.Enemies.FindFirstChild(service.Enemies, l_4.Name) then
-              elseif l_65 then
+              elseif l_63 then
                 BTP()
               else
                 Tween()
@@ -13670,7 +9293,7 @@ spawn(function()
                 l_4.Humanoid.ChangeState(l_4.Humanoid, 14)
                 AutoClick()
                 if l_4.Name ~= "Captain Elephant" or AutoCitizen == false or l_4.Humanoid.Health <= 0 or not l_4.Parent or service_1.LocalPlayer.PlayerGui.Main.Quest.Visible == false or not gamr.GetService(gamr, "Workspace").Enemies.FindFirstChild(gamr.GetService(gamr, "Workspace").Enemies, l_4.Name) then
-                elseif l_65 then
+                elseif l_63 then
                   BTP()
                 else
                   Tween()
@@ -13692,95 +9315,7 @@ spawn(function()
   end
 end)
 end)
-{
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}.CraftPage({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Other", 2).Toggle({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}.CraftPage({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Other", 2), "Auto Evo Race V2", AutoEvoRace, function(a0)
+tab_3.CraftPage(tab_3, "Other", 2).Toggle(tab_3.CraftPage(tab_3, "Other", 2), "Auto Evo Race V2", AutoEvoRace, function(a0)
   AutoEvoRace = a0
   CancelTween(AutoEvoRace)
 end)
@@ -13822,7 +9357,7 @@ spawn(function()
             AutoClick()
             local find_first_child = service_1.LocalPlayer.Backpack.FindFirstChild(service_1.LocalPlayer.Backpack, "Flower 3")
             if l_4.Name ~= "Zombie" or find_first_child or not l_4.Parent or l_4.Humanoid.Health <= 0 or AutoEvoRace == false or not game.GetService(game, "Workspace").Enemies.FindFirstChild(game.GetService(game, "Workspace").Enemies, l_4.Name) then
-            elseif l_65 then
+            elseif l_63 then
               BTP()
             else
               Tween()
@@ -13837,95 +9372,7 @@ spawn(function()
   end
 end)
 end)
-{
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}.CraftPage({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Other", 2).Toggle({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}.CraftPage({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Other", 2), "Auto Bartilo", AutoBartilo, function(a0)
+tab_3.CraftPage(tab_3, "Other", 2).Toggle(tab_3.CraftPage(tab_3, "Other", 2), "Auto Bartilo", AutoBartilo, function(a0)
   AutoBartilo = a0
   CancelTween(AutoBartilo)
   local find_first_child = service_1.LocalPlayer.Backpack.FindFirstChild(service_1.LocalPlayer.Backpack, "Warrior Helmet")
@@ -13962,7 +9409,7 @@ spawn(function()
               AutoClick()
               local service = game.GetService(game, "Workspace")
               if l_4.Name ~= "Swan Pirate" or not l_4.Parent or l_4.Humanoid.Health <= 0 or AutoBartilo == false or service_1.LocalPlayer.PlayerGui.Main.Quest.Visible == false or not service.Enemies.FindFirstChild(service.Enemies, l_4.Name) then
-              elseif l_65 then
+              elseif l_63 then
                 BTP()
               else
                 Tween()
@@ -14030,95 +9477,7 @@ spawn(function()
   end
 end)
 end)
-{
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}.CraftPage({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Other", 2).Toggle({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}.CraftPage({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Other", 2), "Auto Factory", AutoFactory, function(a0)
+tab_3.CraftPage(tab_3, "Other", 2).Toggle(tab_3.CraftPage(tab_3, "Other", 2), "Auto Factory", AutoFactory, function(a0)
   AutoFactory = a0
   CancelTween(AutoFactory)
 end)
@@ -14131,113 +9490,34 @@ spawn(function()
         local l_0, children, l_2 = find_first_child()
         for l_3, l_4 in l_0 do
           for l_3, l_4 in l_0 do
-            if task.wait() then
-              task.wait()
-              Tween()
-              EquipTool(SelectWeaponFarm)
-              AutoClick()
-              if l_4.Name ~= "Core" or 0 >= l_4.Humanoid.Health or not l_4.Parent or l_4.Humanoid.Health <= 0 or AutoFactory == false then
-                Tween()
-                task.wait()
-                if service_9.FindFirstChild(service_9, "Core") and AutoFactory and (l_20().Position - Vector3.new(448.46756, 199.356781, -441.389252)).Magnitude > 10 then
+            if not task.wait() then
+            end
+            task.wait()
+            Tween()
+            EquipTool(SelectWeaponFarm)
+            AutoClick()
+            if l_4.Name ~= "Core" or 0 >= l_4.Humanoid.Health or not l_4.Parent or l_4.Humanoid.Health <= 0 or AutoFactory == false then
+              if service_9.FindFirstChild(service_9, "Core") then
+                while service_9.FindFirstChild(service_9, "Core") do
+                  if (l_20().Position - Vector3.new(448.46756, 199.356781, -441.389252)).Magnitude <= 10 then
+                  end
+                end
+              else
+                while (l_20().Position - Vector3.new(448.46756, 199.356781, -441.389252)).Magnitude do
                 end
               end
+            end
+            while (l_20().Position - Vector3.new(448.46756, 199.356781, -441.389252)).Magnitude do
             end
           end
         end
       end
     end
   end
+  while (l_20().Position - Vector3.new(448.46756, 199.356781, -441.389252)).Magnitude do
+  end
 end)
-{
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}.CraftPage({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Other", 2).Toggle({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}.CraftPage({
-  description = "**__Kitsune Finder__**",
-  color = 255,
-  type = "rich",
-  fields = {
-    {
-      name = "[������] Players Active",
-      value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-    },
-    {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-    {
-      name = "[������] Join Server",
-      value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-    },
-    {
-      name = "[������] Kitsune Check",
-      value = "```Kitsune Island is spawning : ������️```",
-      inline = true
-    }
-  },
-  footer = {text = "Zen Hub | Webhook"},
-  timestamp = DateTime.now().ToIsoDate(DateTime.now())
-}, "Other", 2), "Auto Don Swan", _G.SwanGlasses, function(a0)
+tab_3.CraftPage(tab_3, "Other", 2).Toggle(tab_3.CraftPage(tab_3, "Other", 2), "Auto Don Swan", _G.SwanGlasses, function(a0)
   _G.SwanGlasses = a0
   CancelTween(_G.SwanGlasses)
 end)
@@ -14263,7 +9543,7 @@ spawn(function()
             l_4.Humanoid.ChangeState(l_4.Humanoid, 11)
             l_4.Humanoid.ChangeState(l_4.Humanoid, 14)
             AutoClick()
-            if (l_4.Name ~= "Don Swan" or 0 >= l_4.Humanoid.Health or not a or not l_4.FindFirstChild(l_4, "Humanoid") or not l_4.FindFirstChild(l_4, "HumanoidRootPart") or _G.SwanGlasses == false or l_4.Humanoid.Health <= 0 or not l_4.Parent) and l_65 then
+            if (l_4.Name ~= "Don Swan" or 0 >= l_4.Humanoid.Health or not a or not l_4.FindFirstChild(l_4, "Humanoid") or not l_4.FindFirstChild(l_4, "HumanoidRootPart") or _G.SwanGlasses == false or l_4.Humanoid.Health <= 0 or not l_4.Parent) and l_63 then
               BTP()
             end
             Tween()
@@ -14274,95 +9554,7 @@ spawn(function()
   end
 end)
 if Third_Sea then
-  {
-    description = "**__Kitsune Finder__**",
-    color = 255,
-    type = "rich",
-    fields = {
-      {
-        name = "[������] Players Active",
-        value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-      },
-      {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-      {
-        name = "[������] Join Server",
-        value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-      },
-      {
-        name = "[������] Kitsune Check",
-        value = "```Kitsune Island is spawning : ������️```",
-        inline = true
-      }
-    },
-    footer = {text = "Zen Hub | Webhook"},
-    timestamp = DateTime.now().ToIsoDate(DateTime.now())
-  }.CraftPage({
-    description = "**__Kitsune Finder__**",
-    color = 255,
-    type = "rich",
-    fields = {
-      {
-        name = "[������] Players Active",
-        value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-      },
-      {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-      {
-        name = "[������] Join Server",
-        value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-      },
-      {
-        name = "[������] Kitsune Check",
-        value = "```Kitsune Island is spawning : ������️```",
-        inline = true
-      }
-    },
-    footer = {text = "Zen Hub | Webhook"},
-    timestamp = DateTime.now().ToIsoDate(DateTime.now())
-  }, "Other", 2).Toggle({
-    description = "**__Kitsune Finder__**",
-    color = 255,
-    type = "rich",
-    fields = {
-      {
-        name = "[������] Players Active",
-        value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-      },
-      {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-      {
-        name = "[������] Join Server",
-        value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-      },
-      {
-        name = "[������] Kitsune Check",
-        value = "```Kitsune Island is spawning : ������️```",
-        inline = true
-      }
-    },
-    footer = {text = "Zen Hub | Webhook"},
-    timestamp = DateTime.now().ToIsoDate(DateTime.now())
-  }.CraftPage({
-    description = "**__Kitsune Finder__**",
-    color = 255,
-    type = "rich",
-    fields = {
-      {
-        name = "[������] Players Active",
-        value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-      },
-      {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-      {
-        name = "[������] Join Server",
-        value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-      },
-      {
-        name = "[������] Kitsune Check",
-        value = "```Kitsune Island is spawning : ������️```",
-        inline = true
-      }
-    },
-    footer = {text = "Zen Hub | Webhook"},
-    timestamp = DateTime.now().ToIsoDate(DateTime.now())
-  }, "Other", 2), "Auto RIP Indra", RipIndra, function(a0)
+  tab_3.CraftPage(tab_3, "Other", 2).Toggle(tab_3.CraftPage(tab_3, "Other", 2), "Auto RIP Indra", RipIndra, function(a0)
   RipIndra = a0
   CancelTween(RipIndra)
 end)
@@ -14398,95 +9590,7 @@ end)
   end
 end)
 end)
-  {
-    description = "**__Kitsune Finder__**",
-    color = 255,
-    type = "rich",
-    fields = {
-      {
-        name = "[������] Players Active",
-        value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-      },
-      {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-      {
-        name = "[������] Join Server",
-        value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-      },
-      {
-        name = "[������] Kitsune Check",
-        value = "```Kitsune Island is spawning : ������️```",
-        inline = true
-      }
-    },
-    footer = {text = "Zen Hub | Webhook"},
-    timestamp = DateTime.now().ToIsoDate(DateTime.now())
-  }.CraftPage({
-    description = "**__Kitsune Finder__**",
-    color = 255,
-    type = "rich",
-    fields = {
-      {
-        name = "[������] Players Active",
-        value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-      },
-      {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-      {
-        name = "[������] Join Server",
-        value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-      },
-      {
-        name = "[������] Kitsune Check",
-        value = "```Kitsune Island is spawning : ������️```",
-        inline = true
-      }
-    },
-    footer = {text = "Zen Hub | Webhook"},
-    timestamp = DateTime.now().ToIsoDate(DateTime.now())
-  }, "Other", 2).Toggle({
-    description = "**__Kitsune Finder__**",
-    color = 255,
-    type = "rich",
-    fields = {
-      {
-        name = "[������] Players Active",
-        value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-      },
-      {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-      {
-        name = "[������] Join Server",
-        value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-      },
-      {
-        name = "[������] Kitsune Check",
-        value = "```Kitsune Island is spawning : ������️```",
-        inline = true
-      }
-    },
-    footer = {text = "Zen Hub | Webhook"},
-    timestamp = DateTime.now().ToIsoDate(DateTime.now())
-  }.CraftPage({
-    description = "**__Kitsune Finder__**",
-    color = 255,
-    type = "rich",
-    fields = {
-      {
-        name = "[������] Players Active",
-        value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-      },
-      {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-      {
-        name = "[������] Join Server",
-        value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-      },
-      {
-        name = "[������] Kitsune Check",
-        value = "```Kitsune Island is spawning : ������️```",
-        inline = true
-      }
-    },
-    footer = {text = "Zen Hub | Webhook"},
-    timestamp = DateTime.now().ToIsoDate(DateTime.now())
-  }, "Other", 2), "Auto Rainbow", AutoRainbowHaki, function(a0)
+  tab_3.CraftPage(tab_3, "Other", 2).Toggle(tab_3.CraftPage(tab_3, "Other", 2), "Auto Rainbow", AutoRainbowHaki, function(a0)
   AutoRainbowHaki = a0
   CancelTween(AutoRainbowHaki)
 end)
@@ -14499,7 +9603,7 @@ end)
   if service_1.LocalPlayer.PlayerGui.Main.Quest.Visible == false then
     local new = CFrame.new(-11892.0703125, 930.57672119141, -8760.1591796875)
     loc12 = new
-    if l_65 then
+    if l_63 then
       BTP(loc12)
     else
       Tween(loc12)
@@ -14526,7 +9630,7 @@ end)
         AutoClick()
         if not find_first_child or not l_4.FindFirstChild(l_4, "HumanoidRootPart") or 0 >= l_4.Humanoid.Health or l_4.Name ~= "Stone" or AutoRainbowHaki == false or l_4.Humanoid.Health <= 0 or not l_4.Parent or service_1.LocalPlayer.PlayerGui.Main.Quest.Visible == false then
         elseif service_9.FindFirstChild(service_9, "Stone") then
-          if l_65 then
+          if l_63 then
             BTP(service_9.FindFirstChild(service_9, "Stone").HumanoidRootPart.CFrame)
           else
             Tween(service_9.FindFirstChild(service_9, "Stone").HumanoidRootPart.CFrame)
@@ -14546,7 +9650,7 @@ end)
                 AutoClick()
                 if not l_4.FindFirstChild(l_4, "Humanoid") or not l_4.FindFirstChild(l_4, "HumanoidRootPart") or 0 >= l_4.Humanoid.Health or l_4.Name ~= "Island Empress" or AutoRainbowHaki == false or l_4.Humanoid.Health <= 0 or not l_4.Parent or service_1.LocalPlayer.PlayerGui.Main.Quest.Visible == false then
                 elseif service_9.FindFirstChild(service_9, "Island Empress") then
-                  if l_65 then
+                  if l_63 then
                     BTP(service_9.FindFirstChild(service_9, "Island Empress").HumanoidRootPart.CFrame)
                   else
                     Tween(service_9.FindFirstChild(service_9, "Island Empress").HumanoidRootPart.CFrame)
@@ -14566,7 +9670,7 @@ end)
                         AutoClick()
                         if not l_4.FindFirstChild(l_4, "Humanoid") or not l_4.FindFirstChild(l_4, "HumanoidRootPart") or 0 >= l_4.Humanoid.Health or l_4.Name ~= "Kilo Admiral" or AutoRainbowHaki == false or l_4.Humanoid.Health <= 0 or not l_4.Parent or service_1.LocalPlayer.PlayerGui.Main.Quest.Visible == false then
                         elseif service_9.FindFirstChild(service_9, "Kilo Admiral") then
-                          if l_65 then
+                          if l_63 then
                             BTP(service_9.FindFirstChild(service_9, "Kilo Admiral").HumanoidRootPart.CFrame)
                           else
                             Tween(service_9.FindFirstChild(service_9, "Kilo Admiral").HumanoidRootPart.CFrame)
@@ -14587,7 +9691,7 @@ end)
                                   AutoClick()
                                   if not l_4.FindFirstChild(l_4, "Humanoid") or not l_4.FindFirstChild(l_4, "HumanoidRootPart") or 0 >= l_4.Humanoid.Health or l_4.Name ~= "Captain Elephant" or AutoRainbowHaki == false or l_4.Humanoid.Health <= 0 or not l_4.Parent or service_1.LocalPlayer.PlayerGui.Main.Quest.Visible == false then
                                   elseif service_9.FindFirstChild(service_9, "Captain Elephant") then
-                                    if l_65 then
+                                    if l_63 then
                                       BTP(service_9.FindFirstChild(service_9, "Captain Elephant").HumanoidRootPart.CFrame)
                                     else
                                       Tween(service_9.FindFirstChild(service_9, "Captain Elephant").HumanoidRootPart.CFrame)
@@ -14608,7 +9712,7 @@ end)
                                             AutoClick()
                                             if not l_4.FindFirstChild(l_4, "Humanoid") or not l_4.FindFirstChild(l_4, "HumanoidRootPart") or 0 >= l_4.Humanoid.Health or l_4.Name ~= "Beautiful Pirate" or AutoRainbowHaki == false or l_4.Humanoid.Health <= 0 or not l_4.Parent or service_1.LocalPlayer.PlayerGui.Main.Quest.Visible == false then
                                             elseif service_9.FindFirstChild(service_9, "Beautiful Pirate") then
-                                              if l_65 then
+                                              if l_63 then
                                                 BTP(service_9.FindFirstChild(service_9, "Beautiful Pirate").HumanoidRootPart.CFrame)
                                               else
                                                 Tween(service_9.FindFirstChild(service_9, "Beautiful Pirate").HumanoidRootPart.CFrame)
@@ -14620,7 +9724,7 @@ end)
                                               end
                                             end
                                             loc17 = CFrame.new(-11892.0703125, 930.57672119141, -8760.1591796875)
-                                            if l_65 then
+                                            if l_63 then
                                               Tween(loc17)
                                             end
                                           end
@@ -14646,95 +9750,7 @@ end)
   end
 end)
 end)
-  {
-    description = "**__Kitsune Finder__**",
-    color = 255,
-    type = "rich",
-    fields = {
-      {
-        name = "[������] Players Active",
-        value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-      },
-      {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-      {
-        name = "[������] Join Server",
-        value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-      },
-      {
-        name = "[������] Kitsune Check",
-        value = "```Kitsune Island is spawning : ������️```",
-        inline = true
-      }
-    },
-    footer = {text = "Zen Hub | Webhook"},
-    timestamp = DateTime.now().ToIsoDate(DateTime.now())
-  }.CraftPage({
-    description = "**__Kitsune Finder__**",
-    color = 255,
-    type = "rich",
-    fields = {
-      {
-        name = "[������] Players Active",
-        value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-      },
-      {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-      {
-        name = "[������] Join Server",
-        value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-      },
-      {
-        name = "[������] Kitsune Check",
-        value = "```Kitsune Island is spawning : ������️```",
-        inline = true
-      }
-    },
-    footer = {text = "Zen Hub | Webhook"},
-    timestamp = DateTime.now().ToIsoDate(DateTime.now())
-  }, "Other", 2).Toggle({
-    description = "**__Kitsune Finder__**",
-    color = 255,
-    type = "rich",
-    fields = {
-      {
-        name = "[������] Players Active",
-        value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-      },
-      {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-      {
-        name = "[������] Join Server",
-        value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-      },
-      {
-        name = "[������] Kitsune Check",
-        value = "```Kitsune Island is spawning : ������️```",
-        inline = true
-      }
-    },
-    footer = {text = "Zen Hub | Webhook"},
-    timestamp = DateTime.now().ToIsoDate(DateTime.now())
-  }.CraftPage({
-    description = "**__Kitsune Finder__**",
-    color = 255,
-    type = "rich",
-    fields = {
-      {
-        name = "[������] Players Active",
-        value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-      },
-      {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-      {
-        name = "[������] Join Server",
-        value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-      },
-      {
-        name = "[������] Kitsune Check",
-        value = "```Kitsune Island is spawning : ������️```",
-        inline = true
-      }
-    },
-    footer = {text = "Zen Hub | Webhook"},
-    timestamp = DateTime.now().ToIsoDate(DateTime.now())
-  }, "Other", 2), "Auto Holytorch", AutoTorch, function(a0)
+  tab_3.CraftPage(tab_3, "Other", 2).Toggle(tab_3.CraftPage(tab_3, "Other", 2), "Auto Holytorch", AutoTorch, function(a0)
   AutoTorch = a0
   CancelTween(AutoTorch)
 end)
@@ -14793,95 +9809,7 @@ end)
   end
 end)
 end)
-  {
-    description = "**__Kitsune Finder__**",
-    color = 255,
-    type = "rich",
-    fields = {
-      {
-        name = "[������] Players Active",
-        value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-      },
-      {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-      {
-        name = "[������] Join Server",
-        value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-      },
-      {
-        name = "[������] Kitsune Check",
-        value = "```Kitsune Island is spawning : ������️```",
-        inline = true
-      }
-    },
-    footer = {text = "Zen Hub | Webhook"},
-    timestamp = DateTime.now().ToIsoDate(DateTime.now())
-  }.CraftPage({
-    description = "**__Kitsune Finder__**",
-    color = 255,
-    type = "rich",
-    fields = {
-      {
-        name = "[������] Players Active",
-        value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-      },
-      {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-      {
-        name = "[������] Join Server",
-        value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-      },
-      {
-        name = "[������] Kitsune Check",
-        value = "```Kitsune Island is spawning : ������️```",
-        inline = true
-      }
-    },
-    footer = {text = "Zen Hub | Webhook"},
-    timestamp = DateTime.now().ToIsoDate(DateTime.now())
-  }, "Other", 2).Toggle({
-    description = "**__Kitsune Finder__**",
-    color = 255,
-    type = "rich",
-    fields = {
-      {
-        name = "[������] Players Active",
-        value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-      },
-      {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-      {
-        name = "[������] Join Server",
-        value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-      },
-      {
-        name = "[������] Kitsune Check",
-        value = "```Kitsune Island is spawning : ������️```",
-        inline = true
-      }
-    },
-    footer = {text = "Zen Hub | Webhook"},
-    timestamp = DateTime.now().ToIsoDate(DateTime.now())
-  }.CraftPage({
-    description = "**__Kitsune Finder__**",
-    color = 255,
-    type = "rich",
-    fields = {
-      {
-        name = "[������] Players Active",
-        value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-      },
-      {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-      {
-        name = "[������] Join Server",
-        value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-      },
-      {
-        name = "[������] Kitsune Check",
-        value = "```Kitsune Island is spawning : ������️```",
-        inline = true
-      }
-    },
-    footer = {text = "Zen Hub | Webhook"},
-    timestamp = DateTime.now().ToIsoDate(DateTime.now())
-  }, "Other", 2), "Auto Soul Guitar", AutoSoulGuitar, function(a0)
+  tab_3.CraftPage(tab_3, "Other", 2).Toggle(tab_3.CraftPage(tab_3, "Other", 2), "Auto Soul Guitar", AutoSoulGuitar, function(a0)
   AutoSoulGuitar = a0
   CancelTween(AutoSoulGuitar)
 end)
@@ -15003,102 +9931,14 @@ end)
   end
 end)
 end)
-  {
-    description = "**__Kitsune Finder__**",
-    color = 255,
-    type = "rich",
-    fields = {
-      {
-        name = "[������] Players Active",
-        value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-      },
-      {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-      {
-        name = "[������] Join Server",
-        value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-      },
-      {
-        name = "[������] Kitsune Check",
-        value = "```Kitsune Island is spawning : ������️```",
-        inline = true
-      }
-    },
-    footer = {text = "Zen Hub | Webhook"},
-    timestamp = DateTime.now().ToIsoDate(DateTime.now())
-  }.CraftPage({
-    description = "**__Kitsune Finder__**",
-    color = 255,
-    type = "rich",
-    fields = {
-      {
-        name = "[������] Players Active",
-        value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-      },
-      {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-      {
-        name = "[������] Join Server",
-        value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-      },
-      {
-        name = "[������] Kitsune Check",
-        value = "```Kitsune Island is spawning : ������️```",
-        inline = true
-      }
-    },
-    footer = {text = "Zen Hub | Webhook"},
-    timestamp = DateTime.now().ToIsoDate(DateTime.now())
-  }, "Other", 2).Toggle({
-    description = "**__Kitsune Finder__**",
-    color = 255,
-    type = "rich",
-    fields = {
-      {
-        name = "[������] Players Active",
-        value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-      },
-      {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-      {
-        name = "[������] Join Server",
-        value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-      },
-      {
-        name = "[������] Kitsune Check",
-        value = "```Kitsune Island is spawning : ������️```",
-        inline = true
-      }
-    },
-    footer = {text = "Zen Hub | Webhook"},
-    timestamp = DateTime.now().ToIsoDate(DateTime.now())
-  }.CraftPage({
-    description = "**__Kitsune Finder__**",
-    color = 255,
-    type = "rich",
-    fields = {
-      {
-        name = "[������] Players Active",
-        value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-      },
-      {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-      {
-        name = "[������] Join Server",
-        value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-      },
-      {
-        name = "[������] Kitsune Check",
-        value = "```Kitsune Island is spawning : ������️```",
-        inline = true
-      }
-    },
-    footer = {text = "Zen Hub | Webhook"},
-    timestamp = DateTime.now().ToIsoDate(DateTime.now())
-  }, "Other", 2), "Auto Tryluck Gravestone", AutoTryLuck, function(a0)
+  tab_3.CraftPage(tab_3, "Other", 2).Toggle(tab_3.CraftPage(tab_3, "Other", 2), "Auto Tryluck Gravestone", AutoTryLuck, function(a0)
   AutoTryLuck = a0
   CancelTween(AutoTryLuck)
 end)
   spawn(function()
   while r0 do
     if AutoTryLuck then
-      if l_65 then
+      if l_63 then
         BTP()
       else
         Tween()
@@ -15112,102 +9952,14 @@ end)
   task.wait(2)
   service_9.Remotes.CommF_.InvokeServer(service_9.Remotes.CommF_, "gravestoneEvent", 1)
 end)
-  {
-    description = "**__Kitsune Finder__**",
-    color = 255,
-    type = "rich",
-    fields = {
-      {
-        name = "[������] Players Active",
-        value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-      },
-      {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-      {
-        name = "[������] Join Server",
-        value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-      },
-      {
-        name = "[������] Kitsune Check",
-        value = "```Kitsune Island is spawning : ������️```",
-        inline = true
-      }
-    },
-    footer = {text = "Zen Hub | Webhook"},
-    timestamp = DateTime.now().ToIsoDate(DateTime.now())
-  }.CraftPage({
-    description = "**__Kitsune Finder__**",
-    color = 255,
-    type = "rich",
-    fields = {
-      {
-        name = "[������] Players Active",
-        value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-      },
-      {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-      {
-        name = "[������] Join Server",
-        value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-      },
-      {
-        name = "[������] Kitsune Check",
-        value = "```Kitsune Island is spawning : ������️```",
-        inline = true
-      }
-    },
-    footer = {text = "Zen Hub | Webhook"},
-    timestamp = DateTime.now().ToIsoDate(DateTime.now())
-  }, "Other", 2).Toggle({
-    description = "**__Kitsune Finder__**",
-    color = 255,
-    type = "rich",
-    fields = {
-      {
-        name = "[������] Players Active",
-        value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-      },
-      {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-      {
-        name = "[������] Join Server",
-        value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-      },
-      {
-        name = "[������] Kitsune Check",
-        value = "```Kitsune Island is spawning : ������️```",
-        inline = true
-      }
-    },
-    footer = {text = "Zen Hub | Webhook"},
-    timestamp = DateTime.now().ToIsoDate(DateTime.now())
-  }.CraftPage({
-    description = "**__Kitsune Finder__**",
-    color = 255,
-    type = "rich",
-    fields = {
-      {
-        name = "[������] Players Active",
-        value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-      },
-      {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-      {
-        name = "[������] Join Server",
-        value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-      },
-      {
-        name = "[������] Kitsune Check",
-        value = "```Kitsune Island is spawning : ������️```",
-        inline = true
-      }
-    },
-    footer = {text = "Zen Hub | Webhook"},
-    timestamp = DateTime.now().ToIsoDate(DateTime.now())
-  }, "Other", 2), "Auto Pray Gravestone", AutoPray, function(a0)
+  tab_3.CraftPage(tab_3, "Other", 2).Toggle(tab_3.CraftPage(tab_3, "Other", 2), "Auto Pray Gravestone", AutoPray, function(a0)
   AutoPray = a0
   CancelTween(AutoPray)
 end)
   spawn(function()
   while r0 do
     if AutoPray then
-      if l_65 then
+      if l_63 then
         BTP()
       else
         Tween()
@@ -15221,95 +9973,7 @@ end)
   task.wait(2)
   service_9.Remotes.CommF_.InvokeServer(service_9.Remotes.CommF_, "gravestoneEvent", 2)
 end)
-  {
-    description = "**__Kitsune Finder__**",
-    color = 255,
-    type = "rich",
-    fields = {
-      {
-        name = "[������] Players Active",
-        value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-      },
-      {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-      {
-        name = "[������] Join Server",
-        value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-      },
-      {
-        name = "[������] Kitsune Check",
-        value = "```Kitsune Island is spawning : ������️```",
-        inline = true
-      }
-    },
-    footer = {text = "Zen Hub | Webhook"},
-    timestamp = DateTime.now().ToIsoDate(DateTime.now())
-  }.CraftPage({
-    description = "**__Kitsune Finder__**",
-    color = 255,
-    type = "rich",
-    fields = {
-      {
-        name = "[������] Players Active",
-        value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-      },
-      {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-      {
-        name = "[������] Join Server",
-        value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-      },
-      {
-        name = "[������] Kitsune Check",
-        value = "```Kitsune Island is spawning : ������️```",
-        inline = true
-      }
-    },
-    footer = {text = "Zen Hub | Webhook"},
-    timestamp = DateTime.now().ToIsoDate(DateTime.now())
-  }, "Other", 2).Toggle({
-    description = "**__Kitsune Finder__**",
-    color = 255,
-    type = "rich",
-    fields = {
-      {
-        name = "[������] Players Active",
-        value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-      },
-      {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-      {
-        name = "[������] Join Server",
-        value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-      },
-      {
-        name = "[������] Kitsune Check",
-        value = "```Kitsune Island is spawning : ������️```",
-        inline = true
-      }
-    },
-    footer = {text = "Zen Hub | Webhook"},
-    timestamp = DateTime.now().ToIsoDate(DateTime.now())
-  }.CraftPage({
-    description = "**__Kitsune Finder__**",
-    color = 255,
-    type = "rich",
-    fields = {
-      {
-        name = "[������] Players Active",
-        value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-      },
-      {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-      {
-        name = "[������] Join Server",
-        value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-      },
-      {
-        name = "[������] Kitsune Check",
-        value = "```Kitsune Island is spawning : ������️```",
-        inline = true
-      }
-    },
-    footer = {text = "Zen Hub | Webhook"},
-    timestamp = DateTime.now().ToIsoDate(DateTime.now())
-  }, "Other", 2), "Auto Advanced Dungeon", AutoAdvanceDungeon, function(a0)
+  tab_3.CraftPage(tab_3, "Other", 2).Toggle(tab_3.CraftPage(tab_3, "Other", 2), "Auto Advanced Dungeon", AutoAdvanceDungeon, function(a0)
   AutoAdvanceDungeon = a0
   CancelTween(AutoAdvanceDungeon)
 end)
@@ -15340,95 +10004,7 @@ end)
   end
 end)
 end)
-  {
-    description = "**__Kitsune Finder__**",
-    color = 255,
-    type = "rich",
-    fields = {
-      {
-        name = "[������] Players Active",
-        value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-      },
-      {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-      {
-        name = "[������] Join Server",
-        value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-      },
-      {
-        name = "[������] Kitsune Check",
-        value = "```Kitsune Island is spawning : ������️```",
-        inline = true
-      }
-    },
-    footer = {text = "Zen Hub | Webhook"},
-    timestamp = DateTime.now().ToIsoDate(DateTime.now())
-  }.CraftPage({
-    description = "**__Kitsune Finder__**",
-    color = 255,
-    type = "rich",
-    fields = {
-      {
-        name = "[������] Players Active",
-        value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-      },
-      {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-      {
-        name = "[������] Join Server",
-        value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-      },
-      {
-        name = "[������] Kitsune Check",
-        value = "```Kitsune Island is spawning : ������️```",
-        inline = true
-      }
-    },
-    footer = {text = "Zen Hub | Webhook"},
-    timestamp = DateTime.now().ToIsoDate(DateTime.now())
-  }, "Other", 2).Toggle({
-    description = "**__Kitsune Finder__**",
-    color = 255,
-    type = "rich",
-    fields = {
-      {
-        name = "[������] Players Active",
-        value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-      },
-      {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-      {
-        name = "[������] Join Server",
-        value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-      },
-      {
-        name = "[������] Kitsune Check",
-        value = "```Kitsune Island is spawning : ������️```",
-        inline = true
-      }
-    },
-    footer = {text = "Zen Hub | Webhook"},
-    timestamp = DateTime.now().ToIsoDate(DateTime.now())
-  }.CraftPage({
-    description = "**__Kitsune Finder__**",
-    color = 255,
-    type = "rich",
-    fields = {
-      {
-        name = "[������] Players Active",
-        value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-      },
-      {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-      {
-        name = "[������] Join Server",
-        value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-      },
-      {
-        name = "[������] Kitsune Check",
-        value = "```Kitsune Island is spawning : ������️```",
-        inline = true
-      }
-    },
-    footer = {text = "Zen Hub | Webhook"},
-    timestamp = DateTime.now().ToIsoDate(DateTime.now())
-  }, "Other", 2), "Auto Enchancement Haki", AutoColorHaki, function(a0)
+  tab_3.CraftPage(tab_3, "Other", 2).Toggle(tab_3.CraftPage(tab_3, "Other", 2), "Auto Enchancement Haki", AutoColorHaki, function(a0)
   AutoColorHaki = a0
 end)
   spawn(function()
@@ -15440,95 +10016,7 @@ end)
   service_9.Remotes.CommF_.InvokeServer(service_9.Remotes.CommF_, "ColorsDealer", "2")
 end)
 end)
-  {
-    description = "**__Kitsune Finder__**",
-    color = 255,
-    type = "rich",
-    fields = {
-      {
-        name = "[������] Players Active",
-        value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-      },
-      {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-      {
-        name = "[������] Join Server",
-        value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-      },
-      {
-        name = "[������] Kitsune Check",
-        value = "```Kitsune Island is spawning : ������️```",
-        inline = true
-      }
-    },
-    footer = {text = "Zen Hub | Webhook"},
-    timestamp = DateTime.now().ToIsoDate(DateTime.now())
-  }.CraftPage({
-    description = "**__Kitsune Finder__**",
-    color = 255,
-    type = "rich",
-    fields = {
-      {
-        name = "[������] Players Active",
-        value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-      },
-      {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-      {
-        name = "[������] Join Server",
-        value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-      },
-      {
-        name = "[������] Kitsune Check",
-        value = "```Kitsune Island is spawning : ������️```",
-        inline = true
-      }
-    },
-    footer = {text = "Zen Hub | Webhook"},
-    timestamp = DateTime.now().ToIsoDate(DateTime.now())
-  }, "Other", 2).Toggle({
-    description = "**__Kitsune Finder__**",
-    color = 255,
-    type = "rich",
-    fields = {
-      {
-        name = "[������] Players Active",
-        value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-      },
-      {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-      {
-        name = "[������] Join Server",
-        value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-      },
-      {
-        name = "[������] Kitsune Check",
-        value = "```Kitsune Island is spawning : ������️```",
-        inline = true
-      }
-    },
-    footer = {text = "Zen Hub | Webhook"},
-    timestamp = DateTime.now().ToIsoDate(DateTime.now())
-  }.CraftPage({
-    description = "**__Kitsune Finder__**",
-    color = 255,
-    type = "rich",
-    fields = {
-      {
-        name = "[������] Players Active",
-        value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-      },
-      {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-      {
-        name = "[������] Join Server",
-        value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-      },
-      {
-        name = "[������] Kitsune Check",
-        value = "```Kitsune Island is spawning : ������️```",
-        inline = true
-      }
-    },
-    footer = {text = "Zen Hub | Webhook"},
-    timestamp = DateTime.now().ToIsoDate(DateTime.now())
-  }, "Other", 2), "Auto Musketer", AutoMusketeer, function(a0)
+  tab_3.CraftPage(tab_3, "Other", 2).Toggle(tab_3.CraftPage(tab_3, "Other", 2), "Auto Musketer", AutoMusketeer, function(a0)
   AutoMusketeer = a0
   CancelTween(AutoMusketeer)
 end)
@@ -15575,95 +10063,7 @@ end)
 end)
   end
 end)
-  {
-    description = "**__Kitsune Finder__**",
-    color = 255,
-    type = "rich",
-    fields = {
-      {
-        name = "[������] Players Active",
-        value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-      },
-      {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-      {
-        name = "[������] Join Server",
-        value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-      },
-      {
-        name = "[������] Kitsune Check",
-        value = "```Kitsune Island is spawning : ������️```",
-        inline = true
-      }
-    },
-    footer = {text = "Zen Hub | Webhook"},
-    timestamp = DateTime.now().ToIsoDate(DateTime.now())
-  }.CraftPage({
-    description = "**__Kitsune Finder__**",
-    color = 255,
-    type = "rich",
-    fields = {
-      {
-        name = "[������] Players Active",
-        value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-      },
-      {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-      {
-        name = "[������] Join Server",
-        value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-      },
-      {
-        name = "[������] Kitsune Check",
-        value = "```Kitsune Island is spawning : ������️```",
-        inline = true
-      }
-    },
-    footer = {text = "Zen Hub | Webhook"},
-    timestamp = DateTime.now().ToIsoDate(DateTime.now())
-  }, "Other", 2).Toggle({
-    description = "**__Kitsune Finder__**",
-    color = 255,
-    type = "rich",
-    fields = {
-      {
-        name = "[������] Players Active",
-        value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-      },
-      {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-      {
-        name = "[������] Join Server",
-        value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-      },
-      {
-        name = "[������] Kitsune Check",
-        value = "```Kitsune Island is spawning : ������️```",
-        inline = true
-      }
-    },
-    footer = {text = "Zen Hub | Webhook"},
-    timestamp = DateTime.now().ToIsoDate(DateTime.now())
-  }.CraftPage({
-    description = "**__Kitsune Finder__**",
-    color = 255,
-    type = "rich",
-    fields = {
-      {
-        name = "[������] Players Active",
-        value = "```" .. #service_1.GetPlayers(service_1) .. "/12```"
-      },
-      {name = "[������] JobID", value = "```" .. game.JobId .. "```"},
-      {
-        name = "[������] Join Server",
-        value = "```" .. "TS:TeleportToPlaceInstance(game.PlaceId, '" .. tostring(game.JobId) .. "')" .. "```"
-      },
-      {
-        name = "[������] Kitsune Check",
-        value = "```Kitsune Island is spawning : ������️```",
-        inline = true
-      }
-    },
-    footer = {text = "Zen Hub | Webhook"},
-    timestamp = DateTime.now().ToIsoDate(DateTime.now())
-  }, "Other", 2), "Auto Serpent Bow", Auto_Serpent_Bow, function(a0)
+  tab_3.CraftPage(tab_3, "Other", 2).Toggle(tab_3.CraftPage(tab_3, "Other", 2), "Auto Serpent Bow", Auto_Serpent_Bow, function(a0)
   Auto_Serpent_Bow = a0
   CancelTween(Auto_Serpent_Bow)
 end)
@@ -15697,8 +10097,8 @@ end)
 end)
   end
 end)
-  local craft_page_18 = l_0.Evil(l_0).Tab(l_49, l_50, l_51).CraftPage(l_0.Evil(l_0).Tab(l_49, l_50, l_51), "Raids", 1)
-  craft_page_18.Dropdown(craft_page_18, "Select Chips", {
+  local craft_page_16 = tab_7.CraftPage(tab_7, "Raids", 1)
+  craft_page_16.Dropdown(craft_page_16, "Select Chips", {
     "Flame",
     "Ice",
     "Quake",
@@ -15714,7 +10114,7 @@ end)
   }, "", function(a0)
   SelectChip = a0
 end)
-  craft_page_18.Toggle(craft_page_18, "Auto Buy Microchips", AutoBuySpecialChip, function(a0)
+  craft_page_16.Toggle(craft_page_16, "Auto Buy Microchips", AutoBuySpecialChip, function(a0)
   AutoBuySpecialChip = a0
 end)
   spawn(function()
@@ -15728,7 +10128,7 @@ end)
   end
   service_9.Remotes.CommF_.InvokeServer(service_9.Remotes.CommF_, "RaidsNpc", "Select", SelectChip)
 end)
-  craft_page_18.Toggle(craft_page_18, "Auto Start Raids", AutoSTartRaids, function(a0)
+  craft_page_16.Toggle(craft_page_16, "Auto Start Raids", AutoSTartRaids, function(a0)
   AutoSTartRaids = a0
 end)
   spawn(function()
@@ -15737,7 +10137,7 @@ end)
       local l_0 = l_18()
       if l_0.FindFirstChild(l_0, "Microchip") or service_1.LocalPlayer.Backpack.FindFirstChild(service_1.LocalPlayer.Backpack, "Microchip") or l_18().FindFirstChild(l_18(), "Special Microchip") or service_1.LocalPlayer.Backpack.FindFirstChild(service_1.LocalPlayer.Backpack, "Special Microchip") then
         if Second_Sea then
-          fireclickdetector(game.Workspace.Map.CircleIsland.RaidSummon2.Button.Main.ClickDetector)
+          fireclickdetector(Workspace.Map.CircleIsland.RaidSummon2.Button.Main.ClickDetector)
         end
         if Third_Sea then
         end
@@ -15745,9 +10145,9 @@ end)
       end
     end
   end
-  fireclickdetector(game.Workspace.Map["Boat Castle"].RaidSummon2.Button.Main.ClickDetector)
+  fireclickdetector(Workspace.Map["Boat Castle"].RaidSummon2.Button.Main.ClickDetector)
 end)
-  craft_page_18.Toggle(craft_page_18, "Kill Raid Aura", RaidAura, function(a0)
+  craft_page_16.Toggle(craft_page_16, "Kill Raid Aura", RaidAura, function(a0)
   RaidAura = a0
 end)
   spawn(function()
@@ -15770,7 +10170,7 @@ end)
   end
 end)
 end)
-  craft_page_18.Toggle(craft_page_18, "Auto Next Island", AutoNextIsland, function(a0)
+  craft_page_16.Toggle(craft_page_16, "Auto Next Island", AutoNextIsland, function(a0)
   AutoNextIsland = a0
   CancelTween(AutoNextIsland)
 end)
@@ -15801,7 +10201,7 @@ end)
   end
   Tween(game.GetService(game, "Workspace")._WorldOrigin.Locations.FindFirstChild(game.GetService(game, "Workspace")._WorldOrigin.Locations, "Island 1").CFrame * CFrame.new(0, 70, 100))
 end)
-  craft_page_18.Toggle(craft_page_18, "Auto Awaken", AutoAwakenAbilities, function(a0)
+  craft_page_16.Toggle(craft_page_16, "Auto Awaken", AutoAwakenAbilities, function(a0)
   AutoAwakenAbilities = a0
 end)
   spawn(function()
@@ -15812,56 +10212,45 @@ end)
   service_9.Remotes.CommF_.InvokeServer()
   service_9.Remotes.CommF_.InvokeServer()
 end)
-  craft_page_18.Button(craft_page_18, "Fruit Inventory", function()
+  craft_page_16.Button(craft_page_16, "Fruit Inventory", function()
   service_1.LocalPlayer.PlayerGui.Main.FruitInventory.Visible = not service_1.LocalPlayer.PlayerGui.Main.FruitInventory.Visible
 end)
-  local craft_page_19 = l_0.Evil(l_0).Tab(l_49, l_50, l_51).CraftPage(l_0.Evil(l_0).Tab(l_49, l_50, l_51), "Law Raids", 2)
-  local l_129, children, l_131 = pairs()
+  local craft_page_17 = tab_7.CraftPage(tab_7, "Law Raids", 2)
+  local l_116, children, l_118 = pairs()
 end
-for l_132, l_133 in l_129 do
+for l_119, l_120 in l_116 do
   while l_0 do
   end
   for l_28, l_29 in l_25 do
   end
-  for l_73, l_74 in l_70 do
+  for l_71, l_72 in l_68 do
   end
-  local a = l_133.IsA(l_133, "Tool")
+  local a = l_120.IsA(l_120, "Tool")
   if a then
-    table.insert({}, l_133.Name)
+    table.insert({}, l_120.Name)
   end
-  for l_132, l_133 in l_129 do
+  for l_119, l_120 in l_116 do
   end
 end
-local dropdown_2 = craft_page_19.Dropdown(craft_page_19, "Select Weapon Law", {}, "", function(a0)
+local dropdown_2 = craft_page_17.Dropdown(craft_page_17, "Select Weapon Law", {}, "", function(a0)
   Select_Weapon_Law_Raid = a0
 end)
-local l_128 = {}
-craft_page_19.Button(craft_page_19, "Refresh Weapon Law", function()
-  dropdown_2.Add(dropdown_2, l_128)
+local l_115 = {}
+craft_page_17.Button(craft_page_17, "Refresh Weapon Law", function()
+  dropdown_2.Add(dropdown_2, l_115)
 end)
-craft_page_19.Toggle(craft_page_19, "Buy Law Chips", Auto_Buy_Law_Chip, function(a0)
+craft_page_17.Toggle(craft_page_17, "Buy Law Chips", Auto_Buy_Law_Chip, function(a0)
   Auto_Buy_Law_Chip = a0
 end)
 spawn(function()
   while r0 do
-    if Auto_Buy_Law_Chip then
-      local find_first_child = service_1.LocalPlayer.Backpack.FindFirstChild(service_1.LocalPlayer.Backpack, "Microchip")
-      if not find_first_child then
-        if not l_18().FindFirstChild(l_18(), "Microchip") then
-          if not game.GetService(game, "Workspace").Enemies.FindFirstChild(game.GetService(game, "Workspace").Enemies, "Order") then
-          end
-        else
-          if not task.wait() then
-          end
-          if service_9.FindFirstChild(service_9, "Order") then
-          end
-        end
-      end
+    local find_first_child = service_1.LocalPlayer.Backpack.FindFirstChild(service_1.LocalPlayer.Backpack, "Microchip")
+    if Auto_Buy_Law_Chip and not find_first_child and not l_18().FindFirstChild(l_18(), "Microchip") and not game.GetService(game, "Workspace").Enemies.FindFirstChild(game.GetService(game, "Workspace").Enemies, "Order") and not service_9.FindFirstChild(service_9, "Order") then
     end
   end
   service_9.Remotes.CommF_.InvokeServer()
 end)
-craft_page_19.Toggle(craft_page_19, "Start Law Raid", Auto_Start_Law_Dungeon, function(a0)
+craft_page_17.Toggle(craft_page_17, "Start Law Raid", Auto_Start_Law_Dungeon, function(a0)
   Auto_Start_Law_Dungeon = a0
 end)
 spawn(function()
@@ -15877,7 +10266,7 @@ spawn(function()
   end
 end)
 end)
-craft_page_19.Toggle(craft_page_19, "Auto Kill Law Raid", BossRaid, function(a0)
+craft_page_17.Toggle(craft_page_17, "Auto Kill Law Raid", BossRaid, function(a0)
   BossRaid = a0
   CancelTween(BossRaid)
 end)
@@ -15914,13 +10303,13 @@ spawn(function()
   end
 end)
 end)
-l_49.CraftPage(l_49, "World Teleport", 1).Button(l_49.CraftPage(l_49, "World Teleport", 1), "Travel to First Sea", function()
+tab_8.CraftPage(tab_8, "World Teleport", 1).Button(tab_8.CraftPage(tab_8, "World Teleport", 1), "Travel to First Sea", function()
   service_9.Remotes.CommF_.InvokeServer(service_9.Remotes.CommF_, "TravelMain")
 end)
-l_49.CraftPage(l_49, "World Teleport", 1).Button(l_49.CraftPage(l_49, "World Teleport", 1), "Travel to Second Sea", function()
+tab_8.CraftPage(tab_8, "World Teleport", 1).Button(tab_8.CraftPage(tab_8, "World Teleport", 1), "Travel to Second Sea", function()
   service_9.Remotes.CommF_.InvokeServer(service_9.Remotes.CommF_, "TravelDressrosa")
 end)
-l_49.CraftPage(l_49, "World Teleport", 1).Button(l_49.CraftPage(l_49, "World Teleport", 1), "Travel to Third Sea", function()
+tab_8.CraftPage(tab_8, "World Teleport", 1).Button(tab_8.CraftPage(tab_8, "World Teleport", 1), "Travel to Third Sea", function()
   service_9.Remotes.CommF_.InvokeServer(service_9.Remotes.CommF_, "TravelZou")
 end)
 if First_Sea then
@@ -15992,10 +10381,10 @@ elseif Third_Sea then
     "Sea Beast"
   }
 end
-l_49.CraftPage(l_49, "World Teleport", 1).Dropdown(l_49.CraftPage(l_49, "World Teleport", 1), "Select Island", IslandCheck, "", function(a0)
+tab_8.CraftPage(tab_8, "World Teleport", 1).Dropdown(tab_8.CraftPage(tab_8, "World Teleport", 1), "Select Island", IslandCheck, "", function(a0)
   SelectedIsland = a0
 end)
-l_49.CraftPage(l_49, "World Teleport", 1).Button(l_49.CraftPage(l_49, "World Teleport", 1), "Teleport to Island", function()
+tab_8.CraftPage(tab_8, "World Teleport", 1).Button(tab_8.CraftPage(tab_8, "World Teleport", 1), "Teleport to Island", function()
   if SelectedIsland == "Start Island" then
     if BypassTeleport then
       BTP()
@@ -16363,11 +10752,11 @@ l_49.CraftPage(l_49, "World Teleport", 1).Button(l_49.CraftPage(l_49, "World Tel
     end
   end
 end)
-l_49.CraftPage(l_49, "World Teleport", 1).Toggle(l_49.CraftPage(l_49, "World Teleport", 1), "Bypass Teleport", BypassTeleport, function(a0)
+tab_8.CraftPage(tab_8, "World Teleport", 1).Toggle(tab_8.CraftPage(tab_8, "World Teleport", 1), "Bypass Teleport", BypassTeleport, function(a0)
   BypassTeleport = a0
 end)
 if First_Sea then
-  l_49.CraftPage(l_49, "Npc Teleport", 2).Dropdown(l_49.CraftPage(l_49, "Npc Teleport", 2), "Select NPC", {
+  tab_8.CraftPage(tab_8, "Npc Teleport", 2).Dropdown(tab_8.CraftPage(tab_8, "Npc Teleport", 2), "Select NPC", {
     "Random Devil Fruit",
     "Blox Fruits Dealer",
     "Remove Devil Fruit",
@@ -16379,7 +10768,7 @@ if First_Sea then
   _G.SelectNPC = a0
 end)
   if Second_Sea then
-    l_49.CraftPage(l_49, "Npc Teleport", 2).Dropdown(l_49.CraftPage(l_49, "Npc Teleport", 2), "Select NPC", {
+    tab_8.CraftPage(tab_8, "Npc Teleport", 2).Dropdown(tab_8.CraftPage(tab_8, "Npc Teleport", 2), "Select NPC", {
       "Dargon Berath",
       "Mtsterious Man",
       "Mysterious Scientist",
@@ -16402,7 +10791,7 @@ end)
   _G.SelectNPC = a0
 end)
     if Third_Sea then
-      l_49.CraftPage(l_49, "Npc Teleport", 2).Dropdown(l_49.CraftPage(l_49, "Npc Teleport", 2), "Select NPC", {
+      tab_8.CraftPage(tab_8, "Npc Teleport", 2).Dropdown(tab_8.CraftPage(tab_8, "Npc Teleport", 2), "Select NPC", {
         "Blox Fruits Dealer",
         "Remove Devil Fruit",
         "Horned Man",
@@ -16417,7 +10806,7 @@ end)
       }, "", function(a0)
   _G.SelectNPC = a0
 end)
-      l_49.CraftPage(l_49, "Npc Teleport", 2).Toggle(l_49.CraftPage(l_49, "Npc Teleport", 2), "Teleport", _G.TeleportNPC, "Teleport to npc selected", function(a0)
+      tab_8.CraftPage(tab_8, "Npc Teleport", 2).Toggle(tab_8.CraftPage(tab_8, "Npc Teleport", 2), "Teleport", _G.TeleportNPC, "Teleport to npc selected", function(a0)
   _G.TeleportNPC = a0
   if _G.TeleportNPC == true then
     while _G.TeleportNPC == "Dargon Berath" do
@@ -16438,8 +10827,8 @@ end)
   Mirragecheck.Set(Mirragecheck, "��: Mystic Island Not Found ")
 end)
 end)
-      Mirragecheck = l_49.CraftPage(l_49, "Mirage Island", 2).Label(l_49.CraftPage(l_49, "Mirage Island", 2), "")
-      l_49.CraftPage(l_49, "Mirage Island", 2).Toggle(l_49.CraftPage(l_49, "Mirage Island", 2), "Tween Mystic Island", _G.AutoMysticIsland, function(a0)
+      Mirragecheck = tab_8.CraftPage(tab_8, "Mirage Island", 2).Label(tab_8.CraftPage(tab_8, "Mirage Island", 2), "")
+      tab_8.CraftPage(tab_8, "Mirage Island", 2).Toggle(tab_8.CraftPage(tab_8, "Mirage Island", 2), "Tween Mystic Island", _G.AutoMysticIsland, function(a0)
   _G.AutoMysticIsland = a0
   StopTween(_G.AutoMysticIsland)
 end)
@@ -16461,7 +10850,7 @@ end)
   end
 end)
 end)
-      l_49.CraftPage(l_49, "Mirage Island", 2).Button(l_49.CraftPage(l_49, "Mirage Island", 2), "Teleport Advanced Fruit Dealer", function()
+      tab_8.CraftPage(tab_8, "Mirage Island", 2).Button(tab_8.CraftPage(tab_8, "Mirage Island", 2), "Teleport Advanced Fruit Dealer", function()
   TweenNpc()
 end)
       function TweenNpc()
@@ -16491,7 +10880,7 @@ end)
           end
         end
       end
-      l_49.CraftPage(l_49, "Mirage Island", 2).Toggle(l_49.CraftPage(l_49, "Mirage Island", 2), "Summon Mystic Island", _G.dao, function(a0)
+      tab_8.CraftPage(tab_8, "Mirage Island", 2).Toggle(tab_8.CraftPage(tab_8, "Mirage Island", 2), "Summon Mystic Island", _G.dao, function(a0)
   if a0 then
     _G.dao = true
   else
@@ -16598,8 +10987,7 @@ end)
     while 0.1 < workspace.Boats.PirateBrigade.PrimaryPart.CFrame.lookVector * 10 do
       workspace.Boats.PirateBrigade.SetPrimaryPartCFrame(workspace.Boats.PirateBrigade, workspace.Boats.PirateBrigade.PrimaryPart.CFrame + workspace.Boats.PirateBrigade.PrimaryPart.CFrame.lookVector * 11)
       task.wait()
-      if not _G.BiirTrax then
-      elseif 0.1 < (workspace.Boats.PirateBrigade.PrimaryPart.Position - l_3).Magnitude then
+      if _G.BiirTrax then
       end
     end
   end
@@ -16635,7 +11023,7 @@ end)
 end)
   end
 end)
-      l_49.CraftPage(l_49, "Mirage Island", 2).Toggle(l_49.CraftPage(l_49, "Mirage Island", 2), "Tween Gear", _G.TweenMGear, function(a0)
+      tab_8.CraftPage(tab_8, "Mirage Island", 2).Toggle(tab_8.CraftPage(tab_8, "Mirage Island", 2), "Tween Gear", _G.TweenMGear, function(a0)
   _G.TweenMGear = a0
   StopTween(_G.TweenMGear)
 end)
@@ -16659,127 +11047,127 @@ end)
   end
 end)
 end)
-      l_50.CraftPage(l_50, "Race & Fragment", 1).Button(l_50.CraftPage(l_50, "Race & Fragment", 1), "Race Ghoul", function()
+      tab_9.CraftPage(tab_9, "Race & Fragment", 1).Button(tab_9.CraftPage(tab_9, "Race & Fragment", 1), "Race Ghoul", function()
   service_9.Remotes.CommF_.InvokeServer()
   service_9.Remotes.CommF_.InvokeServer()
 end)
-      l_50.CraftPage(l_50, "Race & Fragment", 1).Button(l_50.CraftPage(l_50, "Race & Fragment", 1), "Cyborg", function()
+      tab_9.CraftPage(tab_9, "Race & Fragment", 1).Button(tab_9.CraftPage(tab_9, "Race & Fragment", 1), "Cyborg", function()
   service_9.Remotes.CommF_.InvokeServer()
 end)
-      l_50.CraftPage(l_50, "Race & Fragment", 1).Button(l_50.CraftPage(l_50, "Race & Fragment", 1), "Random Race [ f3000 Fragments ]", function()
+      tab_9.CraftPage(tab_9, "Race & Fragment", 1).Button(tab_9.CraftPage(tab_9, "Race & Fragment", 1), "Random Race [ f3000 Fragments ]", function()
   service_9.Remotes.CommF_.InvokeServer()
 end)
-      l_50.CraftPage(l_50, "Race & Fragment", 1).Button(l_50.CraftPage(l_50, "Race & Fragment", 1), "Reset Stats [ f2500 Fragments ]", function()
+      tab_9.CraftPage(tab_9, "Race & Fragment", 1).Button(tab_9.CraftPage(tab_9, "Race & Fragment", 1), "Reset Stats [ f2500 Fragments ]", function()
   service_9.Remotes.CommF_.InvokeServer()
 end)
-      l_50.CraftPage(l_50, "Race & Fragment", 1).changelog(l_50.CraftPage(l_50, "Race & Fragment", 1), "Abilities")
-      l_50.CraftPage(l_50, "Race & Fragment", 1).Button(l_50.CraftPage(l_50, "Race & Fragment", 1), "Skyjump [ $10,000 Beli ]", function()
+      tab_9.CraftPage(tab_9, "Race & Fragment", 1).changelog(tab_9.CraftPage(tab_9, "Race & Fragment", 1), "Abilities")
+      tab_9.CraftPage(tab_9, "Race & Fragment", 1).Button(tab_9.CraftPage(tab_9, "Race & Fragment", 1), "Skyjump [ $10,000 Beli ]", function()
   service_9.Remotes.CommF_.InvokeServer()
 end)
-      l_50.CraftPage(l_50, "Race & Fragment", 1).Button(l_50.CraftPage(l_50, "Race & Fragment", 1), "Buso Haki [ $25,000 Beli ]", function()
+      tab_9.CraftPage(tab_9, "Race & Fragment", 1).Button(tab_9.CraftPage(tab_9, "Race & Fragment", 1), "Buso Haki [ $25,000 Beli ]", function()
   service_9.Remotes.CommF_.InvokeServer()
 end)
-      l_50.CraftPage(l_50, "Race & Fragment", 1).Button(l_50.CraftPage(l_50, "Race & Fragment", 1), "Observation haki [ $750,000 Beli ]", function()
+      tab_9.CraftPage(tab_9, "Race & Fragment", 1).Button(tab_9.CraftPage(tab_9, "Race & Fragment", 1), "Observation haki [ $750,000 Beli ]", function()
   service_9.Remotes.CommF_.InvokeServer()
 end)
-      l_50.CraftPage(l_50, "Race & Fragment", 1).Button(l_50.CraftPage(l_50, "Race & Fragment", 1), "Soru [ $100,000 Beli ]", function()
+      tab_9.CraftPage(tab_9, "Race & Fragment", 1).Button(tab_9.CraftPage(tab_9, "Race & Fragment", 1), "Soru [ $100,000 Beli ]", function()
   service_9.Remotes.CommF_.InvokeServer()
 end)
-      l_50.CraftPage(l_50, "Race & Fragment", 1).changelog(l_50.CraftPage(l_50, "Race & Fragment", 1), "Fighting")
-      l_50.CraftPage(l_50, "Race & Fragment", 1).Button(l_50.CraftPage(l_50, "Race & Fragment", 1), "Black Leg", function()
+      tab_9.CraftPage(tab_9, "Race & Fragment", 1).changelog(tab_9.CraftPage(tab_9, "Race & Fragment", 1), "Fighting")
+      tab_9.CraftPage(tab_9, "Race & Fragment", 1).Button(tab_9.CraftPage(tab_9, "Race & Fragment", 1), "Black Leg", function()
   service_9.Remotes.CommF_.InvokeServer(service_9.Remotes.CommF_, "BuyBlackLeg")
 end)
-      l_50.CraftPage(l_50, "Race & Fragment", 1).Button(l_50.CraftPage(l_50, "Race & Fragment", 1), "Electro", function()
+      tab_9.CraftPage(tab_9, "Race & Fragment", 1).Button(tab_9.CraftPage(tab_9, "Race & Fragment", 1), "Electro", function()
   service_9.Remotes.CommF_.InvokeServer(service_9.Remotes.CommF_, "BuyElectro")
 end)
-      l_50.CraftPage(l_50, "Race & Fragment", 1).Button(l_50.CraftPage(l_50, "Race & Fragment", 1), "Fishman Karate", function()
+      tab_9.CraftPage(tab_9, "Race & Fragment", 1).Button(tab_9.CraftPage(tab_9, "Race & Fragment", 1), "Fishman Karate", function()
   service_9.Remotes.CommF_.InvokeServer(service_9.Remotes.CommF_, "BuyFishmanKarate")
 end)
-      l_50.CraftPage(l_50, "Race & Fragment", 1).Button(l_50.CraftPage(l_50, "Race & Fragment", 1), "Dragon Claw", function()
+      tab_9.CraftPage(tab_9, "Race & Fragment", 1).Button(tab_9.CraftPage(tab_9, "Race & Fragment", 1), "Dragon Claw", function()
   service_9.Remotes.CommF_.InvokeServer(service_9.Remotes.CommF_, "BlackbeardReward", "DragonClaw", "1")
   service_9.Remotes.CommF_.InvokeServer(service_9.Remotes.CommF_, "BlackbeardReward", "DragonClaw", "2")
 end)
-      l_50.CraftPage(l_50, "Race & Fragment", 1).Button(l_50.CraftPage(l_50, "Race & Fragment", 1), "Superhuman", function()
+      tab_9.CraftPage(tab_9, "Race & Fragment", 1).Button(tab_9.CraftPage(tab_9, "Race & Fragment", 1), "Superhuman", function()
   service_9.Remotes.CommF_.InvokeServer(service_9.Remotes.CommF_, "BuySuperhuman")
 end)
-      l_50.CraftPage(l_50, "Race & Fragment", 1).Button(l_50.CraftPage(l_50, "Race & Fragment", 1), "Death Step", function()
+      tab_9.CraftPage(tab_9, "Race & Fragment", 1).Button(tab_9.CraftPage(tab_9, "Race & Fragment", 1), "Death Step", function()
   service_9.Remotes.CommF_.InvokeServer(service_9.Remotes.CommF_, "BuyDeathStep")
 end)
-      l_50.CraftPage(l_50, "Race & Fragment", 1).Button(l_50.CraftPage(l_50, "Race & Fragment", 1), "Sharkman Karate", function()
+      tab_9.CraftPage(tab_9, "Race & Fragment", 1).Button(tab_9.CraftPage(tab_9, "Race & Fragment", 1), "Sharkman Karate", function()
   service_9.Remotes.CommF_.InvokeServer(service_9.Remotes.CommF_, "BuySharkmanKarate", true)
   service_9.Remotes.CommF_.InvokeServer(service_9.Remotes.CommF_, "BuySharkmanKarate")
 end)
-      l_50.CraftPage(l_50, "Race & Fragment", 1).Button(l_50.CraftPage(l_50, "Race & Fragment", 1), "Electric Claw", function()
+      tab_9.CraftPage(tab_9, "Race & Fragment", 1).Button(tab_9.CraftPage(tab_9, "Race & Fragment", 1), "Electric Claw", function()
   service_9.Remotes.CommF_.InvokeServer(service_9.Remotes.CommF_, "BuyElectricClaw")
 end)
-      l_50.CraftPage(l_50, "Race & Fragment", 1).Button(l_50.CraftPage(l_50, "Race & Fragment", 1), "Dragon Talon", function()
+      tab_9.CraftPage(tab_9, "Race & Fragment", 1).Button(tab_9.CraftPage(tab_9, "Race & Fragment", 1), "Dragon Talon", function()
   service_9.Remotes.CommF_.InvokeServer(service_9.Remotes.CommF_, "BuyDragonTalon")
 end)
-      l_50.CraftPage(l_50, "Race & Fragment", 1).Button(l_50.CraftPage(l_50, "Race & Fragment", 1), "God Human", function()
+      tab_9.CraftPage(tab_9, "Race & Fragment", 1).Button(tab_9.CraftPage(tab_9, "Race & Fragment", 1), "God Human", function()
   service_9.Remotes.CommF_.InvokeServer(service_9.Remotes.CommF_, "BuyGodhuman")
 end)
-      l_50.CraftPage(l_50, "Race & Fragment", 1).changelog(l_50.CraftPage(l_50, "Race & Fragment", 1), "Sword")
-      l_50.CraftPage(l_50, "Race & Fragment", 1).Button(l_50.CraftPage(l_50, "Race & Fragment", 1), "Katana [ $1,000 Beli ]", function()
+      tab_9.CraftPage(tab_9, "Race & Fragment", 1).changelog(tab_9.CraftPage(tab_9, "Race & Fragment", 1), "Sword")
+      tab_9.CraftPage(tab_9, "Race & Fragment", 1).Button(tab_9.CraftPage(tab_9, "Race & Fragment", 1), "Katana [ $1,000 Beli ]", function()
   service_9.Remotes.CommF_.InvokeServer()
 end)
-      l_50.CraftPage(l_50, "Race & Fragment", 1).Button(l_50.CraftPage(l_50, "Race & Fragment", 1), "Cutlass [ $1,000 Beli ]", function()
+      tab_9.CraftPage(tab_9, "Race & Fragment", 1).Button(tab_9.CraftPage(tab_9, "Race & Fragment", 1), "Cutlass [ $1,000 Beli ]", function()
   service_9.Remotes.CommF_.InvokeServer()
 end)
-      l_50.CraftPage(l_50, "Race & Fragment", 1).Button(l_50.CraftPage(l_50, "Race & Fragment", 1), "Dual Katana [ $12,000 Beli ]", function()
+      tab_9.CraftPage(tab_9, "Race & Fragment", 1).Button(tab_9.CraftPage(tab_9, "Race & Fragment", 1), "Dual Katana [ $12,000 Beli ]", function()
   service_9.Remotes.CommF_.InvokeServer()
 end)
-      l_50.CraftPage(l_50, "Race & Fragment", 1).Button(l_50.CraftPage(l_50, "Race & Fragment", 1), "Iron Mace [ $25,000 Beli ]", function()
+      tab_9.CraftPage(tab_9, "Race & Fragment", 1).Button(tab_9.CraftPage(tab_9, "Race & Fragment", 1), "Iron Mace [ $25,000 Beli ]", function()
   service_9.Remotes.CommF_.InvokeServer()
 end)
-      l_50.CraftPage(l_50, "Race & Fragment", 1).Button(l_50.CraftPage(l_50, "Race & Fragment", 1), "Triple Katana [ $60,000 Beli ]", function()
+      tab_9.CraftPage(tab_9, "Race & Fragment", 1).Button(tab_9.CraftPage(tab_9, "Race & Fragment", 1), "Triple Katana [ $60,000 Beli ]", function()
   service_9.Remotes.CommF_.InvokeServer()
 end)
-      l_50.CraftPage(l_50, "Race & Fragment", 1).Button(l_50.CraftPage(l_50, "Race & Fragment", 1), "Pipe [ $100,000 Beli ]", function()
+      tab_9.CraftPage(tab_9, "Race & Fragment", 1).Button(tab_9.CraftPage(tab_9, "Race & Fragment", 1), "Pipe [ $100,000 Beli ]", function()
   service_9.Remotes.CommF_.InvokeServer()
 end)
-      l_50.CraftPage(l_50, "Race & Fragment", 1).Button(l_50.CraftPage(l_50, "Race & Fragment", 1), "Soul Cane [ $750,000 Beli ]", function()
+      tab_9.CraftPage(tab_9, "Race & Fragment", 1).Button(tab_9.CraftPage(tab_9, "Race & Fragment", 1), "Soul Cane [ $750,000 Beli ]", function()
   service_9.Remotes.CommF_.InvokeServer()
 end)
-      l_50.CraftPage(l_50, "Race & Fragment", 1).Button(l_50.CraftPage(l_50, "Race & Fragment", 1), "Dual-Headed Blade [ $400,000 Beli ]", function()
+      tab_9.CraftPage(tab_9, "Race & Fragment", 1).Button(tab_9.CraftPage(tab_9, "Race & Fragment", 1), "Dual-Headed Blade [ $400,000 Beli ]", function()
   service_9.Remotes.CommF_.InvokeServer()
 end)
-      l_50.CraftPage(l_50, "Race & Fragment", 1).Button(l_50.CraftPage(l_50, "Race & Fragment", 1), "Bisento [ $1,200,000 Beli ]", function()
+      tab_9.CraftPage(tab_9, "Race & Fragment", 1).Button(tab_9.CraftPage(tab_9, "Race & Fragment", 1), "Bisento [ $1,200,000 Beli ]", function()
   service_9.Remotes.CommF_.InvokeServer()
 end)
-      l_50.CraftPage(l_50, "Race & Fragment", 1).Button(l_50.CraftPage(l_50, "Race & Fragment", 1), "Pole v2 [ f5,000 Fragments ]", function()
+      tab_9.CraftPage(tab_9, "Race & Fragment", 1).Button(tab_9.CraftPage(tab_9, "Race & Fragment", 1), "Pole v2 [ f5,000 Fragments ]", function()
   service_9.Remotes.CommF_.InvokeServer(service_9.Remotes.CommF_, "ThunderGodTalk")
 end)
       local find_first_child = service_9.FindFirstChild(service_9, "Remotes")
     end
   end
 end
-for l_140, l_141 in next do
+for l_127, l_128 in next do
   while l_0 do
   end
   for l_28, l_29 in l_25 do
   end
-  for l_73, l_74 in l_70 do
+  for l_71, l_72 in l_68 do
   end
-  for craft_page_20, craft_page_20 in dropdown_2 do
+  for craft_page_18, craft_page_18 in dropdown_2 do
   end
-  if l_141.OnSale then
-    table.insert({}, l_141.Name .. " [ " .. l_141.Price .. " Beli ]")
+  if l_128.OnSale then
+    table.insert({}, l_128.Name .. " [ " .. l_128.Price .. " Beli ]")
   end
-  for l_140, l_141 in next do
+  for l_127, l_128 in next do
   end
 end
-local dropdown_3 = l_50.CraftPage(l_50, "Devil Fruits", 2).Dropdown(l_50.CraftPage(l_50, "Devil Fruits", 2), "Devil Fruit on Sale", {}, "", function(a0)
+local dropdown_3 = tab_9.CraftPage(tab_9, "Devil Fruits", 2).Dropdown(tab_9.CraftPage(tab_9, "Devil Fruits", 2), "Devil Fruit on Sale", {}, "", function(a0)
   Select_Devil_Fruit = a0
 end)
-local l_136 = {}
-l_50.CraftPage(l_50, "Devil Fruits", 2).Button(l_50.CraftPage(l_50, "Devil Fruits", 2), "Refresh Fruit on Sale", function()
-  dropdown_3.Add(dropdown_3, l_136)
+local l_123 = {}
+tab_9.CraftPage(tab_9, "Devil Fruits", 2).Button(tab_9.CraftPage(tab_9, "Devil Fruits", 2), "Refresh Fruit on Sale", function()
+  dropdown_3.Add(dropdown_3, l_123)
 end)
-l_50.CraftPage(l_50, "Devil Fruits", 2).Button(l_50.CraftPage(l_50, "Devil Fruits", 2), "Buy Devil Fruit on Sale", function()
+tab_9.CraftPage(tab_9, "Devil Fruits", 2).Button(tab_9.CraftPage(tab_9, "Devil Fruits", 2), "Buy Devil Fruit on Sale", function()
   service_9.Remotes.CommF_.InvokeServer(service_9.Remotes.CommF_, "GetFruits")
   service_9.Remotes.CommF_.InvokeServer(service_9.Remotes.CommF_, "PurchaseRawFruit", Select_Devil_Fruit)
 end)
-l_50.CraftPage(l_50, "Devil Fruits", 2).Toggle(l_50.CraftPage(l_50, "Devil Fruits", 2), "Buy Random Fruit", AutoBuyFruitZioles, function(a0)
+tab_9.CraftPage(tab_9, "Devil Fruits", 2).Toggle(tab_9.CraftPage(tab_9, "Devil Fruits", 2), "Buy Random Fruit", AutoBuyFruitZioles, function(a0)
   AutoBuyFruitZioles = a0
 end)
 spawn(function()
@@ -16791,7 +11179,7 @@ spawn(function()
   service_9.Remotes.CommF_.InvokeServer(service_9.Remotes.CommF_, "Cousin", "Buy")
 end)
 end)
-l_50.CraftPage(l_50, "Devil Fruits", 2).Toggle(l_50.CraftPage(l_50, "Devil Fruits", 2), "Auto Bring Fruit", AutoBringFruit, function(a0)
+tab_9.CraftPage(tab_9, "Devil Fruits", 2).Toggle(tab_9.CraftPage(tab_9, "Devil Fruits", 2), "Auto Bring Fruit", AutoBringFruit, function(a0)
   AutoBringFruit = a0
 end)
 spawn(function()
@@ -16817,7 +11205,7 @@ spawn(function()
 end)
 end)
 _G.Sele_Teleport_Fruit = "Tween"
-l_50.CraftPage(l_50, "Devil Fruits", 2).Toggle(l_50.CraftPage(l_50, "Devil Fruits", 2), "Teleport to Fruit", _G.Auto_Teleport_Fruit, function(a0)
+tab_9.CraftPage(tab_9, "Devil Fruits", 2).Toggle(tab_9.CraftPage(tab_9, "Devil Fruits", 2), "Teleport to Fruit", _G.Auto_Teleport_Fruit, function(a0)
   _G.Auto_Teleport_Fruit = a0
   CancelTween(_G.Auto_Teleport_Fruit)
 end)
@@ -16859,7 +11247,7 @@ spawn(function()
   end
 end)
 end)
-l_50.CraftPage(l_50, "Devil Fruits", 2).Toggle(l_50.CraftPage(l_50, "Devil Fruits", 2), "Auto Stored Fruit", AutoStoreFruit, function(a0)
+tab_9.CraftPage(tab_9, "Devil Fruits", 2).Toggle(tab_9.CraftPage(tab_9, "Devil Fruits", 2), "Auto Stored Fruit", AutoStoreFruit, function(a0)
   AutoStoreFruit = a0
 end)
 spawn(function()
@@ -16979,37 +11367,37 @@ spawn(function()
   end
 end)
 end)
-l_50.CraftPage(l_50, "Devil Fruits", 2).changelog(l_50.CraftPage(l_50, "Devil Fruits", 2), "Gun")
-l_50.CraftPage(l_50, "Devil Fruits", 2).Button(l_50.CraftPage(l_50, "Devil Fruits", 2), "Slingshot [ $5,000 Beli ]", function()
+tab_9.CraftPage(tab_9, "Devil Fruits", 2).changelog(tab_9.CraftPage(tab_9, "Devil Fruits", 2), "Gun")
+tab_9.CraftPage(tab_9, "Devil Fruits", 2).Button(tab_9.CraftPage(tab_9, "Devil Fruits", 2), "Slingshot [ $5,000 Beli ]", function()
   service_9.Remotes.CommF_.InvokeServer()
 end)
-l_50.CraftPage(l_50, "Devil Fruits", 2).Button(l_50.CraftPage(l_50, "Devil Fruits", 2), "Musket [ $8,000 Beli ]", function()
+tab_9.CraftPage(tab_9, "Devil Fruits", 2).Button(tab_9.CraftPage(tab_9, "Devil Fruits", 2), "Musket [ $8,000 Beli ]", function()
   service_9.Remotes.CommF_.InvokeServer()
 end)
-l_50.CraftPage(l_50, "Devil Fruits", 2).Button(l_50.CraftPage(l_50, "Devil Fruits", 2), "Flintlock [ $10,500 Beli ]", function()
+tab_9.CraftPage(tab_9, "Devil Fruits", 2).Button(tab_9.CraftPage(tab_9, "Devil Fruits", 2), "Flintlock [ $10,500 Beli ]", function()
   service_9.Remotes.CommF_.InvokeServer()
 end)
-l_50.CraftPage(l_50, "Devil Fruits", 2).Button(l_50.CraftPage(l_50, "Devil Fruits", 2), "Refined Slingshot [ $30,000 Beli ]", function()
+tab_9.CraftPage(tab_9, "Devil Fruits", 2).Button(tab_9.CraftPage(tab_9, "Devil Fruits", 2), "Refined Slingshot [ $30,000 Beli ]", function()
   service_9.Remotes.CommF_.InvokeServer()
 end)
-l_50.CraftPage(l_50, "Devil Fruits", 2).Button(l_50.CraftPage(l_50, "Devil Fruits", 2), "Refined Flintlock [ $65,000 Beli ]", function()
+tab_9.CraftPage(tab_9, "Devil Fruits", 2).Button(tab_9.CraftPage(tab_9, "Devil Fruits", 2), "Refined Flintlock [ $65,000 Beli ]", function()
   service_9.Remotes.CommF_.InvokeServer()
 end)
-l_50.CraftPage(l_50, "Devil Fruits", 2).Button(l_50.CraftPage(l_50, "Devil Fruits", 2), "Kabucha [ f1,500 Fragments)", function()
+tab_9.CraftPage(tab_9, "Devil Fruits", 2).Button(tab_9.CraftPage(tab_9, "Devil Fruits", 2), "Kabucha [ f1,500 Fragments)", function()
   service_9.Remotes.CommF_.InvokeServer(service_9.Remotes.CommF_, "BlackbeardReward", "Slingshot", "2")
 end)
-l_50.CraftPage(l_50, "Devil Fruits", 2).changelog(l_50.CraftPage(l_50, "Devil Fruits", 2), "Accessories")
-l_50.CraftPage(l_50, "Devil Fruits", 2).Button(l_50.CraftPage(l_50, "Devil Fruits", 2), "Black Cape [ $50,000 Beli ]", function()
+tab_9.CraftPage(tab_9, "Devil Fruits", 2).changelog(tab_9.CraftPage(tab_9, "Devil Fruits", 2), "Accessories")
+tab_9.CraftPage(tab_9, "Devil Fruits", 2).Button(tab_9.CraftPage(tab_9, "Devil Fruits", 2), "Black Cape [ $50,000 Beli ]", function()
   service_9.Remotes.CommF_.InvokeServer()
 end)
-l_50.CraftPage(l_50, "Devil Fruits", 2).Button(l_50.CraftPage(l_50, "Devil Fruits", 2), "Swordsman Hat [ 150k Beli ]", function()
+tab_9.CraftPage(tab_9, "Devil Fruits", 2).Button(tab_9.CraftPage(tab_9, "Devil Fruits", 2), "Swordsman Hat [ 150k Beli ]", function()
   service_9.Remotes.CommF_.InvokeServer()
 end)
-l_50.CraftPage(l_50, "Devil Fruits", 2).Button(l_50.CraftPage(l_50, "Devil Fruits", 2), "Tomoe Ring [ $500k Beli ]", function()
+tab_9.CraftPage(tab_9, "Devil Fruits", 2).Button(tab_9.CraftPage(tab_9, "Devil Fruits", 2), "Tomoe Ring [ $500k Beli ]", function()
   service_9.Remotes.CommF_.InvokeServer()
 end)
-local craft_page_20 = l_51.CraftPage(l_51, "Misc1", 1)
-craft_page_20.Toggle(craft_page_20, "Infinite Geppo", InfiniteGeppo, function(a0)
+local craft_page_18 = tab_10.CraftPage(tab_10, "Misc1", 1)
+craft_page_18.Toggle(craft_page_18, "Infinite Geppo", InfiniteGeppo, function(a0)
   InfiniteGeppo = a0
 end)
 spawn(function()
@@ -17039,7 +11427,7 @@ spawn(function()
   end
 end)
 end)
-craft_page_20.Toggle(craft_page_20, "Infinite Soru", InfiniteSoru, function(a0)
+craft_page_18.Toggle(craft_page_18, "Infinite Soru", InfiniteSoru, function(a0)
   InfiniteSoru = a0
 end)
 spawn(function()
@@ -17070,7 +11458,7 @@ spawn(function()
   end
 end)
 end)
-craft_page_20.Toggle(craft_page_20, "Walk on Water", WalkOnWater, function(a0)
+craft_page_18.Toggle(craft_page_18, "Walk on Water", WalkOnWater, function(a0)
   WalkOnWater = a0
 end)
 spawn(function()
@@ -17088,7 +11476,7 @@ spawn(function()
   end
 end)
 end)
-craft_page_20.Toggle(craft_page_20, "Remove Fog", _G.Remove_Fog, function(a0)
+craft_page_18.Toggle(craft_page_18, "Remove Fog", _G.Remove_Fog, function(a0)
   _G.Remove_Fog = a0
   if not _G.Remove_Fog then
     return
@@ -17101,7 +11489,7 @@ craft_page_20.Toggle(craft_page_20, "Remove Fog", _G.Remove_Fog, function(a0)
   end
   game.Lighting.FogEnd = 2500
 end)
-craft_page_20.Toggle(craft_page_20, "White Screen", _G.White_Screen, function(a0)
+craft_page_18.Toggle(craft_page_18, "White Screen", _G.White_Screen, function(a0)
   _G.White_Screen = a0
   if _G.White_Screen then
     service_4.Set3dRenderingEnabled(service_4, false)
@@ -17109,29 +11497,29 @@ craft_page_20.Toggle(craft_page_20, "White Screen", _G.White_Screen, function(a0
     service_4.Set3dRenderingEnabled(service_4, true)
   end
 end)
-craft_page_20.Button(craft_page_20, "Inventory", function()
+craft_page_18.Button(craft_page_18, "Inventory", function()
   service_9.Remotes.CommF_.InvokeServer(service_9.Remotes.CommF_, "getInventoryWeapons")
   service_1.LocalPlayer.PlayerGui.Main.Inventory.Visible = true
 end)
-craft_page_20.Button(craft_page_20, "Devil Fruit Inventory", function()
+craft_page_18.Button(craft_page_18, "Devil Fruit Inventory", function()
   service_9.Remotes.CommF_.InvokeServer(service_9.Remotes.CommF_, "getInventoryFruits")
   service_1.LocalPlayer.PlayerGui.Main.FruitInventory.Visible = true
 end)
-craft_page_20.Button(craft_page_20, "Title Name", function()
+craft_page_18.Button(craft_page_18, "Title Name", function()
   service_9.Remotes.CommF_.InvokeServer(service_9.Remotes.CommF_, "getTitles")
   service_1.LocalPlayer.PlayerGui.Main.Titles.Visible = true
 end)
-craft_page_20.Button(craft_page_20, "Color Haki", function()
+craft_page_18.Button(craft_page_18, "Color Haki", function()
   service_1.LocalPlayer.PlayerGui.Main.Colors.Visible = true
 end)
-craft_page_20.Button(craft_page_20, "Join Pirates Team", function()
+craft_page_18.Button(craft_page_18, "Join Pirates Team", function()
   service_9.Remotes.CommF_.InvokeServer(service_9.Remotes.CommF_, "SetTeam", "Pirates")
 end)
-craft_page_20.Button(craft_page_20, "Join Marines Team", function()
+craft_page_18.Button(craft_page_18, "Join Marines Team", function()
   service_9.Remotes.CommF_.InvokeServer(service_9.Remotes.CommF_, "SetTeam", "Marines")
 end)
-local craft_page_21 = l_51.CraftPage(l_51, "Misc2", 2)
-craft_page_21.Toggle(craft_page_21, "Chest ESP", ChestESP, function(a0)
+local craft_page_19 = tab_10.CraftPage(tab_10, "Misc2", 2)
+craft_page_19.Toggle(craft_page_19, "Chest ESP", ChestESP, function(a0)
   ChestESP = a0
 end)
 spawn(function()
@@ -17191,7 +11579,7 @@ spawn(function()
 end)
   end
 end)
-craft_page_21.Toggle(craft_page_21, "Devil Fruit ESP", _G.ESPDF, function(a0)
+craft_page_19.Toggle(craft_page_19, "Devil Fruit ESP", _G.ESPDF, function(a0)
   _G.ESPDF = a0
 end)
 spawn(function()
@@ -17244,7 +11632,7 @@ end)
     end
   end
 end)
-craft_page_21.Toggle(craft_page_21, "Fruit ESP", FruitESPe, function(a0)
+craft_page_19.Toggle(craft_page_19, "Fruit ESP", FruitESPe, function(a0)
   FruitESPe = a0
 end)
 spawn(function()
@@ -17321,7 +11709,7 @@ end)
     end
   end
 end)
-craft_page_21.Toggle(craft_page_21, "Flower ESP", FlowerESP, function(a0)
+craft_page_19.Toggle(craft_page_19, "Flower ESP", FlowerESP, function(a0)
   FlowerESP = a0
 end)
 spawn(function()
@@ -17379,7 +11767,7 @@ end)
     end
   end
 end)
-craft_page_21.Toggle(craft_page_21, "Island ESP", IslandESP, function(a0)
+craft_page_19.Toggle(craft_page_19, "Island ESP", IslandESP, function(a0)
   IslandESP = a0
 end)
 spawn(function()
@@ -17433,7 +11821,7 @@ end)
     end
   end
 end)
-craft_page_21.Toggle(craft_page_21, "Npc ESP", NpcESP, function(a0)
+craft_page_19.Toggle(craft_page_19, "Npc ESP", NpcESP, function(a0)
   NpcESP = a0
 end)
 spawn(function()
@@ -17483,7 +11871,7 @@ end)
     end
   end
 end)
-craft_page_21.Toggle(craft_page_21, "ESP Player", _G.ESPPlayer, function(a0)
+craft_page_19.Toggle(craft_page_19, "ESP Player", _G.ESPPlayer, function(a0)
   _G.ESPPlayer = a0
 end)
 spawn(function()
@@ -17541,10 +11929,10 @@ spawn(function()
 end)
   end
 end)
-craft_page_21.Toggle(craft_page_21, "Currently Broken", DodgewithoutCool, function(a0)
+craft_page_19.Toggle(craft_page_19, "Currently Broken", DodgewithoutCool, function(a0)
   print("What Did i just say")
 end)
-local l_140 = {
+local l_127 = {
   "EXP_5B",
   "CONTROL",
   "UPDATE11",
@@ -17578,8 +11966,8 @@ local l_140 = {
   "Sub2Fer999",
   "Enyu_is_Pro"
 }
-craft_page_21.Button(craft_page_21, "Redeem X2 Code", function()
-  local l_1, l_2, l_3 = ipairs(l_140)
+craft_page_19.Button(craft_page_19, "Redeem X2 Code", function()
+  local l_1, l_2, l_3 = ipairs(l_127)
   for l_4, l_5 in l_1 do
     for l_4, l_5 in l_1 do
       function(a0)
@@ -17588,12 +11976,12 @@ end(l_5)
     end
   end
 end)
-craft_page_21.Button(craft_page_21, "Always Day", function()
+craft_page_19.Button(craft_page_19, "Always Day", function()
   while r0 do
     service_8.ClockTime = 12
   end
 end)
-craft_page_21.Button(craft_page_21, "Remove Lave", function()
+craft_page_19.Button(craft_page_19, "Remove Lave", function()
   local l_0, descendants, l_2 = ipairs()
   for l_3, l_4 in l_0 do
     for l_3, l_4 in l_0 do
@@ -17611,3 +11999,7 @@ craft_page_21.Button(craft_page_21, "Remove Lave", function()
     end
   end
 end)
+local loadstring = loadstring()
+loadstring()
+loadstring()()
+loadstring()()
